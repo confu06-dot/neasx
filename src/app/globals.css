@@ -1,0 +1,143 @@
+@import "tailwindcss";
+
+:root {
+  /* Fonts */
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* Colors */
+  --background: #050816;
+  --surface: #0b1220;
+  --surface-hover: #111827;
+
+  --primary: #3b82f6;
+  --secondary: #8b5cf6;
+
+  --text: #f8fafc;
+  --muted: #94a3b8;
+
+  --border: rgba(255, 255, 255, 0.08);
+
+  --gradient-primary: linear-gradient(
+    135deg,
+    #3b82f6 0%,
+    #8b5cf6 100%
+  );
+
+  --container: 1280px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+::selection {
+  background: #3b82f6;
+  color: white;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050816;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    #3b82f6,
+    #8b5cf6
+  );
+  border-radius: 999px;
+}
+
+/* Layout */
+
+.container {
+  width: min(var(--container), calc(100% - 48px));
+  margin-inline: auto;
+}
+
+/* Background Effects */
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at top left,
+      rgba(59,130,246,.12),
+      transparent 40%),
+    radial-gradient(circle at bottom right,
+      rgba(139,92,246,.12),
+      transparent 40%);
+  z-index: -2;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(
+      rgba(255,255,255,.025) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(255,255,255,.025) 1px,
+      transparent 1px
+    );
+  background-size: 60px 60px;
+  opacity: .25;
+  z-index: -1;
+}
+body {
+  background:
+    radial-gradient(circle at top, rgba(59,130,246,.12), transparent 35%),
+    radial-gradient(circle at bottom right, rgba(139,92,246,.12), transparent 35%),
+    #050816;
+}
+
+::selection{
+  background:#3b82f6;
+  color:white;
+}
