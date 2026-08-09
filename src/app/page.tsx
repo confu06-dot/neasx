@@ -2,14 +2,12 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 
 import Hero from "@/components/sections/Hero";
-import Trusted from "@/components/sections/Trusted";
-import Services from "@/components/sections/Services";
-import Projects from "@/components/sections/Projects";
+import Products from "@/components/sections/Products";
 import WhyNEASX from "@/components/sections/WhyNEASX";
-import Why from "@/components/sections/Why";
-import Process from "@/components/sections/Process";
-import Testimonials from "@/components/sections/Testimonials";
-import Faq from "@/components/sections/Faq";
+import HowItWorks from "@/components/sections/HowItWorks";
+import UseCases from "@/components/sections/UseCases";
+import Ecosystem from "@/components/sections/Ecosystem";
+import Pricing from "@/components/sections/Pricing";
 import CTA from "@/components/sections/CTA";
 
 export default function HomePage() {
@@ -19,14 +17,12 @@ export default function HomePage() {
 
       <main>
         <Hero />
-        <Trusted />
-        <Services />
-        <Projects />
+        <Products />
         <WhyNEASX />
-        <Why />
-        <Process />
-        <Testimonials />
-        <Faq />
+        <HowItWorks />
+        <UseCases />
+        <Ecosystem />
+        <Pricing />
         <CTA />
       </main>
 

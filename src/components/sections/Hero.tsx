@@ -2,17 +2,14 @@ import Badge from "@/components/ui/Badge";
 import Button from "@/components/ui/Button";
 import Container from "@/components/ui/Container";
 import Section from "@/components/ui/Section";
-import { Bot } from "lucide-react";
+import { Bot, CheckCircle2 } from "lucide-react";
+import Link from "next/link";
 
-const deploymentStack = [
-  "Next.js",
-  "FastAPI",
-  "PostgreSQL",
-  "Redis",
-  "Docker",
+const agentSteps = [
+  { label: "Research complete", done: true },
+  { label: "Data analyzed", done: true },
+  { label: "Report generated", done: true },
 ];
-
-const revenueBars = [18, 25, 21, 32, 28, 42, 36, 50];
 
 export default function Hero() {
   return (
@@ -30,40 +27,41 @@ export default function Hero() {
         <div className="grid min-h-[540px] items-center gap-14 lg:grid-cols-[1.02fr_0.98fr] lg:gap-10">
           {/* LEFT */}
           <div className="relative z-10">
-            <Badge>🚀 SOFTWARE STUDIO</Badge>
+            <Badge>🤖 AI PRODUCT COMPANY</Badge>
 
             <h1 className="mt-7 max-w-3xl text-5xl font-black leading-[0.98] tracking-[-0.045em] text-white sm:text-6xl lg:text-[72px]">
-              Building software
+              AI that gets
               <span className="block bg-gradient-to-r from-blue-400 via-cyan-300 to-violet-500 bg-clip-text text-transparent">
-                that grows
-              </span>
-              <span className="block bg-gradient-to-r from-blue-400 via-violet-400 to-purple-500 bg-clip-text text-transparent">
-                businesses.
+                work done.
               </span>
             </h1>
 
             <p className="mt-7 max-w-xl text-base leading-7 text-slate-400 sm:text-lg sm:leading-8">
-              Premium web applications, AI products, automation systems and
-              scalable backend infrastructure built for startups and growing
-              businesses.
+              NEASX builds intelligent AI products that automate repetitive
+              work, accelerate ideas, and help people and businesses
+              accomplish more.
             </p>
 
             {/* Buttons */}
             <div className="mt-9 flex flex-wrap gap-4">
-              <Button icon>Start Project</Button>
+              <Link href="#products">
+                <Button icon>Explore Products</Button>
+              </Link>
 
-              <Button variant="secondary">View Work</Button>
+              <Link href="#pricing">
+                <Button variant="secondary">Get Started</Button>
+              </Link>
             </div>
 
             {/* Stats */}
             <div className="mt-12 flex flex-wrap items-center gap-x-8 gap-y-6 sm:mt-14 sm:gap-x-10">
               <div>
                 <h2 className="text-3xl font-black tracking-tight text-white sm:text-4xl">
-                  50+
+                  7
                 </h2>
 
                 <p className="mt-1.5 text-sm text-slate-400">
-                  Technologies
+                  AI Products
                 </p>
               </div>
 
@@ -71,133 +69,128 @@ export default function Hero() {
 
               <div>
                 <h2 className="text-3xl font-black tracking-tight text-white sm:text-4xl">
-                  24h
+                  1
                 </h2>
 
-                <p className="mt-1.5 text-sm text-slate-400">Response</p>
+                <p className="mt-1.5 text-sm text-slate-400">
+                  Ecosystem
+                </p>
               </div>
 
               <div className="hidden h-12 w-px bg-white/10 sm:block" />
 
               <div>
                 <h2 className="text-3xl font-black tracking-tight text-white sm:text-4xl">
-                  100%
+                  ∞
                 </h2>
 
-                <p className="mt-1.5 text-sm text-slate-400">Custom</p>
+                <p className="mt-1.5 text-sm text-slate-400">
+                  Possibilities
+                </p>
               </div>
             </div>
           </div>
 
-          {/* RIGHT DASHBOARD */}
+          {/* RIGHT AGENT UI */}
           <div className="relative mx-auto h-[600px] w-full max-w-[560px]">
-            {/* Revenue */}
-            <div className="absolute right-0 top-0 z-30 w-[min(100%,370px)] rounded-[24px] border border-white/10 bg-[#0b1220]/95 p-6 shadow-2xl shadow-black/30 backdrop-blur-xl">
-              <div className="flex items-start justify-between gap-5">
-                <div>
-                  <p className="text-sm text-slate-400">Total Revenue</p>
-
-                  <h3 className="mt-2 text-4xl font-black tracking-tight text-white sm:text-5xl">
-                    $24,820
-                  </h3>
-
-                  <p className="mt-2 text-sm text-emerald-400">
-                    ↑ 18.2%
-                    <span className="ml-1 text-slate-500">
-                      vs last month
-                    </span>
-                  </p>
-                </div>
-
-                {/* Mini chart */}
-                <div className="flex h-12 items-end gap-1.5 pt-2">
-                  {revenueBars.map((height, index) => (
-                    <span
-                      key={index}
-                      className="w-1.5 rounded-full bg-gradient-to-t from-blue-500 to-violet-400"
-                      style={{ height: `${height}px` }}
-                    />
-                  ))}
-                </div>
-              </div>
-            </div>
-
-            {/* Active Clients */}
-            <div className="absolute left-0 top-[175px] z-30 w-[225px] rounded-[24px] border border-white/10 bg-[#0f172a]/95 p-5 shadow-xl shadow-black/30 backdrop-blur-xl">
-              <p className="text-sm text-slate-400">Active Clients</p>
-
-              <h3 className="mt-2 text-4xl font-black text-white">148</h3>
-
-              <p className="mt-2 text-sm text-emerald-400">
-                +12 this week
-              </p>
-
-              <div className="mt-5 flex -space-x-2">
-                {["A", "M", "S", "K", "+"].map((item, index) => (
-                  <div
-                    key={index}
-                    className="flex h-8 w-8 items-center justify-center rounded-full border-2 border-[#0f172a] bg-gradient-to-br from-blue-500 to-violet-500 text-[10px] font-bold text-white"
-                  >
-                    {item}
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* AI Assistant */}
-            <div className="absolute right-0 top-[190px] z-20 w-[290px] rounded-[24px] border border-white/10 bg-[#0f172a]/95 p-5 shadow-xl shadow-black/30 backdrop-blur-xl sm:w-[300px]">
+            {/* Agent Card */}
+            <div className="absolute right-0 top-0 z-30 w-[min(100%,420px)] rounded-[24px] border border-white/10 bg-[#0b1220]/95 p-6 shadow-2xl shadow-black/30 backdrop-blur-xl">
               <div className="flex items-center gap-4">
-                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-500 to-violet-500 shadow-lg shadow-blue-500/20">
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-violet-500 to-fuchsia-500 shadow-lg shadow-violet-500/20">
                   <Bot className="h-6 w-6 text-white" />
                 </div>
 
                 <div>
-                  <h4 className="font-bold text-white">AI Assistant</h4>
+                  <h4 className="font-bold text-white">NEASX Agent</h4>
 
                   <div className="mt-1 flex items-center gap-2">
                     <span className="h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_10px_rgba(52,211,153,0.8)]" />
 
-                    <p className="text-sm text-emerald-400">Online</p>
+                    <p className="text-sm text-emerald-400">Working</p>
                   </div>
                 </div>
               </div>
 
-              <p className="mt-5 text-sm leading-6 text-slate-400">
-                Generate code, automate workflows and build APIs instantly.
-              </p>
-            </div>
+              {/* Task */}
+              <div className="mt-6 rounded-2xl border border-white/10 bg-white/[0.03] p-5">
+                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-500">
+                  Task
+                </p>
 
-            {/* Deployment */}
-            <div className="absolute bottom-0 right-0 z-30 w-[320px] rounded-[24px] border border-white/10 bg-[#0f172a]/95 p-5 shadow-2xl shadow-black/30 backdrop-blur-xl sm:w-[340px]">
-              <div className="mb-5 flex items-center justify-between">
-                <h4 className="font-bold text-white">Deployment</h4>
+                <p className="mt-2 text-lg font-semibold text-white">
+                  Analyze this report
+                </p>
 
-                <span className="rounded-full bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-400">
-                  LIVE
-                </span>
+                <div className="mt-4 h-2 w-full overflow-hidden rounded-full bg-white/[0.06]">
+                  <div className="h-full w-[72%] rounded-full bg-gradient-to-r from-blue-500 via-cyan-400 to-violet-500" />
+                </div>
               </div>
 
-              <div className="space-y-3">
-                {deploymentStack.map((item) => (
+              {/* Steps */}
+              <div className="mt-6 space-y-3">
+                {agentSteps.map((step) => (
                   <div
-                    key={item}
-                    className="flex items-center justify-between"
+                    key={step.label}
+                    className="flex items-center justify-between rounded-xl border border-white/10 bg-white/[0.03] px-4 py-3"
                   >
-                    <span className="text-sm text-slate-300">{item}</span>
+                    <span className="text-sm text-slate-300">
+                      {step.label}
+                    </span>
 
-                    <span className="h-2.5 w-2.5 rounded-full bg-emerald-400 shadow-[0_0_10px_rgba(52,211,153,0.65)]" />
+                    <CheckCircle2
+                      className="h-4 w-4 text-emerald-400"
+                      size={16}
+                    />
                   </div>
                 ))}
               </div>
 
-              {/* Decorative lines */}
-              <div className="pointer-events-none absolute bottom-0 left-0 h-14 w-full overflow-hidden rounded-b-[24px] opacity-20">
-                <div className="absolute bottom-[-20px] left-0 h-16 w-full rounded-[50%] border-t border-blue-400/50" />
-                <div className="absolute bottom-[-28px] left-10 h-16 w-full rounded-[50%] border-t border-violet-400/50" />
+              {/* Completion */}
+              <div className="mt-6 flex items-center justify-between rounded-2xl border border-emerald-400/20 bg-emerald-500/[0.06] px-5 py-4">
+                <span className="text-sm font-medium text-emerald-400">
+                  Done in 42 sec
+                </span>
+
+                <span className="h-2.5 w-2.5 rounded-full bg-emerald-400 shadow-[0_0_10px_rgba(52,211,153,0.65)]" />
               </div>
             </div>
 
-            {/* Dashboard glow */}
+            {/* Secondary card - Writer */}
+            <div className="absolute bottom-0 left-0 z-20 w-[250px] rounded-[24px] border border-white/10 bg-[#0f172a]/95 p-5 shadow-xl shadow-black/30 backdrop-blur-xl sm:w-[270px]">
+              <p className="text-sm text-slate-400">NEASX Writer</p>
+
+              <h3 className="mt-2 text-3xl font-black text-white">
+                Write
+              </h3>
+
+              <p className="mt-3 text-sm leading-6 text-slate-400">
+                Rewrite, summarize, research and translate — in one
+                workspace.
+              </p>
+
+              <div className="mt-5 flex items-center gap-2">
+                <span className="rounded-full bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-400">
+                  AVAILABLE
+                </span>
+              </div>
+            </div>
+
+            {/* Secondary card - Chat */}
+            <div className="absolute right-6 top-[190px] z-20 w-[200px] rounded-[24px] border border-white/10 bg-[#0f172a]/95 p-5 shadow-xl shadow-black/30 backdrop-blur-xl sm:w-[220px]">
+              <p className="text-sm text-slate-400">NEASX Chat</p>
+
+              <p className="mt-2 text-xl font-bold text-white">
+                Intelligent workspace
+              </p>
+
+              <div className="mt-4 space-y-2">
+                <div className="h-2 w-3/4 rounded-full bg-white/[0.08]" />
+                <div className="h-2 w-1/2 rounded-full bg-white/[0.08]" />
+                <div className="h-2 w-2/3 rounded-full bg-blue-400/30" />
+              </div>
+            </div>
+
+            {/* Glow */}
             <div className="pointer-events-none absolute left-1/2 top-1/2 -z-10 h-80 w-80 -translate-x-1/2 -translate-y-1/2 rounded-full bg-blue-500/10 blur-[110px]" />
           </div>
         </div>

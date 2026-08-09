@@ -1,15 +1,10 @@
 export const company = {
-  name: "NEASX Labs",
-
-  slogan: "Building software at startup speed.",
-
+  name: "NEASX",
+  slogan: "AI that gets work done.",
   description:
-    "We build modern software, AI solutions and automation for startups and businesses.",
-
+    "NEASX builds a growing ecosystem of AI products designed to automate real work and help people and businesses move faster.",
   email: "hello.neasx@gmail.com",
-
   website: "https://neasx.com",
-
   social: {
     github: "",
     twitter: "https://x.com/neasxlabs",

@@ -14,37 +14,52 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NEASX Labs",
+  metadataBase: new URL("https://neasx.com"),
+  title: {
+    default: "NEASX — AI Products for Real Work",
+    template: "%s | NEASX",
+  },
   description:
-    "Building modern software for startups and businesses.",
+    "NEASX builds intelligent AI products that automate repetitive work, accelerate ideas, and help people and businesses accomplish more. One ecosystem for writing, chat, agents, creative, voice and vision.",
   keywords: [
-    "Software Development",
-    "Web Development",
-    "AI",
+    "NEASX",
+    "AI products",
+    "AI writing",
+    "AI chat",
+    "AI agents",
+    "AI ecosystem",
+    "Artificial Intelligence",
+    "AI tools",
+    "Productivity",
     "Automation",
-    "Python",
-    "FastAPI",
-    "Next.js",
-    "NEASX Labs",
   ],
   authors: [
     {
-      name: "NEASX Labs",
+      name: "NEASX",
     },
   ],
-  creator: "NEASX Labs",
+  creator: "NEASX",
   openGraph: {
-    title: "NEASX Labs",
+    title: "NEASX — AI Products for Real Work",
     description:
-      "Building modern software for startups and businesses.",
-    siteName: "NEASX Labs",
+      "One ecosystem for writing, chat, agents, creative, voice and vision. AI that gets work done.",
+    url: "https://neasx.com",
+    siteName: "NEASX",
     type: "website",
+    locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "NEASX Labs",
+    title: "NEASX — AI Products for Real Work",
     description:
-      "Building modern software for startups and businesses.",
+      "One ecosystem for writing, chat, agents, creative, voice and vision. AI that gets work done.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "/",
   },
 };
 

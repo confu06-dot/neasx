@@ -1,24 +1,45 @@
+import Link from "next/link";
 import Container from "@/components/ui/Container";
 
-const links = [
-  { label: "Services", href: "#services" },
-  { label: "Projects", href: "#projects" },
-  { label: "Process", href: "#process" },
-  { label: "FAQ", href: "#faq" },
-];
+const footerLinks = {
+  Products: [
+    { label: "Writer", href: "/products/writer" },
+    { label: "Chat", href: "/products/chat" },
+    { label: "Agent", href: "/products/agent" },
+    { label: "Studio", href: "/products/studio" },
+    { label: "Voice", href: "/products/voice" },
+    { label: "Vision", href: "/products/vision" },
+    { label: "API", href: "/products/api" },
+  ],
+  Resources: [
+    { label: "Blog", href: "/blog" },
+    { label: "Docs", href: "/docs" },
+    { label: "Help Center", href: "/help" },
+    { label: "Status", href: "/status" },
+  ],
+  Company: [
+    { label: "About", href: "/about" },
+    { label: "Careers", href: "/careers" },
+    { label: "Contact", href: "/contact" },
+  ],
+  Legal: [
+    { label: "Privacy", href: "/legal/privacy" },
+    { label: "Terms", href: "/legal/terms" },
+    { label: "Cookies", href: "/legal/cookies" },
+  ],
+};
 
 export default function Footer() {
   return (
     <footer className="relative overflow-hidden border-t border-white/10 bg-[#050b14] w-full">
-      {/* Background glow */}
       <div className="pointer-events-none absolute left-1/4 top-0 h-64 w-64 rounded-full bg-blue-500/[0.04] blur-[120px]" />
 
       <Container className="w-full max-w-full">
-        <div className="grid gap-12 py-14 md:grid-cols-[1.4fr_1fr_1fr] lg:py-16 w-full">
+        <div className="grid gap-12 py-14 lg:grid-cols-[1.4fr_1fr_1fr_1fr_1fr] lg:py-16 w-full">
           {/* Brand */}
           <div className="w-full">
-            <a
-              href="#"
+            <Link
+              href="/"
               className="inline-flex items-center gap-3"
               aria-label="NEASX Home"
             >
@@ -29,59 +50,45 @@ export default function Footer() {
               <span className="text-xl font-black tracking-tight text-white">
                 NEASX
               </span>
-            </a>
+            </Link>
 
             <p className="mt-5 max-w-sm text-sm leading-7 text-slate-500">
-              Building premium software, AI products and scalable digital
-              experiences for modern businesses.
+              AI products for real work. One ecosystem for writing, chat,
+              agents, creative, voice and vision.
             </p>
 
             <div className="mt-6 flex items-center gap-2">
               <span className="h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_10px_rgba(52,211,153,0.7)]" />
 
-              <span className="text-xs text-slate-500">
-                Available for new projects
-              </span>
+              <Link
+                href="/status"
+                className="text-xs text-slate-500 transition hover:text-white"
+              >
+                All systems operational
+              </Link>
             </div>
           </div>
 
-          {/* Navigation */}
-          <div className="w-full">
-            <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
-              Navigation
-            </h3>
+          {/* Link columns */}
+          {Object.entries(footerLinks).map(([heading, links]) => (
+            <div key={heading} className="w-full">
+              <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
+                {heading}
+              </h3>
 
-            <nav className="mt-5 flex flex-col gap-3 w-full">
-              {links.map((link) => (
-                <a
-                  key={link.label}
-                  href={link.href}
-                  className="w-fit text-sm text-slate-500 transition-colors duration-300 hover:text-white"
-                >
-                  {link.label}
-                </a>
-              ))}
-            </nav>
-          </div>
-
-          {/* Contact */}
-          <div className="w-full">
-            <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
-              Let's Talk
-            </h3>
-
-            <p className="mt-5 text-sm leading-7 text-slate-500">
-              Have an idea or a project in mind? Let's turn it into something
-              real.
-            </p>
-
-            <a
-              href="mailto:hello@neasx.dev"
-              className="mt-4 inline-flex text-sm font-medium text-blue-400 transition-colors duration-300 hover:text-cyan-300"
-            >
-              hello@neasx.dev
-            </a>
-          </div>
+              <nav className="mt-5 flex flex-col gap-3 w-full">
+                {links.map((link) => (
+                  <Link
+                    key={link.label}
+                    href={link.href}
+                    className="w-fit text-sm text-slate-500 transition-colors duration-300 hover:text-white"
+                  >
+                    {link.label}
+                  </Link>
+                ))}
+              </nav>
+            </div>
+          ))}
         </div>
 
         {/* Bottom */}
@@ -90,9 +97,25 @@ export default function Footer() {
             © {new Date().getFullYear()} NEASX. All rights reserved.
           </p>
 
-          <p className="text-xs text-slate-600">
-            Designed & built by NEASX
-          </p>
+          <div className="flex items-center gap-6">
+            <Link
+              href="/login"
+              className="text-xs text-slate-600 transition hover:text-white"
+            >
+              Log in
+            </Link>
+
+            <Link
+              href="/signup"
+              className="text-xs text-slate-600 transition hover:text-white"
+            >
+              Sign up
+            </Link>
+
+            <p className="text-xs text-slate-600">
+              Built at NEASX Labs
+            </p>
+          </div>
         </div>
       </Container>
     </footer>

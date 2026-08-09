@@ -1,33 +1,40 @@
 import {
-  Rocket,
+  Briefcase,
+  Zap,
+  Layers,
   ShieldCheck,
-  Clock3,
-  Code2,
+  TrendingUp,
 } from "lucide-react";
 
 export const reasons = [
   {
-    title: "Fast Delivery",
+    title: "Built for real work",
     description:
-      "We deliver projects quickly without sacrificing quality.",
-    icon: Rocket,
+      "AI isn't just for conversation. NEASX products are designed to complete actual tasks and deliver results.",
+    icon: Briefcase,
   },
   {
-    title: "Production Ready",
+    title: "Fast by design",
     description:
-      "Every project is scalable, secure and maintainable.",
+      "Get to results quickly. Every product is optimized for speed, both in performance and time-to-output.",
+    icon: Zap,
+  },
+  {
+    title: "One ecosystem",
+    description:
+      "A single NEASX account unlocks every product. Writer, Chat, Agent and more — all connected.",
+    icon: Layers,
+  },
+  {
+    title: "Privacy first",
+    description:
+      "Security and data protection are built into the foundation of every NEASX product and API.",
     icon: ShieldCheck,
   },
   {
-    title: "Modern Stack",
+    title: "Built to scale",
     description:
-      "Next.js, FastAPI, PostgreSQL, AI and cloud technologies.",
-    icon: Code2,
-  },
-  {
-    title: "24/7 Support",
-    description:
-      "Clear communication and rapid response during development.",
-    icon: Clock3,
+      "From individuals to enterprise teams, NEASX grows with you — from your first request to millions.",
+    icon: TrendingUp,
   },
 ];
