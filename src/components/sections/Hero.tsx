@@ -3,277 +3,215 @@ import Button from "@/components/ui/Button";
 import Container from "@/components/ui/Container";
 import Section from "@/components/ui/Section";
 
+const technologies = [
+  "Next.js",
+  "React",
+  "TypeScript",
+  "FastAPI",
+  "Python",
+  "PostgreSQL",
+  "Redis",
+  "OpenAI",
+];
+
+const deploymentStack = [
+  "Next.js",
+  "FastAPI",
+  "PostgreSQL",
+  "Redis",
+  "Docker",
+];
+
+const revenueBars = [18, 25, 21, 32, 28, 42, 36, 50];
+
 export default function Hero() {
   return (
-    <Section className="relative overflow-hidden pt-40 lg:pt-52">
+    <Section className="relative overflow-hidden !pt-20 !pb-8 sm:!pt-24 lg:!pt-28 lg:!pb-10">
       {/* Background */}
+      <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
+        <div className="absolute left-[-280px] top-[-260px] h-[650px] w-[650px] rounded-full bg-blue-500/15 blur-[170px]" />
 
-      <div className="absolute inset-0 -z-10">
+        <div className="absolute right-[-300px] bottom-[-280px] h-[700px] w-[700px] rounded-full bg-violet-500/15 blur-[180px]" />
 
-        <div className="absolute left-[-300px] top-[-300px] h-[700px] w-[700px] rounded-full bg-blue-500/15 blur-[180px]" />
-
-        <div className="absolute right-[-300px] bottom-[-300px] h-[700px] w-[700px] rounded-full bg-violet-500/15 blur-[180px]" />
-
+        <div className="absolute left-1/2 top-1/2 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-cyan-500/[0.035] blur-[150px]" />
       </div>
 
       <Container>
-
-        <div className="grid items-center gap-24 lg:grid-cols-[1.1fr_.9fr]">
-
+        <div className="grid min-h-[540px] items-center gap-14 lg:grid-cols-[1.02fr_0.98fr] lg:gap-10">
           {/* LEFT */}
+          <div className="relative z-10">
+            <Badge>🚀 SOFTWARE STUDIO</Badge>
 
-          <div>
-
-            <Badge>
-              🚀 SOFTWARE STUDIO
-            </Badge>
-
-            <h1 className="mt-8 text-6xl font-black leading-[1.02] text-white lg:text-7xl">
-
+            <h1 className="mt-7 max-w-3xl text-5xl font-black leading-[0.98] tracking-[-0.045em] text-white sm:text-6xl lg:text-[72px]">
               Building software
-
               <span className="block bg-gradient-to-r from-blue-400 via-cyan-300 to-violet-500 bg-clip-text text-transparent">
-
-                that grows businesses.
-
+                that grows
               </span>
-
+              <span className="block bg-gradient-to-r from-blue-400 via-violet-400 to-purple-500 bg-clip-text text-transparent">
+                businesses.
+              </span>
             </h1>
 
-            <p className="mt-8 max-w-xl text-lg leading-8 text-slate-400">
-
-              Premium web applications,
-              AI products, automation systems
-              and scalable backend infrastructure
-              built for startups.
-
+            <p className="mt-7 max-w-xl text-base leading-7 text-slate-400 sm:text-lg sm:leading-8">
+              Premium web applications, AI products, automation systems and
+              scalable backend infrastructure built for startups and growing
+              businesses.
             </p>
 
-            <div className="mt-10 flex flex-wrap gap-4">
+            {/* Buttons */}
+            <div className="mt-9 flex flex-wrap gap-4">
+              <Button icon>Start Project</Button>
 
-              <Button icon>
-                Start Project
-              </Button>
-
-              <Button variant="secondary">
-                View Work
-              </Button>
-
+              <Button variant="secondary">View Work</Button>
             </div>
 
-            <div className="mt-16 flex gap-16">
-
+            {/* Stats */}
+            <div className="mt-12 flex flex-wrap items-center gap-x-8 gap-y-6 sm:mt-14 sm:gap-x-10">
               <div>
-
-                <h2 className="text-4xl font-black text-white">
+                <h2 className="text-3xl font-black tracking-tight text-white sm:text-4xl">
                   50+
                 </h2>
 
-                <p className="mt-2 text-slate-400">
+                <p className="mt-1.5 text-sm text-slate-400">
                   Technologies
                 </p>
-
               </div>
 
-              <div>
+              <div className="hidden h-12 w-px bg-white/10 sm:block" />
 
-                <h2 className="text-4xl font-black text-white">
+              <div>
+                <h2 className="text-3xl font-black tracking-tight text-white sm:text-4xl">
                   24h
                 </h2>
 
-                <p className="mt-2 text-slate-400">
-                  Response
-                </p>
-
+                <p className="mt-1.5 text-sm text-slate-400">Response</p>
               </div>
 
-              <div>
+              <div className="hidden h-12 w-px bg-white/10 sm:block" />
 
-                <h2 className="text-4xl font-black text-white">
+              <div>
+                <h2 className="text-3xl font-black tracking-tight text-white sm:text-4xl">
                   100%
                 </h2>
 
-                <p className="mt-2 text-slate-400">
-                  Custom
-                </p>
-
+                <p className="mt-1.5 text-sm text-slate-400">Custom</p>
               </div>
-
             </div>
-
           </div>
 
-          {/* RIGHT */}
+          {/* RIGHT DASHBOARD */}
+          <div className="relative mx-auto h-[600px] w-full max-w-[560px]">
+            {/* Revenue */}
+            <div className="absolute right-0 top-0 z-30 w-[min(100%,370px)] rounded-[24px] border border-white/10 bg-[#0b1220]/95 p-6 shadow-2xl shadow-black/30 backdrop-blur-xl">
+              <div className="flex items-start justify-between gap-5">
+                <div>
+                  <p className="text-sm text-slate-400">Total Revenue</p>
 
-          <div className="relative h-[650px]">
-                        {/* Code Editor */}
+                  <h3 className="mt-2 text-4xl font-black tracking-tight text-white sm:text-5xl">
+                    $24,820
+                  </h3>
 
-            <div className="absolute left-0 top-0 w-[460px] overflow-hidden rounded-[28px] border border-white/10 bg-[#0B1220]/90 shadow-[0_30px_80px_rgba(0,0,0,.45)] backdrop-blur-xl">
-
-              <div className="flex items-center justify-between border-b border-white/10 bg-[#111827] px-5 py-4">
-
-                <div className="flex gap-2">
-                  <span className="h-3 w-3 rounded-full bg-red-400" />
-                  <span className="h-3 w-3 rounded-full bg-yellow-400" />
-                  <span className="h-3 w-3 rounded-full bg-green-400" />
+                  <p className="mt-2 text-sm text-emerald-400">
+                    ↑ 18.2%
+                    <span className="ml-1 text-slate-500">
+                      vs last month
+                    </span>
+                  </p>
                 </div>
 
-                <span className="text-xs uppercase tracking-[0.25em] text-slate-500">
-                  app.tsx
-                </span>
-
+                {/* Mini chart */}
+                <div className="flex h-12 items-end gap-1.5 pt-2">
+                  {revenueBars.map((height, index) => (
+                    <span
+                      key={index}
+                      className="w-1.5 rounded-full bg-gradient-to-t from-blue-500 to-violet-400"
+                      style={{ height: `${height}px` }}
+                    />
+                  ))}
+                </div>
               </div>
-
-              <div className="space-y-3 p-6 font-mono text-sm">
-
-                <p>
-                  <span className="text-violet-400">export default function</span>{" "}
-                  <span className="text-cyan-300">Dashboard</span>() {"{"}
-                </p>
-
-                <p className="pl-5 text-slate-300">
-                  return (
-                </p>
-
-                <p className="pl-10 text-blue-300">
-                  {"<Analytics />"}
-                </p>
-
-                <p className="pl-5 text-slate-300">
-                  )
-                </p>
-
-                <p className="text-violet-400">
-                  {"}"}
-                </p>
-
-              </div>
-
             </div>
 
-            {/* Revenue */}
+            {/* Active Clients */}
+            <div className="absolute left-0 top-[175px] z-30 w-[225px] rounded-[24px] border border-white/10 bg-[#0f172a]/95 p-5 shadow-xl shadow-black/30 backdrop-blur-xl">
+              <p className="text-sm text-slate-400">Active Clients</p>
 
-            <div className="absolute right-0 top-12 w-[260px] rounded-[26px] border border-white/10 bg-[#0F172A]/90 p-6 backdrop-blur-xl">
-
-              <p className="text-sm text-slate-400">
-                Monthly Revenue
-              </p>
-
-              <h3 className="mt-2 text-5xl font-black text-white">
-                $24,820
-              </h3>
-
-              <p className="mt-2 text-sm text-emerald-400">
-                +18.2%
-              </p>
-
-              <div className="mt-6 h-2 overflow-hidden rounded-full bg-white/10">
-
-                <div className="h-full w-4/5 rounded-full bg-gradient-to-r from-blue-500 via-cyan-400 to-violet-500" />
-
-              </div>
-
-            </div>
-
-            {/* Floating Stats */}
-
-            <div className="absolute left-10 top-[360px] w-[220px] rounded-[24px] border border-white/10 bg-[#111827]/90 p-5 backdrop-blur-xl">
-
-              <p className="text-sm text-slate-400">
-                Active Clients
-              </p>
-
-              <h3 className="mt-3 text-4xl font-black text-white">
-                148
-              </h3>
+              <h3 className="mt-2 text-4xl font-black text-white">148</h3>
 
               <p className="mt-2 text-sm text-emerald-400">
                 +12 this week
               </p>
 
+              <div className="mt-5 flex -space-x-2">
+                {["A", "M", "S", "K", "+"].map((item, index) => (
+                  <div
+                    key={index}
+                    className="flex h-8 w-8 items-center justify-center rounded-full border-2 border-[#0f172a] bg-gradient-to-br from-blue-500 to-violet-500 text-[10px] font-bold text-white"
+                  >
+                    {item}
+                  </div>
+                ))}
+              </div>
             </div>
-                        {/* AI Assistant */}
 
-            <div className="absolute right-0 top-[250px] w-[260px] rounded-[26px] border border-white/10 bg-[#0F172A]/90 p-6 backdrop-blur-xl">
-
+            {/* AI Assistant */}
+            <div className="absolute right-0 top-[190px] z-20 w-[290px] rounded-[24px] border border-white/10 bg-[#0f172a]/95 p-5 shadow-xl shadow-black/30 backdrop-blur-xl sm:w-[300px]">
               <div className="flex items-center gap-4">
-
-                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-500 to-violet-500 text-2xl">
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-500 to-violet-500 text-xl shadow-lg shadow-blue-500/20">
                   🤖
                 </div>
 
                 <div>
+                  <h4 className="font-bold text-white">AI Assistant</h4>
 
-                  <h4 className="font-bold text-white">
-                    AI Assistant
-                  </h4>
+                  <div className="mt-1 flex items-center gap-2">
+                    <span className="h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_10px_rgba(52,211,153,0.8)]" />
 
-                  <p className="text-sm text-emerald-400">
-                    Online
-                  </p>
-
+                    <p className="text-sm text-emerald-400">Online</p>
+                  </div>
                 </div>
-
               </div>
 
-              <p className="mt-5 text-sm leading-7 text-slate-400">
+              <p className="mt-5 text-sm leading-6 text-slate-400">
                 Generate code, automate workflows and build APIs instantly.
               </p>
-
             </div>
 
             {/* Deployment */}
-
-            <div className="absolute bottom-0 right-0 w-[320px] rounded-[28px] border border-white/10 bg-[#0F172A]/90 p-6 backdrop-blur-xl">
-
+            <div className="absolute bottom-0 right-0 z-30 w-[320px] rounded-[24px] border border-white/10 bg-[#0f172a]/95 p-5 shadow-2xl shadow-black/30 backdrop-blur-xl sm:w-[340px]">
               <div className="mb-5 flex items-center justify-between">
-
-                <h4 className="font-bold text-white">
-                  Deployment
-                </h4>
+                <h4 className="font-bold text-white">Deployment</h4>
 
                 <span className="rounded-full bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-400">
                   LIVE
                 </span>
-
               </div>
 
-              <div className="space-y-4">
-
-                {[
-                  "Next.js",
-                  "FastAPI",
-                  "PostgreSQL",
-                  "Redis",
-                  "Docker",
-                ].map((item) => (
+              <div className="space-y-3">
+                {deploymentStack.map((item) => (
                   <div
                     key={item}
                     className="flex items-center justify-between"
                   >
-                    <span className="text-slate-300">
-                      {item}
-                    </span>
+                    <span className="text-sm text-slate-300">{item}</span>
 
-                    <span className="h-2.5 w-2.5 rounded-full bg-emerald-400" />
+                    <span className="h-2.5 w-2.5 rounded-full bg-emerald-400 shadow-[0_0_10px_rgba(52,211,153,0.65)]" />
                   </div>
                 ))}
-
               </div>
 
+              {/* Decorative lines */}
+              <div className="pointer-events-none absolute bottom-0 left-0 h-14 w-full overflow-hidden rounded-b-[24px] opacity-20">
+                <div className="absolute bottom-[-20px] left-0 h-16 w-full rounded-[50%] border-t border-blue-400/50" />
+                <div className="absolute bottom-[-28px] left-10 h-16 w-full rounded-[50%] border-t border-violet-400/50" />
+              </div>
             </div>
 
-            {/* Background Decoration */}
-
-            <div className="absolute left-[180px] top-[220px] -z-10 h-48 w-48 rounded-full bg-blue-500/10 blur-[100px]" />
-
-            <div className="absolute right-[120px] bottom-[120px] -z-10 h-40 w-40 rounded-full bg-violet-500/10 blur-[100px]" />
-                      </div>
-
+            {/* Dashboard glow */}
+            <div className="pointer-events-none absolute left-1/2 top-1/2 -z-10 h-80 w-80 -translate-x-1/2 -translate-y-1/2 rounded-full bg-blue-500/10 blur-[110px]" />
+          </div>
         </div>
-
       </Container>
-
     </Section>
   );
 }
