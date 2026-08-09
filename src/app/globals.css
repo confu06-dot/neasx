@@ -27,12 +27,14 @@
   --container: 1280px;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 html {
@@ -64,10 +66,7 @@ img {
   max-width: 100%;
 }
 
-::selection {
-  background: #3b82f6;
-  color: white;
-}
+
 
 /* Scrollbar */
 
@@ -137,7 +136,7 @@ body {
     #050816;
 }
 
-::selection{
-  background:#3b82f6;
-  color:white;
+::selection {
+  background: #3b82f6;
+  color: white;
 }
