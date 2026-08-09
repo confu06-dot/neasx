@@ -1,6 +1,6 @@
+import Card from "@/components/ui/Card";
 import Container from "@/components/ui/Container";
 import Section from "@/components/ui/Section";
-import Card from "@/components/ui/Card";
 import { testimonials } from "@/data/testimonials";
 
 export default function Testimonials() {
@@ -8,35 +8,34 @@ export default function Testimonials() {
     <Section className="relative overflow-hidden py-24 lg:py-28">
       {/* Background */}
       <div className="pointer-events-none absolute left-[-200px] top-1/3 -z-10 h-[450px] w-[450px] rounded-full bg-blue-500/[0.04] blur-[130px]" />
-
       <div className="pointer-events-none absolute right-[-200px] bottom-0 -z-10 h-[450px] w-[450px] rounded-full bg-violet-500/[0.04] blur-[130px]" />
 
       <Container>
-        {/* Header */}
-        <div className="mx-auto max-w-3xl text-center">
+        {/* Header - mx-auto ve max-w-3xl kaldırıldı, w-full yapıldı */}
+        <div className="w-full">
           <span className="inline-flex items-center rounded-full border border-violet-400/20 bg-violet-500/[0.07] px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-violet-400">
             Client Feedback
           </span>
 
           <h2 className="mt-5 text-4xl font-black tracking-[-0.03em] text-white sm:text-5xl lg:text-6xl">
-            What our clients
+            What our clients{" "}
             <span className="block bg-gradient-to-r from-blue-400 via-cyan-300 to-violet-500 bg-clip-text text-transparent">
               say about us.
             </span>
           </h2>
 
-          <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-slate-400 sm:text-lg">
+          <p className="mt-5 max-w-2xl text-base leading-7 text-slate-400 sm:text-lg">
             We care about the products we build and the people we build them
             with.
           </p>
         </div>
 
-        {/* Testimonials */}
-        <div className="mt-14 grid gap-5 lg:grid-cols-3">
+        {/* Testimonials - w-full eklendi */}
+        <div className="mt-14 grid gap-5 lg:grid-cols-3 w-full">
           {testimonials.map((item, index) => (
             <Card
               key={item.name}
-              className="group relative overflow-hidden p-7 transition-all duration-500 hover:-translate-y-1 hover:border-blue-400/20 hover:shadow-2xl hover:shadow-blue-950/20 sm:p-8"
+              className="group relative overflow-hidden p-7 transition-all duration-500 hover:-translate-y-1 hover:border-blue-400/20 hover:shadow-2xl hover:shadow-blue-950/20 sm:p-8 w-full"
             >
               {/* Glow */}
               <div className="pointer-events-none absolute -right-20 -top-20 h-40 w-40 rounded-full bg-blue-500/[0.06] blur-[70px] transition-all duration-500 group-hover:bg-blue-500/[0.13]" />
@@ -98,7 +97,7 @@ export default function Testimonials() {
         </div>
 
         {/* Trust statement */}
-        <div className="mt-10 flex justify-center">
+        <div className="mt-10 flex w-full">
           <div className="inline-flex items-center gap-3 rounded-full border border-white/10 bg-white/[0.025] px-5 py-3">
             <span className="flex h-5 w-5 items-center justify-center rounded-full bg-emerald-500/10 text-xs text-emerald-400">
               ✓

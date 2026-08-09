@@ -9,14 +9,14 @@ const links = [
 
 export default function Footer() {
   return (
-    <footer className="relative overflow-hidden border-t border-white/10 bg-[#050b14]">
+    <footer className="relative overflow-hidden border-t border-white/10 bg-[#050b14] w-full">
       {/* Background glow */}
       <div className="pointer-events-none absolute left-1/4 top-0 h-64 w-64 rounded-full bg-blue-500/[0.04] blur-[120px]" />
 
-      <Container>
-        <div className="grid gap-12 py-14 md:grid-cols-[1.4fr_1fr_1fr] lg:py-16">
+      <Container className="w-full max-w-full">
+        <div className="grid gap-12 py-14 md:grid-cols-[1.4fr_1fr_1fr] lg:py-16 w-full">
           {/* Brand */}
-          <div>
+          <div className="w-full">
             <a
               href="#"
               className="inline-flex items-center gap-3"
@@ -46,12 +46,12 @@ export default function Footer() {
           </div>
 
           {/* Navigation */}
-          <div>
+          <div className="w-full">
             <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
               Navigation
             </h3>
 
-            <nav className="mt-5 flex flex-col gap-3">
+            <nav className="mt-5 flex flex-col gap-3 w-full">
               {links.map((link) => (
                 <a
                   key={link.label}
@@ -65,7 +65,7 @@ export default function Footer() {
           </div>
 
           {/* Contact */}
-          <div>
+          <div className="w-full">
             <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
               Let's Talk
             </h3>
@@ -85,7 +85,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom */}
-        <div className="flex flex-col gap-4 border-t border-white/10 py-6 sm:flex-row sm:items-center sm:justify-between">
+        <div className="flex flex-col gap-4 border-t border-white/10 py-6 sm:flex-row sm:items-center sm:justify-between w-full">
           <p className="text-xs text-slate-600">
             © {new Date().getFullYear()} NEASX. All rights reserved.
           </p>

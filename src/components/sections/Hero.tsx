@@ -2,17 +2,7 @@ import Badge from "@/components/ui/Badge";
 import Button from "@/components/ui/Button";
 import Container from "@/components/ui/Container";
 import Section from "@/components/ui/Section";
-
-const technologies = [
-  "Next.js",
-  "React",
-  "TypeScript",
-  "FastAPI",
-  "Python",
-  "PostgreSQL",
-  "Redis",
-  "OpenAI",
-];
+import { Bot } from "lucide-react";
 
 const deploymentStack = [
   "Next.js",
@@ -157,8 +147,8 @@ export default function Hero() {
             {/* AI Assistant */}
             <div className="absolute right-0 top-[190px] z-20 w-[290px] rounded-[24px] border border-white/10 bg-[#0f172a]/95 p-5 shadow-xl shadow-black/30 backdrop-blur-xl sm:w-[300px]">
               <div className="flex items-center gap-4">
-                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-500 to-violet-500 text-xl shadow-lg shadow-blue-500/20">
-                  🤖
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-500 to-violet-500 shadow-lg shadow-blue-500/20">
+                  <Bot className="h-6 w-6 text-white" />
                 </div>
 
                 <div>

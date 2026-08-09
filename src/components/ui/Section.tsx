@@ -15,7 +15,8 @@ export default function Section({
   return (
     <section
       id={id}
-      className={cn("py-24 lg:py-32", className)}
+      // w-full eklenerek tüm bölümlerin ekranı baştan sona kaplaması garanti altına alındı
+      className={cn("w-full py-24 lg:py-32", className)}
     >
       {children}
     </section>

@@ -3,8 +3,8 @@
 import { useState } from "react";
 
 import Container from "@/components/ui/Container";
-import Section from "@/components/ui/Section";
 import Heading from "@/components/ui/Heading";
+import Section from "@/components/ui/Section";
 import { faqs } from "@/data/faq";
 
 export default function Faq() {
@@ -16,22 +16,24 @@ export default function Faq() {
       <div className="pointer-events-none absolute left-1/2 top-1/2 -z-10 h-[600px] w-[700px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-blue-500/[0.035] blur-[150px]" />
 
       <Container>
-        <Heading
-          badge="FAQ"
-          title="Frequently Asked"
-          highlight="Questions"
-          description="Everything you might want to know before starting a project."
-        />
+        <div className="w-full">
+          <Heading
+            badge="FAQ"
+            title="Frequently Asked"
+            highlight="Questions"
+            description="Everything you might want to know before starting a project."
+          />
+        </div>
 
-        {/* FAQ List */}
-        <div className="mx-auto mt-14 max-w-4xl space-y-3 lg:mt-16">
+        {/* FAQ List - mx-auto ve max-w-4xl kaldırıldı, w-full yapıldı */}
+        <div className="w-full mt-14 space-y-3 lg:mt-16">
           {faqs.map((faq, index) => {
             const isOpen = open === index;
 
             return (
               <div
                 key={faq.question}
-                className={`group overflow-hidden rounded-2xl border transition-all duration-500 ${
+                className={`group overflow-hidden rounded-2xl border transition-all duration-500 w-full ${
                   isOpen
                     ? "border-blue-400/20 bg-white/[0.045] shadow-xl shadow-blue-950/10"
                     : "border-white/10 bg-white/[0.02] hover:border-white/15 hover:bg-white/[0.035]"
@@ -93,7 +95,7 @@ export default function Faq() {
                 >
                   <div className="overflow-hidden">
                     <div className="border-t border-white/10 px-6 py-6 sm:px-7">
-                      <p className="max-w-3xl text-sm leading-7 text-slate-400 sm:text-base">
+                      <p className="w-full text-sm leading-7 text-slate-400 sm:text-base">
                         {faq.answer}
                       </p>
                     </div>
@@ -112,7 +114,7 @@ export default function Faq() {
         </div>
 
         {/* Bottom CTA hint */}
-        <div className="mt-10 flex justify-center">
+        <div className="mt-10 flex justify-center w-full">
           <div className="inline-flex items-center gap-3 rounded-full border border-white/10 bg-white/[0.02] px-5 py-3">
             <span className="flex h-5 w-5 items-center justify-center rounded-full bg-blue-500/10 text-xs text-blue-400">
               ?

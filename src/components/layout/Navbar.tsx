@@ -14,13 +14,13 @@ const navigation = [
 
 export default function Navbar() {
   return (
-    <header className="fixed inset-x-0 top-0 z-50 pt-5">
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-slate-950/80 backdrop-blur-xl">
       <Container>
-        <nav className="flex h-16 items-center justify-between rounded-2xl border border-white/10 bg-slate-950/70 px-6 backdrop-blur-xl">
+        <nav className="flex h-16 items-center justify-between">
 
           <Link
             href="/"
-            className="text-2xl font-black tracking-tight text-white"
+            className="text-xl font-black tracking-tight text-white"
           >
             NEASX
           </Link>

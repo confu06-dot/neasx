@@ -1,6 +1,6 @@
+import Card from "@/components/ui/Card";
 import Container from "@/components/ui/Container";
 import Section from "@/components/ui/Section";
-import Card from "@/components/ui/Card";
 import { services } from "@/data/services";
 
 export default function Services() {
@@ -14,7 +14,8 @@ export default function Services() {
       <div className="pointer-events-none absolute left-1/2 top-1/2 -z-10 h-[500px] w-[700px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-blue-500/[0.035] blur-[140px]" />
 
       <Container>
-        <div className="mx-auto max-w-3xl text-center">
+        {/* max-w-3xl ve mx-auto kaldırıldı, sola hizalandı veya tam genişlik verildi */}
+        <div className="w-full">
           <span className="inline-flex rounded-full border border-blue-400/20 bg-blue-500/[0.08] px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-blue-400">
             Our Services
           </span>
@@ -26,20 +27,21 @@ export default function Services() {
             </span>
           </h2>
 
-          <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-slate-400 sm:text-lg">
+          <p className="mt-5 max-w-2xl text-base leading-7 text-slate-400 sm:text-lg">
             We help startups and businesses launch products faster with
             modern software engineering.
           </p>
         </div>
 
-        <div className="mx-auto mt-12 grid max-w-[1400px] gap-5 md:grid-cols-3 lg:mt-14">
+        {/* max-w-[1400px] ve mx-auto kaldırıldı, w-full yapıldı */}
+        <div className="w-full mt-12 grid gap-6 md:grid-cols-3 lg:mt-14">
           {featuredServices.map((service, index) => {
             const Icon = service.icon;
 
             return (
               <Card
                 key={service.title}
-                className="group relative min-h-[270px] p-7 transition-all duration-500 hover:-translate-y-1 sm:p-8"
+                className="group relative min-h-[270px] p-7 transition-all duration-500 hover:-translate-y-1 sm:p-8 w-full"
               >
                 <span className="absolute right-7 top-7 text-[10px] font-bold tracking-[0.25em] text-slate-700">
                   0{index + 1}

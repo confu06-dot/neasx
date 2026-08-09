@@ -1,7 +1,7 @@
-import Container from "@/components/ui/Container";
-import Section from "@/components/ui/Section";
-import Heading from "@/components/ui/Heading";
 import Card from "@/components/ui/Card";
+import Container from "@/components/ui/Container";
+import Heading from "@/components/ui/Heading";
+import Section from "@/components/ui/Section";
 import { projects } from "@/data/projects";
 
 export default function Projects() {
@@ -11,20 +11,22 @@ export default function Projects() {
       <div className="pointer-events-none absolute right-0 top-1/3 -z-10 h-[500px] w-[500px] rounded-full bg-violet-500/[0.04] blur-[140px]" />
 
       <Container>
-        <Heading
-          badge="FEATURED PROJECTS"
-          title="Our"
-          highlight="Work"
-          description="Some of the software products we've designed and developed."
-        />
+        <div className="w-full">
+          <Heading
+            badge="FEATURED PROJECTS"
+            title="Our"
+            highlight="Work"
+            description="Some of the software products we've designed and developed."
+          />
+        </div>
 
-        <div className="mt-14 space-y-6 lg:mt-16 lg:space-y-8">
+        <div className="mt-14 space-y-6 lg:mt-16 lg:space-y-8 w-full">
           {projects.map((project, index) => (
             <Card
               key={project.title}
-              className="group overflow-hidden p-0 transition-all duration-500 hover:border-white/15 hover:shadow-2xl hover:shadow-black/20"
+              className="group overflow-hidden p-0 transition-all duration-500 hover:border-white/15 hover:shadow-2xl hover:shadow-black/20 w-full"
             >
-              <div className="grid lg:grid-cols-[1.05fr_0.95fr]">
+              <div className="grid lg:grid-cols-[1.05fr_0.95fr] w-full">
                 {/* PROJECT PREVIEW */}
                 <div className="relative min-h-[360px] overflow-hidden bg-[#080f1c] p-6 sm:p-10 lg:min-h-[430px]">
                   {/* Gradient */}
@@ -113,7 +115,7 @@ export default function Projects() {
                 </div>
 
                 {/* PROJECT CONTENT */}
-                <div className="flex flex-col justify-center p-7 sm:p-10 lg:p-12">
+                <div className="flex flex-col justify-center p-7 sm:p-10 lg:p-12 w-full">
                   <div className="flex items-center justify-between">
                     <span className="text-xs font-semibold uppercase tracking-[0.2em] text-blue-400">
                       Featured Project

@@ -1,6 +1,6 @@
+import Card from "@/components/ui/Card";
 import Container from "@/components/ui/Container";
 import Section from "@/components/ui/Section";
-import Card from "@/components/ui/Card";
 import { features } from "@/data/features";
 
 export default function Why() {
@@ -10,9 +10,9 @@ export default function Why() {
       <div className="pointer-events-none absolute left-1/2 top-1/2 -z-10 h-[600px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-blue-500/[0.035] blur-[150px]" />
 
       <Container>
-        {/* Header */}
-        <div className="grid gap-8 lg:grid-cols-[0.8fr_1.2fr] lg:items-end">
-          <div>
+        {/* Header - w-full yapıldı ve lg:ml-auto yerine esnek yerleşim sağlandı */}
+        <div className="grid gap-8 lg:grid-cols-2 lg:items-end w-full">
+          <div className="w-full">
             <span className="inline-flex items-center rounded-full border border-cyan-400/20 bg-cyan-500/[0.07] px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-cyan-400">
               The NEASX Advantage
             </span>
@@ -25,18 +25,18 @@ export default function Why() {
             </h2>
           </div>
 
-          <p className="max-w-xl text-base leading-7 text-slate-400 lg:ml-auto lg:pb-1 sm:text-lg">
+          <p className="w-full text-base leading-7 text-slate-400 lg:pb-1 sm:text-lg">
             From the first idea to production, we focus on building reliable,
             scalable and maintainable software that creates measurable value.
           </p>
         </div>
 
-        {/* Features */}
-        <div className="mt-14 grid gap-5 md:grid-cols-2">
+        {/* Features - w-full eklendi */}
+        <div className="mt-14 grid gap-5 md:grid-cols-2 w-full">
           {features.map((feature, index) => (
             <Card
               key={feature.title}
-              className="group relative overflow-hidden p-7 transition-all duration-500 hover:-translate-y-1 hover:border-blue-400/20 hover:shadow-2xl hover:shadow-blue-950/20 sm:p-9"
+              className="group relative overflow-hidden p-7 transition-all duration-500 hover:-translate-y-1 hover:border-blue-400/20 hover:shadow-2xl hover:shadow-blue-950/20 sm:p-9 w-full"
             >
               {/* Background glow */}
               <div className="pointer-events-none absolute -right-24 -top-24 h-48 w-48 rounded-full bg-blue-500/[0.06] blur-[80px] transition-all duration-500 group-hover:bg-blue-500/[0.13]" />
@@ -70,23 +70,23 @@ export default function Why() {
           ))}
         </div>
 
-        {/* Bottom metrics */}
-        <div className="mt-8 grid gap-3 sm:grid-cols-3">
-          <div className="rounded-2xl border border-white/10 bg-white/[0.02] p-5 text-center">
+        {/* Bottom metrics - w-full eklendi */}
+        <div className="mt-8 grid gap-3 sm:grid-cols-3 w-full">
+          <div className="rounded-2xl border border-white/10 bg-white/[0.02] p-5 text-center w-full">
             <p className="text-2xl font-black text-white">01</p>
             <p className="mt-1 text-xs text-slate-500">
               One dedicated team
             </p>
           </div>
 
-          <div className="rounded-2xl border border-white/10 bg-white/[0.02] p-5 text-center">
+          <div className="rounded-2xl border border-white/10 bg-white/[0.02] p-5 text-center w-full">
             <p className="text-2xl font-black text-white">∞</p>
             <p className="mt-1 text-xs text-slate-500">
               Built to scale
             </p>
           </div>
 
-          <div className="rounded-2xl border border-white/10 bg-white/[0.02] p-5 text-center">
+          <div className="rounded-2xl border border-white/10 bg-white/[0.02] p-5 text-center w-full">
             <p className="text-2xl font-black text-white">24/7</p>
             <p className="mt-1 text-xs text-slate-500">
               Production mindset

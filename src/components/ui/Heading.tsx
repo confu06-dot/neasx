@@ -20,7 +20,7 @@ export default function Heading({
   return (
     <div
       className={cn(
-        "mb-16",
+        "mb-16 w-full",
         align === "center" ? "text-center" : "text-left",
         className
       )}
@@ -41,7 +41,12 @@ export default function Heading({
       </h2>
 
       {description && (
-        <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-slate-400">
+        <p
+          className={cn(
+            "mt-6 max-w-2xl text-lg leading-8 text-slate-400 w-full",
+            align === "center" ? "mx-auto" : "mr-auto ml-0"
+          )}
+        >
           {description}
         </p>
       )}
