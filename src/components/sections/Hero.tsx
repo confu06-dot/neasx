@@ -48,7 +48,7 @@ export default function Hero() {
                 <Button icon>Explore Products</Button>
               </Link>
 
-              <Link href="#pricing">
+              <Link href="/signup">
                 <Button variant="secondary">Get Started</Button>
               </Link>
             </div>

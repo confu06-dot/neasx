@@ -113,16 +113,16 @@ export default async function ProductPage({ params }: Props) {
               <div className="mt-10 flex flex-wrap gap-4">
                 {product.status === "AVAILABLE" ? (
                   <>
-                    <Link href="/signup">
-                      <Button icon>Get Started</Button>
+                    <Link href={`/workspace/${product.slug}`}>
+                      <Button icon>Open {product.name.replace("NEASX ", "")}</Button>
                     </Link>
 
-                    <Link href="/#pricing">
-                      <Button variant="secondary">View Pricing</Button>
+                    <Link href="/signup">
+                      <Button variant="secondary">Create Free Account</Button>
                     </Link>
                   </>
                 ) : (
-                  <Link href="/signup">
+                  <Link href="/contact">
                     <Button icon>
                       <Sparkles size={18} className="mr-2" />
                       Join the Waitlist
@@ -191,8 +191,18 @@ export default async function ProductPage({ params }: Props) {
             </p>
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
-              <Link href="/signup">
-                <Button icon>Create Free Account</Button>
+              <Link
+                href={
+                  product.status === "AVAILABLE"
+                    ? `/workspace/${product.slug}`
+                    : "/contact"
+                }
+              >
+                <Button icon>
+                  {product.status === "AVAILABLE"
+                    ? `Open ${product.name.replace("NEASX ", "")}`
+                    : "Join the Waitlist"}
+                </Button>
               </Link>
 
               <Link href="/#products">

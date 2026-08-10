@@ -2,12 +2,38 @@
 
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 import Container from "@/components/ui/Container";
 import { navigation } from "@/data/navigation";
 
+interface NavUser {
+  name: string;
+}
+
 export default function Navbar() {
+  const router = useRouter();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [user, setUser] = useState<NavUser | null>(null);
+
+  useEffect(() => {
+    fetch("/api/auth/me")
+      .then((r) => r.json())
+      .then((data) => setUser(data.user ?? null))
+      .catch(() => setUser(null));
+  }, []);
+
+  async function handleLogout() {
+    try {
+      await fetch("/api/auth/logout", { method: "POST" });
+    } catch {
+      // Ignore network errors — still navigate away.
+    }
+    setUser(null);
+    setMobileOpen(false);
+    router.push("/");
+    router.refresh();
+  }
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-slate-950/80 backdrop-blur-xl">
@@ -33,19 +59,39 @@ export default function Navbar() {
           </div>
 
           <div className="hidden items-center gap-4 lg:flex">
-            <Link
-              href="/login"
-              className="text-sm font-medium text-slate-400 transition hover:text-white"
-            >
-              Log in
-            </Link>
+            {user ? (
+              <>
+                <Link
+                  href="/dashboard"
+                  className="text-sm font-medium text-slate-300 transition hover:text-white"
+                >
+                  Dashboard
+                </Link>
 
-            <Link
-              href="/signup"
-              className="rounded-xl bg-gradient-to-r from-blue-500 to-violet-500 px-5 py-2 text-sm font-semibold text-white transition hover:scale-105"
-            >
-              Get started →
-            </Link>
+                <button
+                  onClick={handleLogout}
+                  className="text-sm font-medium text-slate-400 transition hover:text-white"
+                >
+                  Log out
+                </button>
+              </>
+            ) : (
+              <>
+                <Link
+                  href="/login"
+                  className="text-sm font-medium text-slate-400 transition hover:text-white"
+                >
+                  Log in
+                </Link>
+
+                <Link
+                  href="/signup"
+                  className="rounded-xl bg-gradient-to-r from-blue-500 to-violet-500 px-5 py-2 text-sm font-semibold text-white transition hover:scale-105"
+                >
+                  Get started →
+                </Link>
+              </>
+            )}
           </div>
 
           <button
@@ -75,20 +121,41 @@ export default function Navbar() {
               ))}
 
               <div className="flex flex-col gap-3 pt-2">
-                <Link
-                  href="/login"
-                  className="text-sm font-medium text-slate-400 transition hover:text-white"
-                >
-                  Log in
-                </Link>
+                {user ? (
+                  <>
+                    <Link
+                      href="/dashboard"
+                      onClick={() => setMobileOpen(false)}
+                      className="text-sm font-medium text-slate-300 transition hover:text-white"
+                    >
+                      Dashboard
+                    </Link>
 
-                <Link
-                  href="/signup"
-                  onClick={() => setMobileOpen(false)}
-                  className="rounded-xl bg-gradient-to-r from-blue-500 to-violet-500 px-5 py-2 text-center text-sm font-semibold text-white transition hover:scale-105"
-                >
-                  Get started →
-                </Link>
+                    <button
+                      onClick={handleLogout}
+                      className="text-left text-sm font-medium text-slate-400 transition hover:text-white"
+                    >
+                      Log out
+                    </button>
+                  </>
+                ) : (
+                  <>
+                    <Link
+                      href="/login"
+                      className="text-sm font-medium text-slate-400 transition hover:text-white"
+                    >
+                      Log in
+                    </Link>
+
+                    <Link
+                      href="/signup"
+                      onClick={() => setMobileOpen(false)}
+                      className="rounded-xl bg-gradient-to-r from-blue-500 to-violet-500 px-5 py-2 text-center text-sm font-semibold text-white transition hover:scale-105"
+                    >
+                      Get started →
+                    </Link>
+                  </>
+                )}
               </div>
             </div>
           </Container>

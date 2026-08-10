@@ -118,7 +118,10 @@ export default function Pricing() {
               </ul>
 
               <div className="mt-8">
-                <Link href="#" className="block">
+                <Link
+                  href={plan.name === "Business" ? "/contact" : "/signup"}
+                  className="block"
+                >
                   <Button
                     variant={plan.featured ? "primary" : "secondary"}
                     className="w-full"

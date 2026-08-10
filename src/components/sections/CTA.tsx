@@ -33,7 +33,7 @@ export default function CTA() {
             </p>
 
             <div className="mt-10 flex flex-wrap justify-center gap-4">
-              <Link href="#pricing">
+              <Link href="/signup">
                 <Button icon>Start for Free</Button>
               </Link>
 
