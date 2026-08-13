@@ -1,0 +1,223 @@
+{
+  "nav": {
+    "products": "Produits",
+    "solutions": "Solutions",
+    "pricing": "Tarifs",
+    "resources": "Ressources",
+    "company": "Entreprise",
+    "login": "Se connecter",
+    "logout": "Déconnexion",
+    "getStarted": "Commencer"
+  },
+  "hero": {
+    "badge": "ENTREPRISE DE PRODUITS IA",
+    "title": "L'IA qui accomplit",
+    "titleHighlight": "le travail.",
+    "description": "NEASX crée des produits d'IA intelligents qui automatisent les tâches répétitives, accélèrent les idées et aident les personnes et les entreprises à réussir plus.",
+    "exploreProducts": "Explorer les produits",
+    "getStarted": "Commencer",
+    "stats": {
+      "products": "Produits IA",
+      "ecosystem": "Écosystème",
+      "possibilities": "Possibilités"
+    }
+  },
+  "products": {
+    "badge": "Nos Produits",
+    "title": "Un écosystème.",
+    "titleHighlight": "Tous les outils IA.",
+    "description": "Une suite complète de produits IA conçus pour fonctionner ensemble. Un seul compte débloque tout.",
+    "available": "DISPONIBLE",
+    "comingSoon": "BIENTÔT DISPONIBLE",
+    "writer": {
+      "name": "NEASX Writer",
+      "tagline": "Espace de rédaction IA",
+      "description": "Rédigez, réécrivez, résumez, recherchez et traduisez — le tout dans un espace de travail intelligent unique.",
+      "features": ["Rédiger", "Réécrire", "Résumer", "Rechercher", "Traduire"]
+    },
+    "chat": {
+      "name": "NEASX Chat",
+      "tagline": "Espace de travail intelligent IA",
+      "description": "Discutez avec l'IA, téléchargez des fichiers, effectuez des recherches et collaborez avec votre équipe au même endroit.",
+      "features": ["Chat", "Fichiers", "Recherche", "Connaissances", "Équipes"]
+    },
+    "agent": {
+      "name": "NEASX Agent",
+      "tagline": "L'IA qui réalise le travail",
+      "description": "Déployez des agents IA qui recherchent, automatisent, traitent des données et exécutent des tâches de bout en bout.",
+      "features": ["Recherche", "Automatisation", "Traitement de données", "Exécution de tâches", "Flux de travail"]
+    },
+    "studio": {
+      "name": "NEASX Studio",
+      "tagline": "Suite créative IA",
+      "description": "Générez des images, vidéos, éléments de design et contenus créatifs propulsés par des modèles d'IA avancés.",
+      "features": ["Images", "Vidéo", "Design", "Génération créative"]
+    },
+    "voice": {
+      "name": "NEASX Voice",
+      "tagline": "Intelligence vocale",
+      "description": "Transformez le texte en parole naturelle, générez des voix et traitez l'audio à grande échelle.",
+      "features": ["Texte → Parole", "Génération de voix", "Traitement vocal"]
+    },
+    "vision": {
+      "name": "NEASX Vision",
+      "tagline": "Intelligence visuelle",
+      "description": "Analysez des images, extrayez des données de documents et intégrez la vision par ordinateur dans votre flux de travail.",
+      "features": ["Analyse d'images", "Analyse de documents", "OCR", "Vision par ordinateur"]
+    },
+    "api": {
+      "name": "NEASX API",
+      "tagline": "Plateforme développeur",
+      "description": "Intégrez l'IA dans vos produits avec des API, SDK, authentification, suivi de la consommation et documentation.",
+      "features": ["API IA", "SDK", "Authentification", "Utilisation", "Crédits"]
+    }
+  },
+  "why": {
+    "badge": "Pourquoi NEASX",
+    "title": "Conçu pour le travail réel.",
+    "titleHighlight": "Conçu pour évoluer.",
+    "description": "Un écosystème. Cinq principes. Chaque produit est conçu pour vous aider à en faire plus avec l'IA.",
+    "realWork": {
+      "title": "Conçu pour le travail réel",
+      "description": "L'IA n'est pas faite que pour discuter. Les produits NEASX sont conçus pour accomplir de vraies tâches et fournir des résultats."
+    },
+    "fast": {
+      "title": "Rapide par conception",
+      "description": "Obtenez des résultats rapidement. Chaque produit est optimisé pour la vitesse, tant en performance qu'en temps d'exécution."
+    },
+    "ecosystem": {
+      "title": "Un écosystème",
+      "description": "Un seul compte NEASX débloque chaque produit. Writer, Chat, Agent et plus — tous connectés."
+    },
+    "privacy": {
+      "title": "Confidentialité d'abord",
+      "description": "La sécurité et la protection des données sont intégrées au cœur de chaque produit et API NEASX."
+    },
+    "scale": {
+      "title": "Conçu pour évoluer",
+      "description": "Des indépendants aux équipes d'entreprise, NEASX grandit avec vous."
+    }
+  },
+  "howItWorks": {
+    "badge": "Comment ça marche",
+    "title": "Exécutez. Tâche.",
+    "titleHighlight": "Recevez.",
+    "description": "Transformez une instruction simple en résultats réels en trois étapes.",
+    "step1": {
+      "title": "Exécutez",
+      "description": "Choisissez un produit ou un agent, décrivez votre tâche et lancez-la. Sans configuration complexe."
+    },
+    "step2": {
+      "title": "Tâche",
+      "description": "NEASX divise le travail en étapes gérables et les exécute avec l'IA."
+    },
+    "step3": {
+      "title": "Recevez",
+      "description": "Obtenez vos résultats — documents, données, images, analyses — prêts à être utilisés."
+    },
+    "seeHow": "Voir comment ça marche"
+  },
+  "useCases": {
+    "badge": "Pour qui",
+    "title": "Une IA adaptée",
+    "titleHighlight": "à votre flux de travail.",
+    "description": "Des indépendants aux équipes d'entreprise, les produits NEASX s'adaptent à votre façon de travailler.",
+    "freelancers": {
+      "subtitle": "Gagnez des heures chaque semaine",
+      "title": "Pour Freelances",
+      "description": "Automatisez le travail répétitif, générez du contenu plus vite et livrez davantage à vos clients."
+    },
+    "startups": {
+      "subtitle": "Créez et automatisez plus vite",
+      "title": "Pour Startups",
+      "description": "Déployez vos produits plus rapidement avec des flux de travail, de la recherche et de l'automatisation par IA."
+    },
+    "developers": {
+      "subtitle": "Intégrez l'IA dans vos applications",
+      "title": "Pour Développeurs",
+      "description": "Intégrez les API et SDK NEASX pour ajouter de l'intelligence à vos applications."
+    },
+    "enterprise": {
+      "subtitle": "Infrastructure IA pour équipes",
+      "title": "Pour Entreprises",
+      "description": "Déployez une infrastructure IA évolutive avec sécurité, confidentialité et contrôle intégrés."
+    }
+  },
+  "ecosystem": {
+    "badge": "Écosystème",
+    "title": "Un écosystème.",
+    "titleHighlight": "Possibilités infinies.",
+    "description": "Chaque produit NEASX est conçu sur la même plateforme. Un seul compte, un seul écosystème et des outils qui fonctionnent parfaitement ensemble.",
+    "platformTitle": "Plateforme NEASX",
+    "connected": "Connecté",
+    "platformDescription": "Authentification, modèles d'IA, facturation, stockage et plus — partagés entre tous les produits.",
+    "features": {
+      "sso": "Authentification unique",
+      "credits": "Crédits IA partagés",
+      "billing": "Facturation unifiée",
+      "workspace": "Espace de travail central"
+    },
+    "explore": "Explorer l'écosystème"
+  },
+  "pricing": {
+    "badge": "Tarifs",
+    "title": "Tarification simple.",
+    "titleHighlight": "Un écosystème.",
+    "description": "Commencez gratuitement. Mettez à niveau quand vous êtes prêt. Sans frais cachés.",
+    "perMonth": "/mois",
+    "perUser": "/utilisateur/mois",
+    "note": "Tous les forfaits incluent l'accès à tout l'écosystème NEASX. Prix en USD.",
+    "free": {
+      "name": "Gratuit",
+      "description": "Parfait pour explorer l'écosystème NEASX.",
+      "cta": "Commencer"
+    },
+    "starter": {
+      "name": "Starter",
+      "description": "Pour les personnes qui débutent avec l'IA.",
+      "cta": "Essai gratuit"
+    },
+    "pro": {
+      "name": "Pro",
+      "description": "Pour les utilisateurs avancés qui ont besoin d'une IA illimitée.",
+      "cta": "Essai gratuit",
+      "badge": "Plus populaire"
+    },
+    "business": {
+      "name": "Business",
+      "description": "Pour les équipes nécessitant collaboration et contrôle.",
+      "cta": "Essai gratuit"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "Pour les organisations nécessitant une sécurité à grande échelle.",
+      "cta": "Contacter les ventes"
+    }
+  },
+  "cta": {
+    "badge": "Commencez aujourd'hui",
+    "title": "Prêt à accomplir",
+    "titleHighlight": "votre travail ?",
+    "description": "Rejoignez NEASX et débloquez l'écosystème complet de produits IA. Gratuit pour commencer. Sans carte de crédit.",
+    "startFree": "Commencer gratuitement",
+    "viewProducts": "Voir les produits",
+    "note": "Sans carte de crédit · Annulez à tout moment"
+  },
+  "footer": {
+    "description": "Produits d'IA pour un travail réel. Un écosystème pour la rédaction, le chat, les agents, la création, la voix et la vision.",
+    "status": "Tous les systèmes opérationnels",
+    "products": "Produits",
+    "resources": "Ressources",
+    "company": "Entreprise",
+    "legal": "Mentions légales",
+    "copyright": "NEASX. Tous droits réservés.",
+    "builtAt": "Créé dans NEASX Labs"
+  },
+  "common": {
+    "learnMore": "En savoir plus",
+    "getStarted": "Commencer",
+    "contactSales": "Contacter les ventes",
+    "tryFree": "Essayer gratuitement",
+    "explore": "Explorer"
+  }
+}

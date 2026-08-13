@@ -1,0 +1,223 @@
+{
+  "nav": {
+    "products": "产品",
+    "solutions": "解决方案",
+    "pricing": "价格",
+    "resources": "资源",
+    "company": "关于我们",
+    "login": "登录",
+    "logout": "退出登录",
+    "getStarted": "立即开始"
+  },
+  "hero": {
+    "badge": "人工智能产品公司",
+    "title": "真正能落地",
+    "titleHighlight": "完成工作的 AI。",
+    "description": "NEASX 致力于构建智能 AI 产品，自动执行重复性工作，加速创意落地，帮助个人与企业高效完成更多目标。",
+    "exploreProducts": "探索产品",
+    "getStarted": "立即开始",
+    "stats": {
+      "products": "AI 产品",
+      "ecosystem": "生态系统",
+      "possibilities": "无限可能"
+    }
+  },
+  "products": {
+    "badge": "我们的产品",
+    "title": "一个生态系统。",
+    "titleHighlight": "囊括所有 AI 工具。",
+    "description": "一套专为协同工作设计的完整 AI 产品矩阵。只需一个账号即可解锁全部功能。",
+    "available": "现已可用",
+    "comingSoon": "即将推出",
+    "writer": {
+      "name": "NEASX Writer",
+      "tagline": "AI 写作工作空间",
+      "description": "写作、重写、总结、调研与翻译 — 均可在单一智能工作空间内轻松完成。",
+      "features": ["写作", "润色", "总结", "调研", "翻译"]
+    },
+    "chat": {
+      "name": "NEASX Chat",
+      "tagline": "智能 AI 工作空间",
+      "description": "与 AI 对话、上传文件、进行深度调研，并在一个平台上与团队实时协作。",
+      "features": ["对话", "文件", "调研", "知识库", "团队"]
+    },
+    "agent": {
+      "name": "NEASX Agent",
+      "tagline": "高效执行任务的 AI",
+      "description": "部署全自动 AI Agent，执行调研、自动化流程、数据处理及端到端的复杂任务。",
+      "features": ["调研", "自动化", "数据处理", "任务执行", "工作流"]
+    },
+    "studio": {
+      "name": "NEASX Studio",
+      "tagline": "创意 AI 套件",
+      "description": "由先进 AI 模型驱动，生成图像、视频、设计素材及高品质创意内容。",
+      "features": ["图像", "视频", "设计", "创意生成"]
+    },
+    "voice": {
+      "name": "NEASX Voice",
+      "tagline": "语音智能",
+      "description": "将文本转化为自然语音，大规模生成声音并处理各类音频数据。",
+      "features": ["文本转语音", "声音生成", "音频处理"]
+    },
+    "vision": {
+      "name": "NEASX Vision",
+      "tagline": "视觉智能",
+      "description": "分析图像、从文档中提取数据，并将计算机视觉无缝无痕地融入工作流。",
+      "features": ["图像分析", "文档分析", "OCR 识别", "计算机视觉"]
+    },
+    "api": {
+      "name": "NEASX API",
+      "tagline": "开发者平台",
+      "description": "通过 API、SDK、身份验证、用量追踪和完整文档，快速为您的应用植入 AI 能力。",
+      "features": ["AI API", "SDK", "身份验证", "用量统计", "积分额度"]
+    }
+  },
+  "why": {
+    "badge": "为什么选择 NEASX",
+    "title": "为实际工作而生。",
+    "titleHighlight": "为大规模拓展而造。",
+    "description": "一个生态系统。五大核心原则。每款产品旨在帮助您借助 AI 实现更高产出。",
+    "realWork": {
+      "title": "为实际工作而生",
+      "description": "AI 不仅仅用于聊天。NEASX 产品旨在完成具体任务并交付切实成果。"
+    },
+    "fast": {
+      "title": "极致速度设计",
+      "description": "快速获取结果。无论是系统性能还是响应时间，均经过深度优化。"
+    },
+    "ecosystem": {
+      "title": "统一生态系统",
+      "description": "一个 NEASX 账号解锁 Writer、Chat、Agent 等所有产品，彼此深度无缝协同。"
+    },
+    "privacy": {
+      "title": "隐私安全至上",
+      "description": "数据安全与隐私保护深植于 NEASX 每项产品及 API 的底层基石中。"
+    },
+    "scale": {
+      "title": "具备高度扩展性",
+      "description": "无论是个人创作者还是企业团队，NEASX 都能伴随您的业务一同成长。"
+    }
+  },
+  "howItWorks": {
+    "badge": "工作原理",
+    "title": "下达。 任务。",
+    "titleHighlight": "接收成果。",
+    "description": "仅需三步，即可将一条简单指令转化为实际成果。",
+    "step1": {
+      "title": "下达",
+      "description": "选择产品或 Agent，描述您的任务并运行。无需繁琐设置。"
+    },
+    "step2": {
+      "title": "任务",
+      "description": "NEASX 将任务拆解为可管理的步骤，并利用 AI 高效执行。"
+    },
+    "step3": {
+      "title": "接收成果",
+      "description": "获取文档、数据、图像、分析报告 — 即调即用。"
+    },
+    "seeHow": "了解具体流程"
+  },
+  "useCases": {
+    "badge": "适用人群",
+    "title": "完美适配您",
+    "titleHighlight": "工作流的 AI。",
+    "description": "从自由职业者到企业团队，NEASX 产品无缝融入您的日常工作习惯。",
+    "freelancers": {
+      "subtitle": "每周节省数十小时",
+      "title": "自由职业者",
+      "description": "自动化重复劳动，大幅提升内容产出速度，为客户交付更高质量成果。"
+    },
+    "startups": {
+      "subtitle": "加速构建与自动化",
+      "title": "初创企业",
+      "description": "利用 AI 工作流、调研与自动化，以更快速度推出产品。"
+    },
+    "developers": {
+      "subtitle": "在应用中集成 AI",
+      "title": "开发者",
+      "description": "集成 NEASX API 与 SDK，快速为您的产品嵌入智能化能力。"
+    },
+    "enterprise": {
+      "subtitle": "团队级 AI 基础设施",
+      "title": "企业客户",
+      "description": "部署具备安全保障、隐私合规与全盘掌控力的大规模 AI 基础设施。"
+    }
+  },
+  "ecosystem": {
+    "badge": "生态架构",
+    "title": "一个生态系统。",
+    "titleHighlight": "创造无限可能。",
+    "description": "所有 NEASX 产品基于同一底层平台。统一账号、统一生态、工具间无缝交互。",
+    "platformTitle": "NEASX 核心平台",
+    "connected": "已互联",
+    "platformDescription": "身份认证、AI 模型、计费、存储等基础设施在所有产品间全面共享。",
+    "features": {
+      "sso": "单点登录 (SSO)",
+      "credits": "共享 AI 额度",
+      "billing": "统一计费中心",
+      "workspace": "中央工作空间"
+    },
+    "explore": "探索完整生态"
+  },
+  "pricing": {
+    "badge": "价格方案",
+    "title": "透明简单的定价。",
+    "titleHighlight": "一个生态系统。",
+    "description": "免费开启体验。根据需求随时升级。没有任何隐藏费用。",
+    "perMonth": "/月",
+    "perUser": "/用户/月",
+    "note": "所有套餐均包含对 NEASX 完整生态系统的访问权限。价格以美元 (USD) 结算。",
+    "free": {
+      "name": "Free",
+      "description": "体验 NEASX 生态系统的理想入门选择。",
+      "cta": "免费开始"
+    },
+    "starter": {
+      "name": "Starter",
+      "description": "适合刚开始接触和使用 AI 的个人用户。",
+      "cta": "开启免费试用"
+    },
+    "pro": {
+      "name": "Pro",
+      "description": "适合需要无限制 AI 能力的高级专业用户。",
+      "cta": "开启免费试用",
+      "badge": "最受欢迎"
+    },
+    "business": {
+      "name": "Business",
+      "description": "适合需要高效团队协作与权限管理的团队。",
+      "cta": "开启免费试用"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "适合对安全合规与大规模拓展有严格要求的企业。",
+      "cta": "联系商务团队"
+    }
+  },
+  "cta": {
+    "badge": "即刻开启",
+    "title": "准备好高效",
+    "titleHighlight": "完成工作了吗？",
+    "description": "加入 NEASX，解锁 AI 产品的全部生态系统。免费注册，无需绑定信用卡。",
+    "startFree": "免费开始使用",
+    "viewProducts": "查看所有产品",
+    "note": "无需信用卡 · 随时可取消订阅"
+  },
+  "footer": {
+    "description": "为真正工作而生的 AI 产品。涵盖写作、对话、Agent、创意、语音与视觉的统一生态。",
+    "status": "所有系统运行正常",
+    "products": "产品",
+    "resources": "资源",
+    "company": "公司",
+    "legal": "法律条款",
+    "copyright": "NEASX. 保留所有权利。",
+    "builtAt": "由 NEASX Labs 打造"
+  },
+  "common": {
+    "learnMore": "了解更多",
+    "getStarted": "立即开始",
+    "contactSales": "联系销售",
+    "tryFree": "免费试用",
+    "explore": "探索"
+  }
+}

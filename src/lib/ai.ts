@@ -12,11 +12,18 @@ import { enTr, trEn } from "@/lib/dict";
 
 export type AITool = "chat" | "writer" | "agent" | "api";
 
+export interface ChatMessage {
+  role: "user" | "assistant";
+  content: string;
+}
+
 export interface GenerateInput {
   prompt: string;
   tool: AITool;
   mode?: string;
   targetLanguage?: string;
+  /** Previous conversation turns used as context for multi-turn chats. */
+  history?: ChatMessage[];
 }
 
 export interface GenerateResult {
@@ -44,6 +51,24 @@ export async function generate(input: GenerateInput): Promise<GenerateResult> {
 
 async function callRemote(input: GenerateInput): Promise<string> {
   const system = buildSystemPrompt(input.tool, input.mode);
+  const history = Array.isArray(input.history) ? input.history : [];
+
+  // Thread previous turns (capped to the last 20, 4000 chars each) so remote
+  // models get real multi-turn context.
+  const messages: Array<{ role: "user" | "assistant" | "system"; content: string }> = [
+    { role: "system", content: system },
+    ...history
+      .filter(
+        (m): m is ChatMessage =>
+          !!m &&
+          (m.role === "user" || m.role === "assistant") &&
+          typeof m.content === "string"
+      )
+      .slice(-20)
+      .map((m) => ({ role: m.role, content: m.content.slice(0, 4000) })),
+    { role: "user", content: input.prompt },
+  ];
+
   const res = await fetch(
     `${AI_API_URL!.replace(/\/+$/, "")}/chat/completions`,
     {
@@ -54,10 +79,7 @@ async function callRemote(input: GenerateInput): Promise<string> {
       },
       body: JSON.stringify({
         model: AI_MODEL,
-        messages: [
-          { role: "system", content: system },
-          { role: "user", content: input.prompt },
-        ],
+        messages,
         temperature: 0.7,
       }),
       signal: AbortSignal.timeout(30_000),
@@ -140,7 +162,7 @@ function generateLocal(input: GenerateInput): string {
     case "api":
       return apiResponse(input);
     default:
-      return chatResponse(input.prompt);
+      return chatResponse(input.prompt, input.history);
   }
 }
 
@@ -148,9 +170,19 @@ function generateLocal(input: GenerateInput): string {
 /* Demo engine — Chat                                                  */
 /* ------------------------------------------------------------------ */
 
-function chatResponse(prompt: string): string {
-  const lang = detectLanguage(prompt);
+function chatResponse(prompt: string, history?: ChatMessage[]): string {
+  const priorUser = history
+    ? [...history].reverse().find((m) => m.role === "user")
+    : undefined;
+  const lang = detectLanguage(priorUser?.content ?? prompt);
   const p = prompt.toLowerCase().trim();
+
+  // A short acknowledgment after a real exchange continues the conversation
+  // instead of starting a brand-new topic.
+  if (priorUser && isFollowUp(prompt, priorUser.content)) {
+    const topic = cleanTopic(priorUser.content, lang);
+    return followUpResponse(topic, lang);
+  }
 
   const isGreeting =
     /^(merhaba|selam|hey|hi|hello|good (morning|afternoon|evening)|iyi (günler|akşamlar))/.test(p);
@@ -183,6 +215,32 @@ function chatResponse(prompt: string): string {
   if (hasQuestion) return answerResponse(prompt, lang);
 
   return defaultResponse(prompt, lang);
+}
+
+function isFollowUp(prompt: string, previousUser: string): boolean {
+  const p = prompt.toLowerCase().trim();
+  if (!previousUser.trim()) return false;
+
+  const explicit =
+    /^(devam|devam et|peki|tamam|ok|okay|more|continue|and then|sonra|biraz daha|detay|details|başka|else|anything else|ve sonra)\b/.test(
+      p
+    );
+  if (explicit) return true;
+
+  // Very short non-question prompts right after an exchange are treated as
+  // continuations ("please continue", "e.g. more", "devam").
+  return (
+    p.length <= 10 &&
+    !/\b(what|why|how|who|when|where|which|ne|neden|nasıl|kim|nerede|hangi)\b/i.test(
+      p
+    )
+  );
+}
+
+function followUpResponse(topic: string, lang: "tr" | "en"): string {
+  return lang === "tr"
+    ? `Elbette, **${capitalize(topic)}** konusunun devamı olarak şunları ekleyebilirim: 👇\n\n• Önceki noktaları **derinleştir**\n• Pratikten **örneklerle** açıkla\n• Sonraki **adımları** sırayla ver\n\nHangi yönüyle devam etmemi istersin? Bir bölümü örneklerle açabilirim.`
+    : `Sure — continuing with **${capitalize(topic)}**: 👇\n\n• Go **deeper** into what we covered\n• Illustrate with **concrete examples**\n• Lay out **next steps** in order\n\nWhich direction should I take? I can expand any section with examples.`;
 }
 
 function listResponse(prompt: string, lang: "tr" | "en"): string {
@@ -400,7 +458,7 @@ function writerTranslate(text: string, target?: string): string {
       : "The text is already in English. Pick a different target language.";
   }
   const translated = translateWords(text, source, to);
-  return `${fromName} → ${toName} çevirisi 🌐\n\n${translated}\n\n_Not: Bu demo çevirisi sözlük tabanlıdır. Gerçek model bağlandığında (AI_API_KEY) tam kaliteli çeviri yapılır._`;
+  return `${fromName} → ${toName} 🌐\n\n${translated}`;
 }
 
 function translateWords(text: string, source: "tr" | "en", to: string): string {

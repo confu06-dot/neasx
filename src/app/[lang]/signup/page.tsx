@@ -21,9 +21,14 @@ const perks = [
   "Cancel anytime",
 ];
 
-export default async function SignupPage() {
+export default async function SignupPage({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}) {
+  const { lang } = await params;
   const user = await getCurrentUser();
-  if (user) redirect("/dashboard");
+  if (user) redirect(`/${lang}/dashboard`);
 
   return (
     <>
@@ -37,7 +42,7 @@ export default async function SignupPage() {
 
         <Container>
           <Link
-            href="/"
+            href={`/${lang}`}
             className="inline-flex items-center gap-2 text-sm font-medium text-slate-400 transition hover:text-white"
           >
             <ArrowLeft size={16} />

@@ -1,8 +1,8 @@
 "use client";
 
 import { FormEvent, useEffect, useRef, useState } from "react";
-import { SendHorizontal, User, Bot, Trash2 } from "lucide-react";
-import { useAiGenerate } from "./useAiGenerate";
+import { SendHorizontal, User, Bot, Trash2, Square } from "lucide-react";
+import { useAiStream } from "./useAiStream";
 import Markdown from "./Markdown";
 import { ErrorNote, LoadingIndicator } from "./shared";
 
@@ -10,6 +10,7 @@ interface Message {
   role: "user" | "assistant";
   content: string;
   demo?: boolean;
+  streaming?: boolean;
 }
 
 const SUGGESTIONS = [
@@ -19,15 +20,47 @@ const SUGGESTIONS = [
   "Merhaba",
 ];
 
+const STORAGE_KEY = "neasx-chat-messages";
+
+function loadStoredMessages(): Message[] {
+  try {
+    const raw = window.sessionStorage.getItem(STORAGE_KEY);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw) as Message[];
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
 export default function ChatTool({
   product,
 }: {
   product: { name: string; tagline: string; gradient: string };
 }) {
   const [messages, setMessages] = useState<Message[]>([]);
+  const [hydrated, setHydrated] = useState(false);
   const [input, setInput] = useState("");
-  const { run, loading, error } = useAiGenerate();
+  const { start, stop, loading, error } = useAiStream();
   const scrollRef = useRef<HTMLDivElement>(null);
+  const inputRef = useRef<HTMLTextAreaElement>(null);
+
+  // Restore the previous conversation once the browser is available, after the
+  // initial render so there is no server/client hydration mismatch.
+  useEffect(() => {
+    setMessages(loadStoredMessages());
+    setHydrated(true);
+  }, []);
+
+  // Keep the conversation alive across navigations within the session.
+  useEffect(() => {
+    if (!hydrated) return;
+    try {
+      window.sessionStorage.setItem(STORAGE_KEY, JSON.stringify(messages));
+    } catch {
+      // Storage unavailable — keep the in-memory state only.
+    }
+  }, [messages, hydrated]);
 
   useEffect(() => {
     scrollRef.current?.scrollTo({
@@ -36,25 +69,77 @@ export default function ChatTool({
     });
   }, [messages, loading]);
 
+  function resizeInput() {
+    const el = inputRef.current;
+    if (!el) return;
+    el.style.height = "auto";
+    el.style.height = `${Math.min(el.scrollHeight, 160)}px`;
+  }
+
   async function handleSend(e: FormEvent, preset?: string) {
     e.preventDefault();
     const text = (preset ?? input).trim();
     if (!text || loading) return;
 
+    const history = messages.map((m) => ({
+      role: m.role,
+      content: m.content,
+    }));
+
     const userMessage: Message = { role: "user", content: text };
     setMessages((m) => [...m, userMessage]);
     setInput("");
+    resizeInput();
 
-    const result = await run(text, "chat");
-    if (result) {
-      const assistant: Message = {
-        role: "assistant",
-        content: result.text,
-        demo: result.demo,
-      };
-      setMessages((m) => [...m, assistant]);
-    }
+    // Add a placeholder assistant bubble that fills in as chunks stream in.
+    setMessages((m) => [
+      ...m,
+      { role: "assistant", content: "", streaming: true, demo: true },
+    ]);
+
+    const result = await start(
+      text,
+      {
+        onChunk: (partial) => {
+          setMessages((m) => {
+            const next = [...m];
+            const last = next[next.length - 1];
+            if (last && last.role === "assistant" && last.streaming) {
+              next[next.length - 1] = { ...last, content: partial };
+            }
+            return next;
+          });
+        },
+        onDone: ({ demo }) => {
+          setMessages((m) => {
+            const next = [...m];
+            const last = next[next.length - 1];
+            if (last && last.role === "assistant" && last.streaming) {
+              next[next.length - 1] = { ...last, streaming: false, demo };
+            }
+            return next;
+          });
+        },
+      },
+      { history }
+    );
+
+    // Finalize the stream. If it failed before producing any text, drop the
+    // empty placeholder bubble so only the error note is shown.
+    setMessages((m) => {
+      const next = [...m];
+      const last = next[next.length - 1];
+      if (last && last.role === "assistant" && last.streaming) {
+        if (result === null && last.content === "") {
+          return next.slice(0, -1);
+        }
+        next[next.length - 1] = { ...last, streaming: false };
+      }
+      return next;
+    });
   }
+
+  const isStreaming = messages.some((m) => m.streaming);
 
   return (
     <div className="flex h-full min-h-[560px] flex-col overflow-hidden rounded-[28px] border border-white/10 bg-white/[0.03] backdrop-blur-sm">
@@ -67,15 +152,28 @@ export default function ChatTool({
           <p className="text-sm font-semibold text-white">NEASX Chat</p>
         </div>
 
-        {messages.length > 0 && (
-          <button
-            onClick={() => setMessages([])}
-            className="inline-flex items-center gap-1.5 rounded-lg border border-white/10 bg-white/[0.04] px-3 py-1.5 text-xs font-semibold text-slate-400 transition hover:bg-white/[0.08] hover:text-white"
-          >
-            <Trash2 size={13} />
-            Clear
-          </button>
-        )}
+        <div className="flex items-center gap-2">
+          {loading && (
+            <button
+              onClick={stop}
+              className="inline-flex items-center gap-1.5 rounded-lg border border-red-400/25 bg-red-500/10 px-3 py-1.5 text-xs font-semibold text-red-300 transition hover:bg-red-500/20 hover:text-red-200"
+            >
+              <Square size={11} />
+              Stop
+            </button>
+          )}
+
+          {messages.length > 0 && (
+            <button
+              onClick={() => setMessages([])}
+              disabled={loading}
+              className="inline-flex items-center gap-1.5 rounded-lg border border-white/10 bg-white/[0.04] px-3 py-1.5 text-xs font-semibold text-slate-400 transition hover:bg-white/[0.08] hover:text-white disabled:cursor-not-allowed disabled:opacity-40"
+            >
+              <Trash2 size={13} />
+              Clear
+            </button>
+          )}
+        </div>
       </div>
 
       <div ref={scrollRef} className="flex-1 space-y-5 overflow-y-auto px-5 py-6">
@@ -84,8 +182,7 @@ export default function ChatTool({
             <div className="rounded-3xl border border-white/10 bg-white/[0.03] px-6 py-4">
               <Bot size={28} className="mx-auto text-blue-400" />
               <p className="mt-3 max-w-sm text-sm leading-6 text-slate-400">
-                {product.name} — ask me anything. Each request uses{" "}
-                <span className="font-semibold text-white">1 credit</span>.
+                {product.name} — ask me anything. Responses stream in live.
               </p>
             </div>
 
@@ -137,7 +234,10 @@ export default function ChatTool({
               {msg.role === "assistant" ? (
                 <>
                   <Markdown text={msg.content} />
-                  {msg.demo && (
+                  {msg.streaming && (
+                    <span className="mt-1 inline-block h-4 w-[7px] animate-pulse rounded-sm bg-blue-400 align-middle" />
+                  )}
+                  {msg.demo && !msg.streaming && (
                     <p className="mt-3 text-[10px] font-semibold uppercase tracking-wider text-amber-400/80">
                       Demo AI
                     </p>
@@ -152,15 +252,19 @@ export default function ChatTool({
           </div>
         ))}
 
-        {loading && <LoadingIndicator label="Thinking…" />}
+        {loading && !isStreaming && <LoadingIndicator label="Thinking…" />}
         <ErrorNote message={error} />
       </div>
 
       <form onSubmit={handleSend} className="border-t border-white/10 p-4">
         <div className="flex items-end gap-3 rounded-2xl border border-white/10 bg-white/[0.04] p-2 focus-within:border-blue-400/30">
           <textarea
+            ref={inputRef}
             value={input}
-            onChange={(e) => setInput(e.target.value)}
+            onChange={(e) => {
+              setInput(e.target.value);
+              resizeInput();
+            }}
             onKeyDown={(e) => {
               if (e.key === "Enter" && !e.shiftKey) {
                 e.preventDefault();
@@ -168,8 +272,9 @@ export default function ChatTool({
               }
             }}
             rows={1}
+            disabled={loading}
             placeholder="Ask NEASX anything…"
-            className="max-h-40 min-h-[40px] flex-1 resize-none bg-transparent px-3 py-2 text-sm text-white placeholder:text-slate-500 focus:outline-none"
+            className="max-h-40 min-h-[40px] flex-1 resize-none bg-transparent px-3 py-2 text-sm text-white placeholder:text-slate-500 focus:outline-none disabled:opacity-50"
           />
           <button
             type="submit"
@@ -180,7 +285,7 @@ export default function ChatTool({
           </button>
         </div>
         <p className="mt-2 text-[11px] text-slate-600">
-          1 credit per message · 30,000 free credits included on the Free plan
+          1 credit per message on the Free plan · Unlimited on Pro
         </p>
       </form>
     </div>

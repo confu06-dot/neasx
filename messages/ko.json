@@ -1,0 +1,223 @@
+{
+  "nav": {
+    "products": "제품",
+    "solutions": "솔루션",
+    "pricing": "요금제",
+    "resources": "리소스",
+    "company": "회사 소개",
+    "login": "로그인",
+    "logout": "로그아웃",
+    "getStarted": "시작하기"
+  },
+  "hero": {
+    "badge": "AI 제품 기업",
+    "title": "실질적 성과를 내는",
+    "titleHighlight": "AI 솔루션.",
+    "description": "NEASX는 반복적인 작업을 자동화하고 아이디어를 가속화하며 개인과 기업이 더 많은 것을 달성하도록 돕는 지능형 AI 제품을 구축합니다.",
+    "exploreProducts": "제품 둘러보기",
+    "getStarted": "시작하기",
+    "stats": {
+      "products": "AI 제품",
+      "ecosystem": "생태계",
+      "possibilities": "무한한 가능성"
+    }
+  },
+  "products": {
+    "badge": "제품 라인업",
+    "title": "하나의 생태계.",
+    "titleHighlight": "모든 AI 툴.",
+    "description": "함께 작동하도록 설계된 AI 제품의 완전한 제품군. 단 하나의 계정으로 모든 기능을 활용할 수 있습니다.",
+    "available": "사용 가능",
+    "comingSoon": "출시 예정",
+    "writer": {
+      "name": "NEASX Writer",
+      "tagline": "AI 글쓰기 워크스페이스",
+      "description": "작성, 재작성, 요약, 리서치, 번역까지 단 하나의 지능형 워크스페이스에서 해결하세요.",
+      "features": ["작성", "재작성", "요약", "리서치", "번역"]
+    },
+    "chat": {
+      "name": "NEASX Chat",
+      "tagline": "지능형 AI 워크스페이스",
+      "description": "AI와 대화하고, 파일을 업로드하며, 리서치를 수행하고 팀과 한곳에서 협업하세요.",
+      "features": ["채팅", "파일", "리서치", "지식", "팀 협업"]
+    },
+    "agent": {
+      "name": "NEASX Agent",
+      "tagline": "업무를 수행하는 AI",
+      "description": "리서치, 자동화, 데이터 처리 및 작업 실행을 엔드투엔드로 수행하는 AI 에이전트를 배포하세요.",
+      "features": ["리서치", "자동화", "데이터 처리", "작업 실행", "워크플로우"]
+    },
+    "studio": {
+      "name": "NEASX Studio",
+      "tagline": "크리에이티브 AI 스위트",
+      "description": "최첨단 AI 모델을 기반으로 이미지, 비디오, 디자인 자산 및 크리에이티브 콘텐츠를 생성하세요.",
+      "features": ["이미지", "비디오", "디자인", "크리에이티브 생성"]
+    },
+    "voice": {
+      "name": "NEASX Voice",
+      "tagline": "음성 인텔리전스",
+      "description": "텍스트를 자연스러운 음성으로 변환하고 고품질 음성 생성 및 오디오 처리를 대규모로 실행하세요.",
+      "features": ["텍스트 → 음성", "음성 생성", "오디오 처리"]
+    },
+    "vision": {
+      "name": "NEASX Vision",
+      "tagline": "비주얼 인텔리전스",
+      "description": "이미지를 분석하고 문서에서 데이터를 추출하며 컴퓨터 비전을 워크플로우에 통합하세요.",
+      "features": ["이미지 분석", "문서 분석", "OCR", "컴퓨터 비전"]
+    },
+    "api": {
+      "name": "NEASX API",
+      "tagline": "개발자 플랫폼",
+      "description": "API, SDK, 인증, 사용량 추적 및 문서를 사용하여 제품에 AI를 손쉽게 적용하세요.",
+      "features": ["AI API", "SDK", "인증", "사용량", "크레딧"]
+    }
+  },
+  "why": {
+    "badge": "왜 NEASX인가",
+    "title": "실제 업무를 위한 설계.",
+    "titleHighlight": "확장성을 위한 구조.",
+    "description": "하나의 생태계. 5가지 원칙. AI를 통해 더 많은 것을 달성할 수 있도록 설계된 제품.",
+    "realWork": {
+      "title": "실제 업무를 위한 설계",
+      "description": "AI는 단순한 대화용이 아닙니다. NEASX 제품은 실제 과제를 완료하고 결과를 도출하도록 만들어졌습니다."
+    },
+    "fast": {
+      "title": "압도적인 속도",
+      "description": "결과에 빠르게 도달하세요. 모든 제품은 성능과 처리 속도 면에서 극대화되어 있습니다."
+    },
+    "ecosystem": {
+      "title": "하나의 생태계",
+      "description": "하나의 NEASX 계정으로 Writer, Chat, Agent 등 모든 제품을 연결하여 이용할 수 있습니다."
+    },
+    "privacy": {
+      "title": "개인정보 보호 우선",
+      "description": "보안과 데이터 보호는 모든 NEASX 제품 및 API의 기본 근간입니다."
+    },
+    "scale": {
+      "title": "확장 가능한 구조",
+      "description": "개인 사용자부터 기업 팀까지, NEASX는 사용자의 성장에 맞춰 함께 확장됩니다."
+    }
+  },
+  "howItWorks": {
+    "badge": "작동 방식",
+    "title": "실행. 작업.",
+    "titleHighlight": "수령.",
+    "description": "단 3단계만으로 간단한 지시를 실질적인 결과물로 변환하세요.",
+    "step1": {
+      "title": "실행",
+      "description": "제품이나 에이전트를 선택하고 작업을 입력한 뒤 실행하세요. 복잡한 설정이 필요 없습니다."
+    },
+    "step2": {
+      "title": "작업",
+      "description": "NEASX가 작업을 관리 가능한 단계로 나누어 AI로 신속하게 처리합니다."
+    },
+    "step3": {
+      "title": "수령",
+      "description": "문서, 데이터, 이미지, 분석 보고서 등 바로 사용할 수 있는 결과물을 받아보세요."
+    },
+    "seeHow": "자세히 알아보기"
+  },
+  "useCases": {
+    "badge": "추천 대상",
+    "title": "당신의 워크플로우에",
+    "titleHighlight": "딱 맞는 AI.",
+    "description": "프리랜서부터 기업 팀까지, NEASX 제품은 당신의 일하는 방식에 맞춰 작동합니다.",
+    "freelancers": {
+      "subtitle": "매주 수십 시간 절약",
+      "title": "프리랜서용",
+      "description": "반복 작업을 자동화하고 콘텐츠 생성을 가속화하여 고객에게 더 뛰어난 결과를 전달하세요."
+    },
+    "startups": {
+      "subtitle": "더 빠른 구축과 자동화",
+      "title": "스타트업용",
+      "description": "AI 기반 워크플로우, 리서치, 자동화를 통해 제품 출시를 앞당기세요."
+    },
+    "developers": {
+      "subtitle": "앱에 AI 적용하기",
+      "title": "개발자용",
+      "description": "NEASX API 및 SDK를 연동하여 애플리케이션에 지능형 기능을 추가하세요."
+    },
+    "enterprise": {
+      "subtitle": "팀을 위한 AI 인프라",
+      "title": "엔터프라이즈용",
+      "description": "보안, 개인정보 보호, 관리 기능이 검증된 확장 가능한 AI 인프라를 도입하세요."
+    }
+  },
+  "ecosystem": {
+    "badge": "생태계",
+    "title": "하나의 생태계.",
+    "titleHighlight": "무한한 가능성.",
+    "description": "모든 NEASX 제품은 동일한 플랫폼 기반으로 구축됩니다. 하나의 계정, 하나의 생태계, 완벽하게 조화되는 툴.",
+    "platformTitle": "NEASX 플랫폼",
+    "connected": "연결됨",
+    "platformDescription": "인증, AI 모델, 결제, 스토리지 등이 모든 제품 간에 완벽히 공유됩니다.",
+    "features": {
+      "sso": "싱글 사인온 (SSO)",
+      "credits": "공유 AI 크레딧",
+      "billing": "통합 결제",
+      "workspace": "중앙 워크스페이스"
+    },
+    "explore": "생태계 탐색하기"
+  },
+  "pricing": {
+    "badge": "요금제",
+    "title": "명확한 요금제.",
+    "titleHighlight": "하나의 생태계.",
+    "description": "무료로 시작하고 준비되면 업그레이드하세요. 숨겨진 수수료가 없습니다.",
+    "perMonth": "/월",
+    "perUser": "/사용자/월",
+    "note": "모든 플랜에는 NEASX 생태계 전반에 대한 접근 권한이 포함됩니다. (USD 기준)",
+    "free": {
+      "name": "Free",
+      "description": "NEASX 생태계를 탐색하기에 적합합니다.",
+      "cta": "시작하기"
+    },
+    "starter": {
+      "name": "Starter",
+      "description": "AI를 처음 도입하는 개인 사용자를 위한 플랜.",
+      "cta": "무료 체험 시작"
+    },
+    "pro": {
+      "name": "Pro",
+      "description": "무제한 AI 성능이 필요한 파워 유저용.",
+      "cta": "무료 체험 시작",
+      "badge": "가장 인기"
+    },
+    "business": {
+      "name": "Business",
+      "description": "팀 협업과 통제가 필요한 조직용.",
+      "cta": "무료 체험 시작"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "대규모 보안과 관리가 필요한 기업용.",
+      "cta": "영업팀 문의"
+    }
+  },
+  "cta": {
+    "badge": "오늘 시작하세요",
+    "title": "실질적 성과를 낼",
+    "titleHighlight": "준비가 되셨나요?",
+    "description": "NEASX에 가입하고 AI 제품의 모든 생태계를 활용해보세요. 시작은 무료이며 신용카드가 필요 없습니다.",
+    "startFree": "무료로 시작하기",
+    "viewProducts": "제품 보기",
+    "note": "신용카드 필요 없음 · 언제든 해지 가능"
+  },
+  "footer": {
+    "description": "실제 업무를 위한 AI 제품. 글쓰기, 채팅, 에이전트, 크리에이티브, 음성 및 비전을 아우르는 생태계.",
+    "status": "모든 시스템 정상 작동 중",
+    "products": "제품",
+    "resources": "리소스",
+    "company": "회사 소개",
+    "legal": "법적 고지",
+    "copyright": "NEASX. All rights reserved.",
+    "builtAt": "Built at NEASX Labs"
+  },
+  "common": {
+    "learnMore": "자세히 보기",
+    "getStarted": "시작하기",
+    "contactSales": "영업 문의",
+    "tryFree": "무료로 체험하기",
+    "explore": "탐색하기"
+  }
+}

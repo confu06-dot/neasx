@@ -1,35 +1,36 @@
 import Link from "next/link";
 import Container from "@/components/ui/Container";
+import Newsletter from "@/components/ui/Newsletter";
 
-const footerLinks = {
-  Products: [
-    { label: "Writer", href: "/products/writer" },
-    { label: "Chat", href: "/products/chat" },
-    { label: "Agent", href: "/products/agent" },
-    { label: "Studio", href: "/products/studio" },
-    { label: "Voice", href: "/products/voice" },
-    { label: "Vision", href: "/products/vision" },
-    { label: "API", href: "/products/api" },
-  ],
-  Resources: [
-    { label: "Blog", href: "/blog" },
-    { label: "Docs", href: "/docs" },
-    { label: "Help Center", href: "/help" },
-    { label: "Status", href: "/status" },
-  ],
-  Company: [
-    { label: "About", href: "/about" },
-    { label: "Careers", href: "/careers" },
-    { label: "Contact", href: "/contact" },
-  ],
-  Legal: [
-    { label: "Privacy", href: "/legal/privacy" },
-    { label: "Terms", href: "/legal/terms" },
-    { label: "Cookies", href: "/legal/cookies" },
-  ],
-};
-
-export default function Footer() {
+export default function Footer({ lang, dict }: { lang: string; dict: any }) {
+  const footerLinks = {
+    Products: [
+      { label: "Writer", href: `/${lang}/products/writer` },
+      { label: "Chat", href: `/${lang}/products/chat` },
+      { label: "Agent", href: `/${lang}/products/agent` },
+      { label: "Studio", href: `/${lang}/products/studio` },
+      { label: "Voice", href: `/${lang}/products/voice` },
+      { label: "Vision", href: `/${lang}/products/vision` },
+      { label: "API", href: `/${lang}/products/api` },
+    ],
+    Resources: [
+      { label: "Blog", href: `/${lang}/blog` },
+      { label: "Docs", href: `/${lang}/docs` },
+      { label: "Help Center", href: `/${lang}/help` },
+      { label: "Status", href: `/${lang}/status` },
+    ],
+    Company: [
+      { label: "About", href: `/${lang}/about` },
+      { label: "Careers", href: `/${lang}/careers` },
+      { label: "Contact", href: `/${lang}/contact` },
+    ],
+    Legal: [
+      { label: "Privacy", href: `/${lang}/legal/privacy` },
+      { label: "Terms", href: `/${lang}/legal/terms` },
+      { label: "Cookies", href: `/${lang}/legal/cookies` },
+    ],
+  };
+  
   return (
     <footer className="relative overflow-hidden border-t border-white/10 bg-[#050b14] w-full">
       <div className="pointer-events-none absolute left-1/4 top-0 h-64 w-64 rounded-full bg-blue-500/[0.04] blur-[120px]" />
@@ -39,7 +40,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="w-full">
             <Link
-              href="/"
+              href={`/${lang}`}
               className="inline-flex items-center gap-3"
               aria-label="NEASX Home"
             >
@@ -66,6 +67,11 @@ export default function Footer() {
               >
                 All systems operational
               </Link>
+            </div>
+
+            {/* Newsletter */}
+            <div className="mt-6">
+              <Newsletter />
             </div>
           </div>
 

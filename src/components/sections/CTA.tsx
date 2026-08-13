@@ -3,7 +3,7 @@ import Container from "@/components/ui/Container";
 import Section from "@/components/ui/Section";
 import Link from "next/link";
 
-export default function CTA() {
+export default function CTA({ lang, dict }: { lang: string; dict: any }) {
   return (
     <Section className="relative overflow-hidden py-24 lg:py-28">
       <Container>

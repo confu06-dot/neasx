@@ -11,7 +11,12 @@ const agentSteps = [
   { label: "Report generated", done: true },
 ];
 
-export default function Hero() {
+interface HeroProps {
+  lang: string;
+  dict: any;
+}
+
+export default function Hero({ lang, dict }: HeroProps) {
   return (
     <Section className="relative overflow-hidden !pt-20 !pb-8 sm:!pt-24 lg:!pt-28 lg:!pb-10">
       {/* Background */}
@@ -27,29 +32,27 @@ export default function Hero() {
         <div className="grid min-h-[540px] items-center gap-14 lg:grid-cols-[1.02fr_0.98fr] lg:gap-10">
           {/* LEFT */}
           <div className="relative z-10">
-            <Badge>🤖 AI PRODUCT COMPANY</Badge>
+            <Badge>{dict.hero?.badge || '🤖 AI PRODUCT COMPANY'}</Badge>
 
             <h1 className="mt-7 max-w-3xl text-5xl font-black leading-[0.98] tracking-[-0.045em] text-white sm:text-6xl lg:text-[72px]">
-              AI that gets
+              {dict.hero?.title || 'AI that gets'}
               <span className="block bg-gradient-to-r from-blue-400 via-cyan-300 to-violet-500 bg-clip-text text-transparent">
-                work done.
+                {dict.hero?.titleHighlight || 'work done.'}
               </span>
             </h1>
 
             <p className="mt-7 max-w-xl text-base leading-7 text-slate-400 sm:text-lg sm:leading-8">
-              NEASX builds intelligent AI products that automate repetitive
-              work, accelerate ideas, and help people and businesses
-              accomplish more.
+              {dict.hero?.description || 'NEASX builds intelligent AI products that automate repetitive work, accelerate ideas, and help people and businesses accomplish more.'}
             </p>
 
             {/* Buttons */}
             <div className="mt-9 flex flex-wrap gap-4">
-              <Link href="#products">
-                <Button icon>Explore Products</Button>
+              <Link href={`/${lang}#products`}>
+                <Button icon>{dict.hero?.exploreProducts || 'Explore Products'}</Button>
               </Link>
 
-              <Link href="/signup">
-                <Button variant="secondary">Get Started</Button>
+              <Link href={`/${lang}/signup`}>
+                <Button variant="secondary">{dict.hero?.getStarted || 'Get Started'}</Button>
               </Link>
             </div>
 
@@ -61,7 +64,7 @@ export default function Hero() {
                 </h2>
 
                 <p className="mt-1.5 text-sm text-slate-400">
-                  AI Products
+                  {dict.hero?.stats?.products || 'AI Products'}
                 </p>
               </div>
 
@@ -73,7 +76,7 @@ export default function Hero() {
                 </h2>
 
                 <p className="mt-1.5 text-sm text-slate-400">
-                  Ecosystem
+                  {dict.hero?.stats?.ecosystem || 'Ecosystem'}
                 </p>
               </div>
 
@@ -81,11 +84,11 @@ export default function Hero() {
 
               <div>
                 <h2 className="text-3xl font-black tracking-tight text-white sm:text-4xl">
-                  ∞
+                  ∞
                 </h2>
 
                 <p className="mt-1.5 text-sm text-slate-400">
-                  Possibilities
+                  {dict.hero?.stats?.possibilities || 'Possibilities'}
                 </p>
               </div>
             </div>
@@ -164,7 +167,7 @@ export default function Hero() {
               </h3>
 
               <p className="mt-3 text-sm leading-6 text-slate-400">
-                Rewrite, summarize, research and translate — in one
+                                Rewrite, summarize, research and translate — in one
                 workspace.
               </p>
 

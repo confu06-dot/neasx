@@ -6,7 +6,7 @@ import { UserRound, Rocket, Code2, Building2 } from "lucide-react";
 
 const icons = [UserRound, Rocket, Code2, Building2];
 
-export default function UseCases() {
+export default function UseCases({ lang, dict }: { lang: string; dict: any }) {
   return (
     <Section id="solutions" className="relative overflow-hidden py-24 lg:py-28">
       <div className="pointer-events-none absolute left-[-200px] top-1/3 -z-10 h-[450px] w-[450px] rounded-full bg-blue-500/[0.045] blur-[130px]" />

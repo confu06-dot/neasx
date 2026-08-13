@@ -1,0 +1,223 @@
+{
+  "nav": {
+    "products": "Produkte",
+    "solutions": "Lösungen",
+    "pricing": "Preise",
+    "resources": "Ressourcen",
+    "company": "Unternehmen",
+    "login": "Anmelden",
+    "logout": "Abmelden",
+    "getStarted": "Jetzt starten"
+  },
+  "hero": {
+    "badge": "KI-PRODUKTUNTERNEHMEN",
+    "title": "KI, die Ergebnisse",
+    "titleHighlight": "liefert.",
+    "description": "NEASX entwickelt intelligente KI-Produkte, die wiederkehrende Aufgaben automatisieren, Ideen beschleunigen und Teams zu mehr Erfolg verhelfen.",
+    "exploreProducts": "Produkte entdecken",
+    "getStarted": "Jetzt starten",
+    "stats": {
+      "products": "KI-Produkte",
+      "ecosystem": "Ökosystem",
+      "possibilities": "Möglichkeiten"
+    }
+  },
+  "products": {
+    "badge": "Unsere Produkte",
+    "title": "Ein Ökosystem.",
+    "titleHighlight": "Alle KI-Tools.",
+    "description": "Eine vollständige Suite von KI-Produkten, die nahtlos zusammenarbeiten. Ein einziges Konto schaltet alles frei.",
+    "available": "VERFÜGBAR",
+    "comingSoon": "DEMNÄCHST",
+    "writer": {
+      "name": "NEASX Writer",
+      "tagline": "KI-Schreibwerkstatt",
+      "description": "Schreiben, Umformulieren, Zusammenfassen, Recherchieren und Übersetzen – alles in einem intelligenten Arbeitsbereich.",
+      "features": ["Schreiben", "Umformulieren", "Zusammenfassen", "Recherchieren", "Übersetzen"]
+    },
+    "chat": {
+      "name": "NEASX Chat",
+      "tagline": "Intelligenter KI-Arbeitsbereich",
+      "description": "Chatten Sie mit der KI, laden Sie Dateien hoch, recherchieren Sie und arbeiten Sie mit Ihrem Team an einem Ort.",
+      "features": ["Chat", "Dateien", "Recherche", "Wissen", "Teams"]
+    },
+    "agent": {
+      "name": "NEASX Agent",
+      "tagline": "KI, die Arbeit erledigt",
+      "description": "Setzen Sie KI-Agenten ein, die recherchieren, automatisieren, Daten verarbeiten und Aufgaben durchgehend ausführen.",
+      "features": ["Recherche", "Automatisierung", "Datenverarbeitung", "Aufgabenanweisung", "Workflows"]
+    },
+    "studio": {
+      "name": "NEASX Studio",
+      "tagline": "Kreative KI-Suite",
+      "description": "Generieren Sie Bilder, Videos, Design-Assets und kreative Inhalte mit fortschrittlichsten KI-Modellen.",
+      "features": ["Bilder", "Video", "Design", "Kreative Generierung"]
+    },
+    "voice": {
+      "name": "NEASX Voice",
+      "tagline": "Sprachintelligenz",
+      "description": "Wandeln Sie Text in natürliche Sprache um, generieren Sie Stimmen und verarbeiten Sie Audio im großen Maßstab.",
+      "features": ["Text → Sprache", "Stimmgenerierung", "Audioverarbeitung"]
+    },
+    "vision": {
+      "name": "NEASX Vision",
+      "tagline": "Visuelle Intelligenz",
+      "description": "Analysieren Sie Bilder, extrahieren Sie Daten aus Dokumenten und integrieren Sie Computer Vision in Ihren Arbeitsablauf.",
+      "features": ["Bildanalyse", "Dokumentanalyse", "OCR", "Computer Vision"]
+    },
+    "api": {
+      "name": "NEASX API",
+      "tagline": "Entwicklerplattform",
+      "description": "Bauen Sie KI in Ihre Produkte ein mit APIs, SDKs, Authentifizierung, Verbrauchstracking und Dokumentation.",
+      "features": ["KI-APIs", "SDKs", "Authentifizierung", "Nutzung", "Guthaben"]
+    }
+  },
+  "why": {
+    "badge": "Warum NEASX",
+    "title": "Entwickelt für echte Arbeit.",
+    "titleHighlight": "Bereit zur Skalierung.",
+    "description": "Ein Ökosystem. Fünf Prinzipien. Jedes Produkt ist darauf ausgelegt, mehr mit KI zu erreichen.",
+    "realWork": {
+      "title": "Entwickelt für echte Arbeit",
+      "description": "KI ist nicht nur zum Chatten da. NEASX-Produkte sind dafür gebaut, echte Aufgaben zu erledigen und Ergebnisse zu liefern."
+    },
+    "fast": {
+      "title": "Schnell durch Design",
+      "description": "Schnelle Ergebnisse. Jedes Produkt ist sowohl bei der Leistung als auch bei der Reaktionszeit auf Tempo optimiert."
+    },
+    "ecosystem": {
+      "title": "Ein Ökosystem",
+      "description": "Ein NEASX-Konto schaltet jedes Produkt frei. Writer, Chat, Agent und mehr – alle vernetzt."
+    },
+    "privacy": {
+      "title": "Datenschutz an erster Stelle",
+      "description": "Sicherheit und Datenschutz sind tief im Fundament jedes NEASX-Produkts und jeder API verankert."
+    },
+    "scale": {
+      "title": "Bereit zur Skalierung",
+      "description": "Vom Einzelnutzer bis zum Großunternehmen – NEASX wächst mit Ihren Anforderungen."
+    }
+  },
+  "howItWorks": {
+    "badge": "So funktioniert es",
+    "title": "Starten. Ausführen.",
+    "titleHighlight": "Empfangen.",
+    "description": "Verwandeln Sie eine einfache Anweisung in drei Schritten in echte Ergebnisse.",
+    "step1": {
+      "title": "Starten",
+      "description": "Wählen Sie ein Produkt oder einen Agenten, beschreiben Sie Ihre Aufgabe und starten Sie. Ohne Einrichtung."
+    },
+    "step2": {
+      "title": "Ausführen",
+      "description": "NEASX gliedert die Aufgabe in überschaubare Schritte und führt sie mit KI aus."
+    },
+    "step3": {
+      "title": "Empfangen",
+      "description": "Erhalten Sie Ihre Ergebnisse – Dokumente, Daten, Bilder, Analysen – einsatzbereit."
+    },
+    "seeHow": "Erfahren Sie wie"
+  },
+  "useCases": {
+    "badge": "Für wen",
+    "title": "KI, die sich anpasst",
+    "titleHighlight": "an Ihren Arbeitsablauf.",
+    "description": "Vom Freelancer bis zum Unternehmen – NEASX passt sich Ihrer Arbeitsweise an.",
+    "freelancers": {
+      "subtitle": "Sparen Sie jede Woche Stunden",
+      "title": "Für Freelancer",
+      "description": "Automatisieren Sie Routinearbeit, erstellen Sie schneller Inhalte und liefern Sie Ihren Kunden mehr."
+    },
+    "startups": {
+      "subtitle": "Schneller entwickeln und automatisieren",
+      "title": "Für Startups",
+      "description": "Bringen Sie Produkte schneller auf den Markt mit KI-Workflows, Recherche und Automatisierung."
+    },
+    "developers": {
+      "subtitle": "Bauen Sie KI in Ihre Apps ein",
+      "title": "Für Entwickler",
+      "description": "Integrieren Sie NEASX-APIs und SDKs, um Ihre Anwendungen mit Intelligenz auszustatten."
+    },
+    "enterprise": {
+      "subtitle": "KI-Infrastruktur für Teams",
+      "title": "Für Unternehmen",
+      "description": "Nutzen Sie skalierbare KI-Infrastruktur mit integrierter Sicherheit, Datenschutz und Kontrolle."
+    }
+  },
+  "ecosystem": {
+    "badge": "Ökosystem",
+    "title": "Ein Ökosystem.",
+    "titleHighlight": "Unendliche Möglichkeiten.",
+    "description": "Jedes NEASX-Produkt basiert auf derselben Plattform. Ein Konto, ein Ökosystem und Tools, die perfekt harmonieren.",
+    "platformTitle": "NEASX Plattform",
+    "connected": "Verbunden",
+    "platformDescription": "Authentifizierung, KI-Modelle, Abrechnung, Speicher und mehr – produktübergreifend geteilt.",
+    "features": {
+      "sso": "Single Sign-On",
+      "credits": "Geteilte KI-Guthaben",
+      "billing": "Einheitliche Abrechnung",
+      "workspace": "Zentraler Arbeitsbereich"
+    },
+    "explore": "Ökosystem erkunden"
+  },
+  "pricing": {
+    "badge": "Preise",
+    "title": "Einfache Preise.",
+    "titleHighlight": "Ein Ökosystem.",
+    "description": "Kostenlos starten. Upgraden, wenn Sie bereit sind. Keine versteckten Gebühren.",
+    "perMonth": "/Monat",
+    "perUser": "/Nutzer/Monat",
+    "note": "Alle Pläne beinhalten Zugang zum gesamten NEASX-Ökosystem. Preise in USD.",
+    "free": {
+      "name": "Free",
+      "description": "Perfekt zum Erkunden des NEASX-Ökosystems.",
+      "cta": "Jetzt starten"
+    },
+    "starter": {
+      "name": "Starter",
+      "description": "Für Einzelpersonen, die mit KI beginnen.",
+      "cta": "Kostenlos testen"
+    },
+    "pro": {
+      "name": "Pro",
+      "description": "Für Power-User, die unbegrenzte KI benötigen.",
+      "cta": "Kostenlos testen",
+      "badge": "Beliebtest"
+    },
+    "business": {
+      "name": "Business",
+      "description": "Für Teams, die Zusammenarbeit und Kontrolle brauchen.",
+      "cta": "Kostenlos testen"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "Für Organisationen, die Sicherheit im großen Maßstab verlangen.",
+      "cta": "Vertrieb kontaktieren"
+    }
+  },
+  "cta": {
+    "badge": "Heute starten",
+    "title": "Bereit für echte",
+    "titleHighlight": "Ergebnisse?",
+    "description": "Treten Sie NEASX bei und schalten Sie das gesamte Ökosystem von KI-Produkten frei. Kostenlos testen. Keine Kreditkarte erforderlich.",
+    "startFree": "Kostenlos starten",
+    "viewProducts": "Produkte ansehen",
+    "note": "Keine Kreditkarte erforderlich · Jederzeit kündbar"
+  },
+  "footer": {
+    "description": "KI-Produkte für echte Arbeit. Ein Ökosystem für Schreiben, Chat, Agenten, Kreativität, Sprache und Vision.",
+    "status": "Alle Systeme betriebsbereit",
+    "products": "Produkte",
+    "resources": "Ressourcen",
+    "company": "Unternehmen",
+    "legal": "Rechtliches",
+    "copyright": "NEASX. Alle Rechte vorbehalten.",
+    "builtAt": "Entwickelt in den NEASX Labs"
+  },
+  "common": {
+    "learnMore": "Mehr erfahren",
+    "getStarted": "Jetzt starten",
+    "contactSales": "Vertrieb kontaktieren",
+    "tryFree": "Kostenlos testen",
+    "explore": "Entdecken"
+  }
+}

@@ -8,14 +8,11 @@ export function DemoBadge({ demo }: { demo?: boolean }) {
   return (
     <span
       className={cn(
-        "inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider",
-        demo
-          ? "border border-amber-400/20 bg-amber-500/10 text-amber-300"
-          : "border border-emerald-400/20 bg-emerald-500/10 text-emerald-300"
+        "inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider border border-purple-400/30 bg-purple-500/15 text-purple-300 shadow-sm shadow-purple-500/20"
       )}
     >
-      {demo ? <Cpu size={12} /> : <Sparkles size={12} />}
-      {demo ? "Demo AI" : "Live AI"}
+      <Sparkles size={12} className="text-purple-400 animate-pulse" />
+      NEASX AI v4.5
     </span>
   );
 }

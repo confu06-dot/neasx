@@ -81,3 +81,15 @@ export async function updateUser(
   await writeUsers(users);
   return users[index];
 }
+
+export async function updateUserPassword(
+  id: string,
+  password: string
+): Promise<User | null> {
+  const users = await readUsers();
+  const index = users.findIndex((u) => u.id === id);
+  if (index === -1) return null;
+  users[index] = { ...users[index], passwordHash: hashPassword(password) };
+  await writeUsers(users);
+  return users[index];
+}

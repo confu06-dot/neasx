@@ -34,7 +34,7 @@ const steps = [
   },
 ];
 
-export default function HowItWorks() {
+export default function HowItWorks({ lang, dict }: { lang: string; dict: any }) {
   return (
     <Section className="relative overflow-hidden py-24 lg:py-28">
       <div className="pointer-events-none absolute left-1/2 top-1/2 -z-10 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-violet-500/[0.03] blur-[150px]" />

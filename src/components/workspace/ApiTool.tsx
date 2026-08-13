@@ -51,6 +51,7 @@ export default function ApiTool({
   );
   const [response, setResponse] = useState<GenerateResponse | null>(null);
   const { run, loading, error } = useAiGenerate();
+  const [jsonError, setJsonError] = useState("");
 
   async function handleSend() {
     let parsed: { prompt?: string; tool?: string };
@@ -58,10 +59,18 @@ export default function ApiTool({
       parsed = JSON.parse(body);
     } catch {
       setResponse(null);
+      setJsonError("Request body is not valid JSON. Fix it and try again.");
       return;
     }
+
     const prompt = typeof parsed.prompt === "string" ? parsed.prompt : "";
-    if (!prompt) return;
+    if (!prompt) {
+      setResponse(null);
+      setJsonError('The request body must include a "prompt" string.');
+      return;
+    }
+
+    setJsonError("");
     const tool =
       parsed.tool === "writer" || parsed.tool === "agent" || parsed.tool === "api"
         ? parsed.tool
@@ -131,7 +140,7 @@ export default function ApiTool({
               </p>
             </div>
 
-            <ErrorNote message={error} />
+            <ErrorNote message={jsonError || error} />
           </>
         ) : (
           <div className="mt-5 overflow-x-auto rounded-2xl border border-white/10 bg-black/30 p-4">

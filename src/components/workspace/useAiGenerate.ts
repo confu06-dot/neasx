@@ -27,9 +27,13 @@ export function useAiGenerate() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ prompt, tool, ...extra }),
       });
-      const data = await res.json();
+      // The server may return an HTML error page instead of JSON (e.g. a 500
+      // from the platform); fall back to a generic message in that case.
+      const data = (await res.json().catch(() => null)) as
+        | (Partial<GenerateResponse> & { error?: string })
+        | null;
       if (!res.ok) {
-        setError(data.error || "Something went wrong. Please try again.");
+        setError(data?.error || "Something went wrong. Please try again.");
         return null;
       }
       if (typeof window !== "undefined") {

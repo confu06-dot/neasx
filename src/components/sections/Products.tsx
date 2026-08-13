@@ -5,7 +5,7 @@ import Section from "@/components/ui/Section";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 
-export default function Products() {
+export default function Products({ lang, dict }: { lang: string; dict: any }) {
   return (
     <Section id="products" className="relative overflow-hidden">
       <div className="pointer-events-none absolute left-1/2 top-0 h-96 w-96 -translate-x-1/2 rounded-full bg-blue-500/[0.04] blur-[140px]" />
@@ -34,7 +34,7 @@ export default function Products() {
             return (
               <Link
                 key={product.slug}
-                href={`/products/${product.slug}`}
+                href={`/${lang}/products/${product.slug}`}
                 className={cn(
                   "group relative overflow-hidden rounded-3xl border border-white/10 bg-white/[0.03] p-7 backdrop-blur-sm transition-all duration-500 hover:-translate-y-1 hover:border-blue-400/25 hover:bg-white/[0.05]",
                   product.status === "COMING SOON" && "opacity-70 hover:opacity-100"

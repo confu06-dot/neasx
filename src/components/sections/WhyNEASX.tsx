@@ -3,7 +3,7 @@ import Badge from "@/components/ui/Badge";
 import Container from "@/components/ui/Container";
 import Section from "@/components/ui/Section";
 
-export default function WhyNEASX() {
+export default function WhyNEASX({ lang, dict }: { lang: string; dict: any }) {
   return (
     <Section className="relative overflow-hidden py-24 lg:py-28">
       <div className="pointer-events-none absolute left-[-200px] top-1/3 -z-10 h-[450px] w-[450px] rounded-full bg-blue-500/[0.045] blur-[130px]" />

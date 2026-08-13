@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Container from "@/components/ui/Container";
 import Section from "@/components/ui/Section";
+import ForgotPasswordForm from "@/components/auth/ForgotPasswordForm";
 import { ArrowLeft } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -42,31 +43,7 @@ export default function ForgotPasswordPage() {
               </p>
             </div>
 
-            <form className="mt-10 space-y-5">
-              <div>
-                <label
-                  htmlFor="email"
-                  className="mb-2 block text-xs font-semibold uppercase tracking-[0.15em] text-slate-400"
-                >
-                  Email
-                </label>
-
-                <input
-                  id="email"
-                  type="email"
-                  required
-                  placeholder="you@example.com"
-                  className="w-full rounded-xl border border-white/10 bg-white/[0.04] px-4 py-3 text-sm text-white placeholder:text-slate-600 focus:border-blue-400/40 focus:outline-none focus:ring-2 focus:ring-blue-500/20"
-                />
-              </div>
-
-              <button
-                type="submit"
-                className="w-full rounded-xl bg-gradient-to-r from-blue-500 to-violet-500 px-6 py-3.5 text-sm font-semibold text-white transition-all duration-300 hover:scale-[1.02] hover:shadow-xl hover:shadow-blue-500/20"
-              >
-                Send reset link
-              </button>
-            </form>
+            <ForgotPasswordForm />
 
             <p className="mt-8 text-center text-sm text-slate-500">
               Remembered your password?{" "}

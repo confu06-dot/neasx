@@ -54,6 +54,41 @@ export function verifySessionToken(token: string | undefined | null): string | n
   return userId;
 }
 
+export const RESET_TOKEN_TTL_MS = 60 * 60 * 1000; // 1 hour
+
+export function createPasswordResetToken(userId: string): string {
+  const payload = `${userId}:${Date.now() + RESET_TOKEN_TTL_MS}`;
+  const signature = crypto
+    .createHmac("sha256", SECRET)
+    .update(`reset:${payload}`)
+    .digest("hex");
+  return `${Buffer.from(payload).toString("base64url")}.${signature}`;
+}
+
+export function verifyPasswordResetToken(
+  token: string | undefined | null
+): string | null {
+  if (!token) return null;
+
+  const [encoded, signature] = token.split(".");
+  if (!encoded || !signature) return null;
+
+  const payload = Buffer.from(encoded, "base64url").toString();
+  const expected = crypto
+    .createHmac("sha256", SECRET)
+    .update(`reset:${payload}`)
+    .digest("hex");
+
+  const a = Buffer.from(signature, "hex");
+  const b = Buffer.from(expected, "hex");
+  if (a.length !== b.length || !crypto.timingSafeEqual(a, b)) return null;
+
+  const [userId, expires] = payload.split(":");
+  if (!userId || !expires || Number(expires) < Date.now()) return null;
+
+  return userId;
+}
+
 // Detects whether the incoming request arrived over HTTPS so the session
 // cookie is only marked `Secure` when it will actually be sent over TLS.
 // On plain HTTP (e.g. localhost during development or a demo server) a

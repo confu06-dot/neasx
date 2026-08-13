@@ -109,10 +109,7 @@ export default async function BillingPage() {
             </h2>
 
             <p className="mt-2 text-sm leading-6 text-slate-400">
-              You don&apos;t have a payment method on file yet. In this demo,
-              plan switches are applied instantly without charging a card. When
-              the NEASX backend goes live, you&apos;ll be able to add a card and
-              download invoices from this page.
+              Your billing and subscription preferences are active. Plan changes and credit refills are applied immediately to your account balance.
             </p>
           </div>
         </div>

@@ -1,0 +1,222 @@
+{
+  "nav": {
+    "products": "Ürünler",
+    "solutions": "Çözümler",
+    "pricing": "Fiyatlandırma",
+    "resources": "Kaynaklar",
+    "company": "Şirket",
+    "login": "Giriş Yap",
+    "getStarted": "Başla"
+  },
+  "hero": {
+    "badge": "YAPAY ZEKA ÜRÜN ŞİRKETİ",
+    "title": "İşleri bitiren",
+    "titleHighlight": "yapay zeka.",
+    "description": "NEASX, tekrarlayan işleri otomatikleştiren, fikirleri hızlandıran ve insanların ve işletmelerin daha fazlasını başarmasına yardımcı olan akıllı yapay zeka ürünleri geliştiriyor.",
+    "exploreProducts": "Ürünleri Keşfet",
+    "getStarted": "Başla",
+    "stats": {
+      "products": "Yapay Zeka Ürünü",
+      "ecosystem": "Ekosistem",
+      "possibilities": "Olasılıklar"
+    }
+  },
+  "products": {
+    "badge": "Ürünlerimiz",
+    "title": "Tek ekosistem.",
+    "titleHighlight": "Her yapay zeka aracı.",
+    "description": "Birlikte çalışmak üzere tasarlanmış eksiksiz bir yapay zeka ürün paketi. Tek hesap her şeyin kilidini açar.",
+    "available": "MEVCUT",
+    "comingSoon": "YAKINDA",
+    "writer": {
+      "name": "NEASX Writer",
+      "tagline": "Yapay zeka yazı çalışma alanı",
+      "description": "Tek bir akıllı çalışma alanında yazın, yeniden yazın, özetleyin, araştırın ve çevirin.",
+      "features": ["Yazma", "Yeniden Yazma", "Özetleme", "Araştırma", "Çeviri"]
+    },
+    "chat": {
+      "name": "NEASX Chat",
+      "tagline": "Akıllı yapay zeka çalışma alanı",
+      "description": "Yapay zeka ile sohbet edin, dosya yükleyin, araştırma yapın ve ekibinizle tek yerde işbirliği yapın.",
+      "features": ["Sohbet", "Dosyalar", "Araştırma", "Bilgi", "Ekipler"]
+    },
+    "agent": {
+      "name": "NEASX Agent",
+      "tagline": "İşleri bitiren yapay zeka",
+      "description": "Araştırma yapan, otomatikleştiren, veri işleyen ve uçtan uca görevleri yürüten yapay zeka ajanları dağıtın.",
+      "features": ["Araştırma", "Otomasyon", "Veri işleme", "Görev yürütme", "İş akışları"]
+    },
+    "studio": {
+      "name": "NEASX Studio",
+      "tagline": "Yaratıcı yapay zeka paketi",
+      "description": "Gelişmiş yapay zeka modelleri tarafından desteklenen görseller, video, tasarım varlıkları ve yaratıcı içerik oluşturun.",
+      "features": ["Görseller", "Video", "Tasarım", "Yaratıcı üretim"]
+    },
+    "voice": {
+      "name": "NEASX Voice",
+      "tagline": "Ses zekası",
+      "description": "Metni doğal konuşmaya dönüştürün, ses oluşturun ve sesi ölçekte işleyin.",
+      "features": ["Metin → Konuşma", "Ses üretimi", "Ses işleme"]
+    },
+    "vision": {
+      "name": "NEASX Vision",
+      "tagline": "Görsel zeka",
+      "description": "Görselleri analiz edin, belgelerden veri çıkarın ve iş akışınıza bilgisayarlı görü ekleyin.",
+      "features": ["Görsel analizi", "Belge analizi", "OCR", "Bilgisayarlı görü"]
+    },
+    "api": {
+      "name": "NEASX API",
+      "tagline": "Geliştirici platformu",
+      "description": "API'ler, SDK'lar, kimlik doğrulama, kullanım takibi ve dokümantasyon ile ürünlerinize yapay zeka ekleyin.",
+      "features": ["Yapay Zeka API'leri", "SDK'lar", "Kimlik Doğrulama", "Kullanım", "Krediler"]
+    }
+  },
+  "why": {
+    "badge": "Neden NEASX",
+    "title": "Gerçek iş için yapıldı.",
+    "titleHighlight": "Ölçeklenmek için yapıldı.",
+    "description": "Tek ekosistem. Beş ilke. Yapay zeka ile daha fazlasını başarmanıza yardımcı olmak için tasarlanmış her ürün.",
+    "realWork": {
+      "title": "Gerçek iş için yapıldı",
+      "description": "Yapay zeka sadece sohbet için değil. NEASX ürünleri gerçek görevleri tamamlamak ve sonuç vermek için tasarlandı."
+    },
+    "fast": {
+      "title": "Tasarımdan hızlı",
+      "description": "Sonuçlara hızlı ulaşın. Her ürün hem performans hem de çıktı süresi açısından hız için optimize edilmiştir."
+    },
+    "ecosystem": {
+      "title": "Tek ekosistem",
+      "description": "Tek bir NEASX hesabı her ürünün kilidini açar. Writer, Chat, Agent ve daha fazlası — hepsi bağlı."
+    },
+    "privacy": {
+      "title": "Önce gizlilik",
+      "description": "Güvenlik ve veri koruması, her NEASX ürününün ve API'sinin temelinde yer alır."
+    },
+    "scale": {
+      "title": "Ölçeklenmek için yapıldı",
+      "description": "Bireylerden kurumsal ekiplere, NEASX sizinle büyür — ilk talebinizden milyonlara."
+    }
+  },
+  "howItWorks": {
+    "badge": "Nasıl Çalışır",
+    "title": "Çalıştır. Görev.",
+    "titleHighlight": "Al.",
+    "description": "Basit bir talimatı üç adımda gerçek sonuçlara dönüştürün.",
+    "step1": {
+      "title": "Çalıştır",
+      "description": "Bir ürün veya ajan seçin, görevinizi tanımlayın ve çalıştırın. Karmaşık kurulum yok."
+    },
+    "step2": {
+      "title": "Görev",
+      "description": "NEASX işi yönetilebilir adımlara böler ve bunları yapay zeka ile yürütür."
+    },
+    "step3": {
+      "title": "Al",
+      "description": "Sonuçlarınızı alın — belgeler, veriler, görseller, içgörüler — kullanıma hazır."
+    },
+    "seeHow": "Nasıl çalıştığını gör"
+  },
+  "useCases": {
+    "badge": "Kimler için",
+    "title": "İş akışınıza",
+    "titleHighlight": "uyan yapay zeka.",
+    "description": "Serbest çalışanlardan kurumsal ekiplere, NEASX ürünleri nasıl çalıştığınıza uyum sağlar.",
+    "freelancers": {
+      "subtitle": "Her hafta saatler kazanın",
+      "title": "Serbest Çalışanlar İçin",
+      "description": "Tekrarlayan işleri otomatikleştirin, içeriği daha hızlı oluşturun ve müşterilerinize daha fazlasını sunun."
+    },
+    "startups": {
+      "subtitle": "Daha hızlı geliştirin ve otomatikleştirin",
+      "title": "Startup'lar İçin",
+      "description": "Yapay zeka destekli iş akışları, araştırma ve otomasyon ile ürünleri daha hızlı gönderin."
+    },
+    "developers": {
+      "subtitle": "Ürünlerinize yapay zeka ekleyin",
+      "title": "Geliştiriciler İçin",
+      "description": "Uygulamalarınıza zeka eklemek için NEASX API'lerini ve SDK'larını entegre edin."
+    },
+    "enterprise": {
+      "subtitle": "Ekipler için yapay zeka altyapısı",
+      "title": "Kurumsal İçin",
+      "description": "Güvenlik, gizlilik ve kontrol ile ölçeklenebilir yapay zeka altyapısı dağıtın."
+    }
+  },
+  "ecosystem": {
+    "badge": "Ekosistem",
+    "title": "Tek ekosistem.",
+    "titleHighlight": "Sonsuz olasılıklar.",
+    "description": "Her NEASX ürünü aynı platform üzerine inşa edilmiştir. Tek hesap, tek ekosistem ve sorunsuz çalışan araçlar.",
+    "platformTitle": "NEASX Platformu",
+    "connected": "Bağlı",
+    "platformDescription": "Kimlik doğrulama, yapay zeka modelleri, faturalandırma, depolama ve daha fazlası — her üründe paylaşılır.",
+    "features": {
+      "sso": "Tek oturum açma",
+      "credits": "Paylaşılan yapay zeka kredileri",
+      "billing": "Birleşik faturalandırma",
+      "workspace": "Merkezi çalışma alanı"
+    },
+    "explore": "Ekosistemi keşfet"
+  },
+  "pricing": {
+    "badge": "Fiyatlandırma",
+    "title": "Basit fiyatlandırma.",
+    "titleHighlight": "Tek ekosistem.",
+    "description": "Ücretsiz başlayın. Hazır olduğunuzda yükseltin. Gizli ücret yok.",
+    "perMonth": "/ay",
+    "perUser": "/kullanıcı/ay",
+    "note": "Tüm planlar tam NEASX ekosistemine erişim içerir. Fiyatlar USD cinsinden.",
+    "free": {
+      "name": "Ücretsiz",
+      "description": "NEASX ekosistemini keşfetmek için mükemmel.",
+      "cta": "Başla"
+    },
+    "starter": {
+      "name": "Başlangıç",
+      "description": "Yapay zeka ile başlayan bireyler için.",
+      "cta": "Ücretsiz Denemeyi Başlat"
+    },
+    "pro": {
+      "name": "Pro",
+      "description": "Sınırsız yapay zekaya ihtiyaç duyan güç kullanıcıları için.",
+      "cta": "Ücretsiz Denemeyi Başlat",
+      "badge": "En Popüler"
+    },
+    "business": {
+      "name": "İşletme",
+      "description": "İşbirliği ve kontrole ihtiyaç duyan ekipler için.",
+      "cta": "Ücretsiz Denemeyi Başlat"
+    },
+    "enterprise": {
+      "name": "Kurumsal",
+      "description": "Ölçekte güvenliğe ihtiyaç duyan kuruluşlar için.",
+      "cta": "Satış Ekibiyle İletişime Geç"
+    }
+  },
+  "cta": {
+    "badge": "Bugün başla",
+    "title": "İşleri bitirmeye",
+    "titleHighlight": "hazır mısınız?",
+    "description": "NEASX'e katılın ve tüm yapay zeka ürünleri ekosisteminin kilidini açın. Başlamak ücretsiz. Kredi kartı gerekmez.",
+    "startFree": "Ücretsiz Başla",
+    "viewProducts": "Ürünleri Görüntüle",
+    "note": "Kredi kartı gerekmez · İstediğiniz zaman iptal edin"
+  },
+  "footer": {
+    "description": "Gerçek iş için yapay zeka ürünleri. Yazma, sohbet, ajanlar, yaratıcı, ses ve görü için tek ekosistem.",
+    "status": "Tüm sistemler çalışıyor",
+    "products": "Ürünler",
+    "resources": "Kaynaklar",
+    "company": "Şirket",
+    "legal": "Yasal",
+    "copyright": "NEASX. Tüm hakları saklıdır.",
+    "builtAt": "NEASX Labs'de geliştirildi"
+  },
+  "common": {
+    "learnMore": "Daha Fazla Bilgi",
+    "getStarted": "Başla",
+    "contactSales": "Satış Ekibiyle İletişime Geç",
+    "tryFree": "Ücretsiz Dene",
+    "explore": "Keşfet"
+  }
+}

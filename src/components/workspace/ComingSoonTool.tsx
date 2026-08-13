@@ -3,7 +3,7 @@
 import { Clock, Bell, Palette, AudioLines, ScanEye, Sparkles, type LucideIcon } from "lucide-react";
 import Link from "next/link";
 import { DemoBadge } from "./shared";
-import type { ToolProduct } from "@/app/workspace/[slug]/page";
+import type { ToolProduct } from "@/app/[lang]/workspace/[slug]/page";
 
 const ICONS: Record<string, LucideIcon> = {
   studio: Palette,

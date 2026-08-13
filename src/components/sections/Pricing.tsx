@@ -52,7 +52,7 @@ const plans = [
   },
 ];
 
-export default function Pricing() {
+export default function Pricing({ lang, dict }: { lang: string; dict: any }) {
   return (
     <Section id="pricing" className="relative overflow-hidden py-24 lg:py-28">
       <div className="pointer-events-none absolute left-1/2 top-0 -z-10 h-[450px] w-[450px] -translate-x-1/2 rounded-full bg-blue-500/[0.045] blur-[140px]" />

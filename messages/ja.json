@@ -1,0 +1,223 @@
+{
+  "nav": {
+    "products": "プロダクト",
+    "solutions": "ソリューション",
+    "pricing": "料金プラン",
+    "resources": "リソース",
+    "company": "会社情報",
+    "login": "ログイン",
+    "logout": "ログアウト",
+    "getStarted": "今すぐ始める"
+  },
+  "hero": {
+    "badge": "AIプロダクト企業",
+    "title": "成果を出す",
+    "titleHighlight": "AIテクノロジー。",
+    "description": "NEASXは、定型作業を自動化し、アイデアを加速させ、個人や企業がより多くを達成できるように支援するインテリジェントなAIプロダクトを構築します。",
+    "exploreProducts": "プロダクトを見る",
+    "getStarted": "今すぐ始める",
+    "stats": {
+      "products": "AIプロダクト",
+      "ecosystem": "エコシステム",
+      "possibilities": "無限の可能性"
+    }
+  },
+  "products": {
+    "badge": "プロダクト一覧",
+    "title": "一つのエコシステム。",
+    "titleHighlight": "すべてのAIツール。",
+    "description": "連携して動作するように設計されたAIプロダクトの完全スイート。一つのアカウントですべてが解放されます。",
+    "available": "利用可能",
+    "comingSoon": "近日公開",
+    "writer": {
+      "name": "NEASX Writer",
+      "tagline": "AI執筆ワークスペース",
+      "description": "執筆、リライト、要約、リサーチ、翻訳をひとつのインテリジェントなワークスペースで行えます。",
+      "features": ["執筆", "リライト", "要約", "リサーチ", "翻訳"]
+    },
+    "chat": {
+      "name": "NEASX Chat",
+      "tagline": "インテリジェントAIワークスペース",
+      "description": "AIとのチャット、ファイルアップロード、リサーチ、チーム連携を一つの場所で実行できます。",
+      "features": ["チャット", "ファイル", "リサーチ", "ナレッジ", "チーム"]
+    },
+    "agent": {
+      "name": "NEASX Agent",
+      "tagline": "タスクを遂行するAI",
+      "description": "リサーチ、自動化、データ処理、タスクの実行をエンドツーエンドで行うAIエージェントをデプロイします。",
+      "features": ["リサーチ", "自動化", "データ処理", "タスク実行", "ワークフロー"]
+    },
+    "studio": {
+      "name": "NEASX Studio",
+      "tagline": "クリエイティブAIスイート",
+      "description": "高度なAIモデルを搭載し、画像、動画、デザイン素材、クリエイティブコンテンツを生成します。",
+      "features": ["画像", "動画", "デザイン", "クリエイティブ生成"]
+    },
+    "voice": {
+      "name": "NEASX Voice",
+      "tagline": "音声インテリジェンス",
+      "description": "テキストを自然な音声に変換し、大規模な音声生成や音声処理をサポートします。",
+      "features": ["テキスト → 音声", "音声生成", "音声処理"]
+    },
+    "vision": {
+      "name": "NEASX Vision",
+      "tagline": "ビジュアルインテリジェンス",
+      "description": "画像を分析し、ドキュメントからデータを抽出し、コンピュータビジョンをワークフローに組み込みます。",
+      "features": ["画像解析", "ドキュメント解析", "OCR", "コンピュータビジョン"]
+    },
+    "api": {
+      "name": "NEASX API",
+      "tagline": "開発者プラットフォーム",
+      "description": "API、SDK、認証、使用状況追跡、ドキュメントを使用して、プロダクトにAIを組み込みます。",
+      "features": ["AI API", "SDK", "認証", "利用状況", "クレジット"]
+    }
+  },
+  "why": {
+    "badge": "NEASXを選ぶ理由",
+    "title": "本物の仕事のために。",
+    "titleHighlight": "スケールする設計。",
+    "description": "一つのエコシステム。5つの原則。AIでより多くの成果を上げるためのプロダクト設計。",
+    "realWork": {
+      "title": "本物の仕事のために",
+      "description": "AIは会話のためだけではありません。NEASXプロダクトは実際のタスクを完了し、成果を出します。"
+    },
+    "fast": {
+      "title": "圧倒的なスピード",
+      "description": "素早く結果に到達。すべてのプロダクトはパフォーマンスと応答速度に最適化されています。"
+    },
+    "ecosystem": {
+      "title": "統合エコシステム",
+      "description": "一つのNEASXアカウントで、Writer、Chat、Agentなどすべてのプロダクトにアクセス可能。"
+    },
+    "privacy": {
+      "title": "プライバシー優先",
+      "description": "セキュリティとデータ保護は、すべてのNEASXプロダクトとAPIの基礎に組み込まれています。"
+    },
+    "scale": {
+      "title": "スケールする設計",
+      "description": "個人からエンタープライズチームまで、NEASXはあなたの成長に合わせて拡張します。"
+    }
+  },
+  "howItWorks": {
+    "badge": "仕組み",
+    "title": "実行。 タスク。",
+    "titleHighlight": "成果を受け取る。",
+    "description": "3つのステップで簡単な指示を実際の成果に変換します。",
+    "step1": {
+      "title": "実行",
+      "description": "プロダクトやエージェントを選択し、タスクを入力して実行。複雑な設定は不要です。"
+    },
+    "step2": {
+      "title": "タスク",
+      "description": "NEASXが作業を適切なステップに分割し、AIで迅速に処理します。"
+    },
+    "step3": {
+      "title": "成果を受け取る",
+      "description": "ドキュメント、データ、画像、分析結果など、すぐ使える成果を受け取ります。"
+    },
+    "seeHow": "詳しく見る"
+  },
+  "useCases": {
+    "badge": "対象ユーザー",
+    "title": "あなたのワークフローに",
+    "titleHighlight": "フィットするAI。",
+    "description": "フリーランスから企業チームまで、NEASXプロダクトはあなたの働き方に適応します。",
+    "freelancers": {
+      "subtitle": "毎週数時間を削減",
+      "title": "フリーランス向け",
+      "description": "単純作業を自動化し、コンテンツ制作をスピードアップしてクライアントへより多くを提供。"
+    },
+    "startups": {
+      "subtitle": "構築と自動化をスピードアップ",
+      "title": "スタートアップ向け",
+      "description": "AIワークフロー、リサーチ、自動化を活用してプロダクトのリリースを加速。"
+    },
+    "developers": {
+      "subtitle": "アプリにAIを組み込む",
+      "title": "開発者向け",
+      "description": "NEASXのAPIとSDKを統合し、アプリケーションに高度な知能を追加。"
+    },
+    "enterprise": {
+      "subtitle": "チーム向けAIインフラ",
+      "title": "エンタープライズ向け",
+      "description": "セキュリティ、プライバシー、制御機能を備えたスケーラブルなAIインフラを導入。"
+    }
+  },
+  "ecosystem": {
+    "badge": "エコシステム",
+    "title": "ひとつのエコシステム。",
+    "titleHighlight": "無限の可能性。",
+    "description": "すべてのNEASXプロダクトは同一プラットフォーム上に構築されています。ひとつのアカウント、ひとつのエコシステム、そしてシームレスに連携するツール群。",
+    "platformTitle": "NEASX プラットフォーム",
+    "connected": "接続済み",
+    "platformDescription": "認証、AIモデル、請求、ストレージなどがすべてのプロダクトで共有されます。",
+    "features": {
+      "sso": "シングルサインオン",
+      "credits": "共通AIクレジット",
+      "billing": "統合請求",
+      "workspace": "中央ワークスペース"
+    },
+    "explore": "エコシステムを探求"
+  },
+  "pricing": {
+    "badge": "料金プラン",
+    "title": "シンプルな料金システム。",
+    "titleHighlight": "ひとつのエコシステム。",
+    "description": "無料でスタート。準備ができたらアップグレード。隠れた費用はありません。",
+    "perMonth": "/月",
+    "perUser": "/ユーザー/月",
+    "note": "すべてのプランに全NEASXエコシステムへのアクセスが含まれます。価格はUSD表示です。",
+    "free": {
+      "name": "Free",
+      "description": "NEASXエコシステムを体験するのに最適です。",
+      "cta": "今すぐ始める"
+    },
+    "starter": {
+      "name": "Starter",
+      "description": "AIの利用を開始する個人向け。",
+      "cta": "無料トライアルを開始"
+    },
+    "pro": {
+      "name": "Pro",
+      "description": "制限のないAI機能を必要とするパワーユーザー向け。",
+      "cta": "無料トライアルを開始",
+      "badge": "一番人気"
+    },
+    "business": {
+      "name": "Business",
+      "description": "チームでのコラボレーションと管理が必要な場合。",
+      "cta": "無料トライアルを開始"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "大規模なセキュリティと制御を求める組織向け。",
+      "cta": "営業にお問い合わせ"
+    }
+  },
+  "cta": {
+    "badge": "今日から始めよう",
+    "title": "成果を出す準備は",
+    "titleHighlight": "できましたか？",
+    "description": "NEASXに参加し、AIプロダクトの全エコシステムを解放しましょう。登録は無料、クレジットカード不要。",
+    "startFree": "無料で始める",
+    "viewProducts": "プロダクトを見る",
+    "note": "クレジットカード不要 · いつでもキャンセル可能"
+  },
+  "footer": {
+    "description": "実務のためのAIプロダクト。執筆、チャット、エージェント、クリエイティブ、音声、ビジョンを統合したエコシステム。",
+    "status": "全システム正常稼働中",
+    "products": "プロダクト",
+    "resources": "リソース",
+    "company": "会社情報",
+    "legal": "法的情報",
+    "copyright": "NEASX. All rights reserved.",
+    "builtAt": "Built at NEASX Labs"
+  },
+  "common": {
+    "learnMore": "詳細を見る",
+    "getStarted": "始める",
+    "contactSales": "営業に連絡",
+    "tryFree": "無料で試す",
+    "explore": "探索する"
+  }
+}

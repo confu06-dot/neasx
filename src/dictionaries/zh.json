@@ -1,0 +1,39 @@
+{
+  "nav": {
+    "products": "Productos",
+    "solutions": "Soluciones",
+    "pricing": "Precios",
+    "resources": "Recursos",
+    "company": "Empresa",
+    "login": "Iniciar sesión",
+    "getStarted": "Comenzar"
+  },
+  "hero": {
+    "badge": "EMPRESA DE PRODUCTOS DE IA",
+    "title": "IA que hace",
+    "titleHighlight": "el trabajo.",
+    "description": "NEASX construye productos de IA inteligentes que automatizan el trabajo repetitivo, aceleran ideas y ayudan a personas y empresas a lograr más.",
+    "exploreProducts": "Explorar Productos",
+    "getStarted": "Comenzar",
+    "stats": {
+      "products": "Productos de IA",
+      "ecosystem": "Ecosistema",
+      "possibilities": "Posibilidades"
+    }
+  },
+  "products": {
+    "badge": "Nuestros Productos",
+    "title": "Un ecosistema.",
+    "titleHighlight": "Todas las herramientas de IA.",
+    "description": "Un conjunto completo de productos de IA diseñados para trabajar juntos. Una cuenta desbloquea todo.",
+    "available": "DISPONIBLE",
+    "comingSoon": "PRÓXIMAMENTE"
+  },
+  "common": {
+    "learnMore": "Saber más",
+    "getStarted": "Comenzar",
+    "contactSales": "Contactar Ventas",
+    "tryFree": "Probar Gratis",
+    "explore": "Explorar"
+  }
+}
