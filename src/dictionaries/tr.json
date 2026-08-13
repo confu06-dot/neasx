@@ -21,6 +21,21 @@
       "possibilities": "Olasılıklar"
     }
   },
+  "trustIndicators": {
+    "stats": {
+      "activeUsers": "Dünya genelinde aktif kullanıcı",
+      "aiRequests": "İşlenen yapay zeka isteği",
+      "countries": "Ülke ve bölge",
+      "uptime": "Çalışma süresi garantisi"
+    },
+    "badges": {
+      "securityCertified": "Güvenlik sertifikalı",
+      "privacyCompliant": "Gizlilik uyumlu",
+      "informationSecurity": "Bilgi güvenliği",
+      "healthcareData": "Sağlık verileri"
+    },
+    "description": "Kurumsal düzeyde güvenlik ve uyumluluk her ürüne entegre edilmiştir."
+  },
   "products": {
     "badge": "Ürünlerimiz",
     "title": "Tek ekosistem.",
@@ -32,43 +47,81 @@
       "name": "NEASX Writer",
       "tagline": "Yapay zeka yazı çalışma alanı",
       "description": "Tek bir akıllı çalışma alanında yazın, yeniden yazın, özetleyin, araştırın ve çevirin.",
-      "features": ["Yazma", "Yeniden Yazma", "Özetleme", "Araştırma", "Çeviri"]
+      "features": [
+        "Yazma",
+        "Yeniden Yazma",
+        "Özetleme",
+        "Araştırma",
+        "Çeviri"
+      ]
     },
     "chat": {
       "name": "NEASX Chat",
       "tagline": "Akıllı yapay zeka çalışma alanı",
       "description": "Yapay zeka ile sohbet edin, dosya yükleyin, araştırma yapın ve ekibinizle tek yerde işbirliği yapın.",
-      "features": ["Sohbet", "Dosyalar", "Araştırma", "Bilgi", "Ekipler"]
+      "features": [
+        "Sohbet",
+        "Dosyalar",
+        "Araştırma",
+        "Bilgi",
+        "Ekipler"
+      ]
     },
     "agent": {
       "name": "NEASX Agent",
       "tagline": "İşleri bitiren yapay zeka",
       "description": "Araştırma yapan, otomatikleştiren, veri işleyen ve uçtan uca görevleri yürüten yapay zeka ajanları dağıtın.",
-      "features": ["Araştırma", "Otomasyon", "Veri işleme", "Görev yürütme", "İş akışları"]
+      "features": [
+        "Araştırma",
+        "Otomasyon",
+        "Veri işleme",
+        "Görev yürütme",
+        "İş akışları"
+      ]
     },
     "studio": {
       "name": "NEASX Studio",
       "tagline": "Yaratıcı yapay zeka paketi",
       "description": "Gelişmiş yapay zeka modelleri tarafından desteklenen görseller, video, tasarım varlıkları ve yaratıcı içerik oluşturun.",
-      "features": ["Görseller", "Video", "Tasarım", "Yaratıcı üretim"]
+      "features": [
+        "Görseller",
+        "Video",
+        "Tasarım",
+        "Yaratıcı üretim"
+      ]
     },
     "voice": {
       "name": "NEASX Voice",
       "tagline": "Ses zekası",
       "description": "Metni doğal konuşmaya dönüştürün, ses oluşturun ve sesi ölçekte işleyin.",
-      "features": ["Metin → Konuşma", "Ses üretimi", "Ses işleme"]
+      "features": [
+        "Metin → Konuşma",
+        "Ses üretimi",
+        "Ses işleme"
+      ]
     },
     "vision": {
       "name": "NEASX Vision",
       "tagline": "Görsel zeka",
       "description": "Görselleri analiz edin, belgelerden veri çıkarın ve iş akışınıza bilgisayarlı görü ekleyin.",
-      "features": ["Görsel analizi", "Belge analizi", "OCR", "Bilgisayarlı görü"]
+      "features": [
+        "Görsel analizi",
+        "Belge analizi",
+        "OCR",
+        "Bilgisayarlı görü"
+      ]
     },
     "api": {
       "name": "NEASX API",
       "tagline": "Geliştirici platformu",
       "description": "API'ler, SDK'lar, kimlik doğrulama, kullanım takibi ve dokümantasyon ile ürünlerinize yapay zeka ekleyin.",
-      "features": ["Yapay Zeka API'leri", "SDK'lar", "Kimlik Doğrulama", "Kullanım", "Krediler"]
+      "features": [
+        "Yapay Zeka API'leri",
+        "SDK'lar",
+        "Kimlik Doğrulama",
+        "Kullanım",
+        "Krediler"
+      ]
     }
   },
   "why": {

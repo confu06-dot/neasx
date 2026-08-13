@@ -35,12 +35,12 @@ export default function Trusted() {
     <Section className="relative py-8 sm:py-10">
       <Container>
         <div className="relative">
-          {/* Heading */}
+          {/* Başlık */}
           <p className="mb-5 text-center text-[10px] font-medium uppercase tracking-[0.35em] text-slate-500">
-            Built with modern technologies
+            Modern teknolojilerle geliştirildi
           </p>
 
-          {/* Technology Grid */}
+          {/* Teknoloji Grid */}
           <div className="grid grid-cols-2 gap-2.5 sm:grid-cols-4 lg:grid-cols-8">
             {technologies.map(({ name, icon: Icon, color }) => (
               <div

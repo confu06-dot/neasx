@@ -1,39 +1,76 @@
 {
-  "nav": {
-    "products": "Productos",
-    "solutions": "Soluciones",
-    "pricing": "Precios",
-    "resources": "Recursos",
-    "company": "Empresa",
-    "login": "Iniciar sesión",
-    "getStarted": "Comenzar"
-  },
-  "hero": {
-    "badge": "EMPRESA DE PRODUCTOS DE IA",
-    "title": "IA que hace",
-    "titleHighlight": "el trabajo.",
-    "description": "NEASX construye productos de IA inteligentes que automatizan el trabajo repetitivo, aceleran ideas y ayudan a personas y empresas a lograr más.",
-    "exploreProducts": "Explorar Productos",
-    "getStarted": "Comenzar",
-    "stats": {
-      "products": "Productos de IA",
-      "ecosystem": "Ecosistema",
-      "possibilities": "Posibilidades"
-    }
-  },
-  "products": {
-    "badge": "Nuestros Productos",
-    "title": "Un ecosistema.",
-    "titleHighlight": "Todas las herramientas de IA.",
-    "description": "Un conjunto completo de productos de IA diseñados para trabajar juntos. Una cuenta desbloquea todo.",
-    "available": "DISPONIBLE",
-    "comingSoon": "PRÓXIMAMENTE"
-  },
-  "common": {
-    "learnMore": "Saber más",
-    "getStarted": "Comenzar",
-    "contactSales": "Contactar Ventas",
-    "tryFree": "Probar Gratis",
-    "explore": "Explorar"
-  }
+    "nav":  {
+                "products":  "Productos",
+                "solutions":  "Soluciones",
+                "pricing":  "Precios",
+                "resources":  "Recursos",
+                "company":  "Empresa",
+                "login":  "Iniciar sesiÃ³n",
+                "getStarted":  "Comenzar"
+            },
+    "hero":  {
+                 "badge":  "EMPRESA DE PRODUCTOS DE IA",
+                 "title":  "IA que hace",
+                 "titleHighlight":  "el trabajo.",
+                 "description":  "NEASX construye productos de IA inteligentes que automatizan el trabajo repetitivo, aceleran ideas y ayudan a personas y empresas a lograr mÃ¡s.",
+                 "exploreProducts":  "Explorar Productos",
+                 "getStarted":  "Comenzar",
+                 "stats":  {
+                               "products":  "Productos de IA",
+                               "ecosystem":  "Ecosistema",
+                               "possibilities":  "Posibilidades"
+                           }
+             },
+    "products":  {
+                     "badge":  "Nuestros Productos",
+                     "title":  "Un ecosistema.",
+                     "titleHighlight":  "Todas las herramientas de IA.",
+                     "description":  "Un conjunto completo de productos de IA diseÃ±ados para trabajar juntos. Una cuenta desbloquea todo.",
+                     "available":  "DISPONIBLE",
+                     "comingSoon":  "PRÃ“XIMAMENTE"
+                 },
+    "common":  {
+                   "learnMore":  "Saber mÃ¡s",
+                   "getStarted":  "Comenzar",
+                   "contactSales":  "Contactar Ventas",
+                   "tryFree":  "Probar Gratis",
+                   "explore":  "Explorar"
+               },
+    "services":  {
+                     "learnMore":  "詳しく見る",
+                     "web":  {
+                                 "title":  "Web開発",
+                                 "description":  "モダンでスケーラブル、そして高速なWebアプリケーション。",
+                                 "features":  [
+                                                  "Next.js",
+                                                  "React",
+                                                  "TypeScript",
+                                                  "Tailwind CSS"
+                                              ]
+                             },
+                     "titleHighlight":  "作るもの",
+                     "title":  "私たちが",
+                     "description":  "最新のソフトウェアエンジニアリングで、スタートアップや企業の製品開発を加速します。",
+                     "badge":  "最新テクノロジーで構築",
+                     "ai":  {
+                                "title":  "人工知能",
+                                "description":  "自動化、AI統合、インテリジェントなワークフロー。",
+                                "features":  [
+                                                 "OpenAI",
+                                                 "LangChain",
+                                                 "Vector DBs",
+                                                 "Fine-tuning"
+                                             ]
+                            },
+                     "mobile":  {
+                                    "title":  "モバイルアプリ",
+                                    "description":  "iOSとAndroid向けのネイティブ感のあるモバイル体験。",
+                                    "features":  [
+                                                     "React Native",
+                                                     "Flutter",
+                                                     "Swift",
+                                                     "Kotlin"
+                                                 ]
+                                }
+                 }
 }

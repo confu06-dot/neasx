@@ -1,222 +1,297 @@
 {
-  "nav": {
-    "products": "Products",
-    "solutions": "Solutions",
-    "pricing": "Pricing",
-    "resources": "Resources",
-    "company": "Company",
-    "login": "Log in",
-    "getStarted": "Get started"
-  },
-  "hero": {
-    "badge": "AI PRODUCT COMPANY",
-    "title": "AI that gets",
-    "titleHighlight": "work done.",
-    "description": "NEASX builds intelligent AI products that automate repetitive work, accelerate ideas, and help people and businesses accomplish more.",
-    "exploreProducts": "Explore Products",
-    "getStarted": "Get Started",
-    "stats": {
-      "products": "AI Products",
-      "ecosystem": "Ecosystem",
-      "possibilities": "Possibilities"
-    }
-  },
-  "products": {
-    "badge": "Our Products",
-    "title": "One ecosystem.",
-    "titleHighlight": "Every AI tool.",
-    "description": "A complete suite of AI products designed to work together. One account unlocks everything.",
-    "available": "AVAILABLE",
-    "comingSoon": "COMING SOON",
-    "writer": {
-      "name": "NEASX Writer",
-      "tagline": "AI writing workspace",
-      "description": "Write, rewrite, summarize, research and translate — all in a single intelligent workspace.",
-      "features": ["Write", "Rewrite", "Summarize", "Research", "Translate"]
-    },
-    "chat": {
-      "name": "NEASX Chat",
-      "tagline": "Intelligent AI workspace",
-      "description": "Chat with AI, upload files, perform research and collaborate with your team in one place.",
-      "features": ["Chat", "Files", "Research", "Knowledge", "Teams"]
-    },
-    "agent": {
-      "name": "NEASX Agent",
-      "tagline": "AI that gets work done",
-      "description": "Deploy AI agents that research, automate, process data and execute tasks end-to-end.",
-      "features": ["Research", "Automation", "Data processing", "Task execution", "Workflows"]
-    },
-    "studio": {
-      "name": "NEASX Studio",
-      "tagline": "Creative AI suite",
-      "description": "Generate images, video, design assets and creative content powered by advanced AI models.",
-      "features": ["Images", "Video", "Design", "Creative generation"]
-    },
-    "voice": {
-      "name": "NEASX Voice",
-      "tagline": "Voice intelligence",
-      "description": "Turn text into natural speech, generate voices and process audio at scale.",
-      "features": ["Text → Speech", "Voice generation", "Voice processing"]
-    },
-    "vision": {
-      "name": "NEASX Vision",
-      "tagline": "Visual intelligence",
-      "description": "Analyze images, extract data from documents and build computer vision into your workflow.",
-      "features": ["Image analysis", "Document analysis", "OCR", "Computer vision"]
-    },
-    "api": {
-      "name": "NEASX API",
-      "tagline": "Developer platform",
-      "description": "Build AI into your products with APIs, SDKs, authentication, usage tracking and documentation.",
-      "features": ["AI APIs", "SDKs", "Authentication", "Usage", "Credits"]
-    }
-  },
-  "why": {
-    "badge": "Why NEASX",
-    "title": "Built for real work.",
-    "titleHighlight": "Built to scale.",
-    "description": "One ecosystem. Five principles. Every product designed to help you accomplish more with AI.",
-    "realWork": {
-      "title": "Built for real work",
-      "description": "AI isn't just for conversation. NEASX products are designed to complete actual tasks and deliver results."
-    },
-    "fast": {
-      "title": "Fast by design",
-      "description": "Get to results quickly. Every product is optimized for speed, both in performance and time-to-output."
-    },
-    "ecosystem": {
-      "title": "One ecosystem",
-      "description": "A single NEASX account unlocks every product. Writer, Chat, Agent and more — all connected."
-    },
-    "privacy": {
-      "title": "Privacy first",
-      "description": "Security and data protection are built into the foundation of every NEASX product and API."
-    },
-    "scale": {
-      "title": "Built to scale",
-      "description": "From individuals to enterprise teams, NEASX grows with you — from your first request to millions."
-    }
-  },
-  "howItWorks": {
-    "badge": "How it Works",
-    "title": "Run. Task.",
-    "titleHighlight": "Receive.",
-    "description": "Turn a simple instruction into real results in three steps.",
-    "step1": {
-      "title": "Run",
-      "description": "Pick a product or agent, describe your task, and run it. No complex setup."
-    },
-    "step2": {
-      "title": "Task",
-      "description": "NEASX breaks the work into manageable steps and executes them with AI."
-    },
-    "step3": {
-      "title": "Receive",
-      "description": "Get your results — documents, data, images, insights — ready to use."
-    },
-    "seeHow": "See how it works"
-  },
-  "useCases": {
-    "badge": "Who it's for",
-    "title": "AI that fits",
-    "titleHighlight": "your workflow.",
-    "description": "From freelancers to enterprise teams, NEASX products adapt to how you work.",
-    "freelancers": {
-      "subtitle": "Save hours every week",
-      "title": "For Freelancers",
-      "description": "Automate repetitive work, generate content faster and deliver more to your clients."
-    },
-    "startups": {
-      "subtitle": "Build and automate faster",
-      "title": "For Startups",
-      "description": "Ship products quicker with AI-powered workflows, research and automation."
-    },
-    "developers": {
-      "subtitle": "Build AI into your products",
-      "title": "For Developers",
-      "description": "Integrate NEASX APIs and SDKs to add intelligence to your applications."
-    },
-    "enterprise": {
-      "subtitle": "AI infrastructure for teams",
-      "title": "For Enterprise",
-      "description": "Deploy scalable AI infrastructure with security, privacy and control built in."
-    }
-  },
-  "ecosystem": {
-    "badge": "Ecosystem",
-    "title": "One ecosystem.",
-    "titleHighlight": "Infinite possibilities.",
-    "description": "Every NEASX product is built on the same platform. One account, one ecosystem, and tools that work together seamlessly.",
-    "platformTitle": "NEASX Platform",
-    "connected": "Connected",
-    "platformDescription": "Authentication, AI models, billing, storage and more — shared across every product.",
-    "features": {
-      "sso": "Single sign-on",
-      "credits": "Shared AI credits",
-      "billing": "Unified billing",
-      "workspace": "Central workspace"
-    },
-    "explore": "Explore the ecosystem"
-  },
-  "pricing": {
-    "badge": "Pricing",
-    "title": "Simple pricing.",
-    "titleHighlight": "One ecosystem.",
-    "description": "Start free. Upgrade when you're ready. No hidden fees.",
-    "perMonth": "/mo",
-    "perUser": "/user/mo",
-    "note": "All plans include access to the full NEASX ecosystem. Prices in USD.",
-    "free": {
-      "name": "Free",
-      "description": "Perfect for exploring the NEASX ecosystem.",
-      "cta": "Get Started"
-    },
-    "starter": {
-      "name": "Starter",
-      "description": "For individuals getting started with AI.",
-      "cta": "Start Free Trial"
-    },
-    "pro": {
-      "name": "Pro",
-      "description": "For power users who need unlimited AI.",
-      "cta": "Start Free Trial",
-      "badge": "Most Popular"
-    },
-    "business": {
-      "name": "Business",
-      "description": "For teams that need collaboration and control.",
-      "cta": "Start Free Trial"
-    },
-    "enterprise": {
-      "name": "Enterprise",
-      "description": "For organizations that need security at scale.",
-      "cta": "Contact Sales"
-    }
-  },
-  "cta": {
-    "badge": "Start today",
-    "title": "Ready to get",
-    "titleHighlight": "work done?",
-    "description": "Join NEASX and unlock the full ecosystem of AI products. Free to start. No credit card required.",
-    "startFree": "Start for Free",
-    "viewProducts": "View Products",
-    "note": "No credit card required · Cancel anytime"
-  },
-  "footer": {
-    "description": "AI products for real work. One ecosystem for writing, chat, agents, creative, voice and vision.",
-    "status": "All systems operational",
-    "products": "Products",
-    "resources": "Resources",
-    "company": "Company",
-    "legal": "Legal",
-    "copyright": "NEASX. All rights reserved.",
-    "builtAt": "Built at NEASX Labs"
-  },
-  "common": {
-    "learnMore": "Learn More",
-    "getStarted": "Get Started",
-    "contactSales": "Contact Sales",
-    "tryFree": "Try Free",
-    "explore": "Explore"
-  }
+    "nav":  {
+                "products":  "Products",
+                "solutions":  "Solutions",
+                "pricing":  "Pricing",
+                "resources":  "Resources",
+                "company":  "Company",
+                "login":  "Log in",
+                "getStarted":  "Get started"
+            },
+    "hero":  {
+                 "badge":  "AI PRODUCT COMPANY",
+                 "title":  "AI that gets",
+                 "titleHighlight":  "work done.",
+                 "description":  "NEASX builds intelligent AI products that automate repetitive work, accelerate ideas, and help people and businesses accomplish more.",
+                 "exploreProducts":  "Explore Products",
+                 "getStarted":  "Get Started",
+                 "stats":  {
+                               "products":  "AI Products",
+                               "ecosystem":  "Ecosystem",
+                               "possibilities":  "Possibilities"
+                           }
+             },
+    "products":  {
+                     "badge":  "Our Products",
+                     "title":  "One ecosystem.",
+                     "titleHighlight":  "Every AI tool.",
+                     "description":  "A complete suite of AI products designed to work together. One account unlocks everything.",
+                     "available":  "AVAILABLE",
+                     "comingSoon":  "COMING SOON",
+                     "writer":  {
+                                    "name":  "NEASX Writer",
+                                    "tagline":  "AI writing workspace",
+                                    "description":  "Write, rewrite, summarize, research and translate â€” all in a single intelligent workspace.",
+                                    "features":  [
+                                                     "Write",
+                                                     "Rewrite",
+                                                     "Summarize",
+                                                     "Research",
+                                                     "Translate"
+                                                 ]
+                                },
+                     "chat":  {
+                                  "name":  "NEASX Chat",
+                                  "tagline":  "Intelligent AI workspace",
+                                  "description":  "Chat with AI, upload files, perform research and collaborate with your team in one place.",
+                                  "features":  [
+                                                   "Chat",
+                                                   "Files",
+                                                   "Research",
+                                                   "Knowledge",
+                                                   "Teams"
+                                               ]
+                              },
+                     "agent":  {
+                                   "name":  "NEASX Agent",
+                                   "tagline":  "AI that gets work done",
+                                   "description":  "Deploy AI agents that research, automate, process data and execute tasks end-to-end.",
+                                   "features":  [
+                                                    "Research",
+                                                    "Automation",
+                                                    "Data processing",
+                                                    "Task execution",
+                                                    "Workflows"
+                                                ]
+                               },
+                     "studio":  {
+                                    "name":  "NEASX Studio",
+                                    "tagline":  "Creative AI suite",
+                                    "description":  "Generate images, video, design assets and creative content powered by advanced AI models.",
+                                    "features":  [
+                                                     "Images",
+                                                     "Video",
+                                                     "Design",
+                                                     "Creative generation"
+                                                 ]
+                                },
+                     "voice":  {
+                                   "name":  "NEASX Voice",
+                                   "tagline":  "Voice intelligence",
+                                   "description":  "Turn text into natural speech, generate voices and process audio at scale.",
+                                   "features":  [
+                                                    "Text â†’ Speech",
+                                                    "Voice generation",
+                                                    "Voice processing"
+                                                ]
+                               },
+                     "vision":  {
+                                    "name":  "NEASX Vision",
+                                    "tagline":  "Visual intelligence",
+                                    "description":  "Analyze images, extract data from documents and build computer vision into your workflow.",
+                                    "features":  [
+                                                     "Image analysis",
+                                                     "Document analysis",
+                                                     "OCR",
+                                                     "Computer vision"
+                                                 ]
+                                },
+                     "api":  {
+                                 "name":  "NEASX API",
+                                 "tagline":  "Developer platform",
+                                 "description":  "Build AI into your products with APIs, SDKs, authentication, usage tracking and documentation.",
+                                 "features":  [
+                                                  "AI APIs",
+                                                  "SDKs",
+                                                  "Authentication",
+                                                  "Usage",
+                                                  "Credits"
+                                              ]
+                             }
+                 },
+    "why":  {
+                "badge":  "Why NEASX",
+                "title":  "Built for real work.",
+                "titleHighlight":  "Built to scale.",
+                "description":  "One ecosystem. Five principles. Every product designed to help you accomplish more with AI.",
+                "realWork":  {
+                                 "title":  "Built for real work",
+                                 "description":  "AI isn\u0027t just for conversation. NEASX products are designed to complete actual tasks and deliver results."
+                             },
+                "fast":  {
+                             "title":  "Fast by design",
+                             "description":  "Get to results quickly. Every product is optimized for speed, both in performance and time-to-output."
+                         },
+                "ecosystem":  {
+                                  "title":  "One ecosystem",
+                                  "description":  "A single NEASX account unlocks every product. Writer, Chat, Agent and more â€” all connected."
+                              },
+                "privacy":  {
+                                "title":  "Privacy first",
+                                "description":  "Security and data protection are built into the foundation of every NEASX product and API."
+                            },
+                "scale":  {
+                              "title":  "Built to scale",
+                              "description":  "From individuals to enterprise teams, NEASX grows with you â€” from your first request to millions."
+                          }
+            },
+    "howItWorks":  {
+                       "badge":  "How it Works",
+                       "title":  "Run. Task.",
+                       "titleHighlight":  "Receive.",
+                       "description":  "Turn a simple instruction into real results in three steps.",
+                       "step1":  {
+                                     "title":  "Run",
+                                     "description":  "Pick a product or agent, describe your task, and run it. No complex setup."
+                                 },
+                       "step2":  {
+                                     "title":  "Task",
+                                     "description":  "NEASX breaks the work into manageable steps and executes them with AI."
+                                 },
+                       "step3":  {
+                                     "title":  "Receive",
+                                     "description":  "Get your results â€” documents, data, images, insights â€” ready to use."
+                                 },
+                       "seeHow":  "See how it works"
+                   },
+    "useCases":  {
+                     "badge":  "Who it\u0027s for",
+                     "title":  "AI that fits",
+                     "titleHighlight":  "your workflow.",
+                     "description":  "From freelancers to enterprise teams, NEASX products adapt to how you work.",
+                     "freelancers":  {
+                                         "subtitle":  "Save hours every week",
+                                         "title":  "For Freelancers",
+                                         "description":  "Automate repetitive work, generate content faster and deliver more to your clients."
+                                     },
+                     "startups":  {
+                                      "subtitle":  "Build and automate faster",
+                                      "title":  "For Startups",
+                                      "description":  "Ship products quicker with AI-powered workflows, research and automation."
+                                  },
+                     "developers":  {
+                                        "subtitle":  "Build AI into your products",
+                                        "title":  "For Developers",
+                                        "description":  "Integrate NEASX APIs and SDKs to add intelligence to your applications."
+                                    },
+                     "enterprise":  {
+                                        "subtitle":  "AI infrastructure for teams",
+                                        "title":  "For Enterprise",
+                                        "description":  "Deploy scalable AI infrastructure with security, privacy and control built in."
+                                    }
+                 },
+    "ecosystem":  {
+                      "badge":  "Ecosystem",
+                      "title":  "One ecosystem.",
+                      "titleHighlight":  "Infinite possibilities.",
+                      "description":  "Every NEASX product is built on the same platform. One account, one ecosystem, and tools that work together seamlessly.",
+                      "platformTitle":  "NEASX Platform",
+                      "connected":  "Connected",
+                      "platformDescription":  "Authentication, AI models, billing, storage and more â€” shared across every product.",
+                      "features":  {
+                                       "sso":  "Single sign-on",
+                                       "credits":  "Shared AI credits",
+                                       "billing":  "Unified billing",
+                                       "workspace":  "Central workspace"
+                                   },
+                      "explore":  "Explore the ecosystem"
+                  },
+    "pricing":  {
+                    "badge":  "Pricing",
+                    "title":  "Simple pricing.",
+                    "titleHighlight":  "One ecosystem.",
+                    "description":  "Start free. Upgrade when you\u0027re ready. No hidden fees.",
+                    "perMonth":  "/mo",
+                    "perUser":  "/user/mo",
+                    "note":  "All plans include access to the full NEASX ecosystem. Prices in USD.",
+                    "free":  {
+                                 "name":  "Free",
+                                 "description":  "Perfect for exploring the NEASX ecosystem.",
+                                 "cta":  "Get Started"
+                             },
+                    "starter":  {
+                                    "name":  "Starter",
+                                    "description":  "For individuals getting started with AI.",
+                                    "cta":  "Start Free Trial"
+                                },
+                    "pro":  {
+                                "name":  "Pro",
+                                "description":  "For power users who need unlimited AI.",
+                                "cta":  "Start Free Trial",
+                                "badge":  "Most Popular"
+                            },
+                    "business":  {
+                                     "name":  "Business",
+                                     "description":  "For teams that need collaboration and control.",
+                                     "cta":  "Start Free Trial"
+                                 },
+                    "enterprise":  {
+                                       "name":  "Enterprise",
+                                       "description":  "For organizations that need security at scale.",
+                                       "cta":  "Contact Sales"
+                                   }
+                },
+    "cta":  {
+                "badge":  "Start today",
+                "title":  "Ready to get",
+                "titleHighlight":  "work done?",
+                "description":  "Join NEASX and unlock the full ecosystem of AI products. Free to start. No credit card required.",
+                "startFree":  "Start for Free",
+                "viewProducts":  "View Products",
+                "note":  "No credit card required Â· Cancel anytime"
+            },
+    "footer":  {
+                   "description":  "AI products for real work. One ecosystem for writing, chat, agents, creative, voice and vision.",
+                   "status":  "All systems operational",
+                   "products":  "Products",
+                   "resources":  "Resources",
+                   "company":  "Company",
+                   "legal":  "Legal",
+                   "copyright":  "NEASX. All rights reserved.",
+                   "builtAt":  "Built at NEASX Labs"
+               },
+    "common":  {
+                   "learnMore":  "Learn More",
+                   "getStarted":  "Get Started",
+                   "contactSales":  "Contact Sales",
+                   "tryFree":  "Try Free",
+                   "explore":  "Explore"
+               },
+    "services":  {
+                     "learnMore":  "Learn More",
+                     "web":  {
+                                 "title":  "Web Development",
+                                 "description":  "Modern, scalable and lightning-fast web applications.",
+                                 "features":  [
+                                                  "Next.js",
+                                                  "React",
+                                                  "TypeScript",
+                                                  "Tailwind CSS"
+                                              ]
+                             },
+                     "titleHighlight":  "Build",
+                     "title":  "What We",
+                     "description":  "We help startups and businesses launch products faster with modern software engineering.",
+                     "badge":  "BUILT WITH MODERN TECHNOLOGIES",
+                     "ai":  {
+                                "title":  "Artificial Intelligence",
+                                "description":  "Automation, AI integrations and intelligent workflows.",
+                                "features":  [
+                                                 "OpenAI",
+                                                 "LangChain",
+                                                 "Vector DBs",
+                                                 "Fine-tuning"
+                                             ]
+                            },
+                     "mobile":  {
+                                    "title":  "Mobile Apps",
+                                    "description":  "Native-feeling mobile experiences for iOS \u0026 Android.",
+                                    "features":  [
+                                                     "React Native",
+                                                     "Flutter",
+                                                     "Swift",
+                                                     "Kotlin"
+                                                 ]
+                                }
+                 }
 }

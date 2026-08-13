@@ -1,39 +1,76 @@
 {
-  "nav": {
-    "products": "Productos",
-    "solutions": "Soluciones",
-    "pricing": "Precios",
-    "resources": "Recursos",
-    "company": "Empresa",
-    "login": "Iniciar sesión",
-    "getStarted": "Comenzar"
-  },
-  "hero": {
-    "badge": "EMPRESA DE PRODUCTOS DE IA",
-    "title": "IA que hace",
-    "titleHighlight": "el trabajo.",
-    "description": "NEASX construye productos de IA inteligentes que automatizan el trabajo repetitivo, aceleran ideas y ayudan a personas y empresas a lograr más.",
-    "exploreProducts": "Explorar Productos",
-    "getStarted": "Comenzar",
-    "stats": {
-      "products": "Productos de IA",
-      "ecosystem": "Ecosistema",
-      "possibilities": "Posibilidades"
-    }
-  },
-  "products": {
-    "badge": "Nuestros Productos",
-    "title": "Un ecosistema.",
-    "titleHighlight": "Todas las herramientas de IA.",
-    "description": "Un conjunto completo de productos de IA diseñados para trabajar juntos. Una cuenta desbloquea todo.",
-    "available": "DISPONIBLE",
-    "comingSoon": "PRÓXIMAMENTE"
-  },
-  "common": {
-    "learnMore": "Saber más",
-    "getStarted": "Comenzar",
-    "contactSales": "Contactar Ventas",
-    "tryFree": "Probar Gratis",
-    "explore": "Explorar"
-  }
+    "nav":  {
+                "products":  "Productos",
+                "solutions":  "Soluciones",
+                "pricing":  "Precios",
+                "resources":  "Recursos",
+                "company":  "Empresa",
+                "login":  "Iniciar sesiÃ³n",
+                "getStarted":  "Comenzar"
+            },
+    "hero":  {
+                 "badge":  "EMPRESA DE PRODUCTOS DE IA",
+                 "title":  "IA que hace",
+                 "titleHighlight":  "el trabajo.",
+                 "description":  "NEASX construye productos de IA inteligentes que automatizan el trabajo repetitivo, aceleran ideas y ayudan a personas y empresas a lograr mÃ¡s.",
+                 "exploreProducts":  "Explorar Productos",
+                 "getStarted":  "Comenzar",
+                 "stats":  {
+                               "products":  "Productos de IA",
+                               "ecosystem":  "Ecosistema",
+                               "possibilities":  "Posibilidades"
+                           }
+             },
+    "products":  {
+                     "badge":  "Nuestros Productos",
+                     "title":  "Un ecosistema.",
+                     "titleHighlight":  "Todas las herramientas de IA.",
+                     "description":  "Un conjunto completo de productos de IA diseÃ±ados para trabajar juntos. Una cuenta desbloquea todo.",
+                     "available":  "DISPONIBLE",
+                     "comingSoon":  "PRÃ“XIMAMENTE"
+                 },
+    "common":  {
+                   "learnMore":  "Saber mÃ¡s",
+                   "getStarted":  "Comenzar",
+                   "contactSales":  "Contactar Ventas",
+                   "tryFree":  "Probar Gratis",
+                   "explore":  "Explorar"
+               },
+    "services":  {
+                     "learnMore":  "더 알아보기",
+                     "web":  {
+                                 "title":  "웹 개발",
+                                 "description":  "현대적이고 확장 가능하며 매우 빠른 웹 애플리케이션.",
+                                 "features":  [
+                                                  "Next.js",
+                                                  "React",
+                                                  "TypeScript",
+                                                  "Tailwind CSS"
+                                              ]
+                             },
+                     "titleHighlight":  "만드는 것",
+                     "title":  "우리가",
+                     "description":  "현대적인 소프트웨어 엔지니어링으로 스타트업과 기업이 제품을 더 빠르게 출시할 수 있도록 돕습니다.",
+                     "badge":  "최신 기술로 구축",
+                     "ai":  {
+                                "title":  "인공지능",
+                                "description":  "자동화, AI 통합 및 지능형 워크플로우.",
+                                "features":  [
+                                                 "OpenAI",
+                                                 "LangChain",
+                                                 "Vector DBs",
+                                                 "Fine-tuning"
+                                             ]
+                            },
+                     "mobile":  {
+                                    "title":  "모바일 앱",
+                                    "description":  "iOS 및 Android를 위한 네이티브 수준의 모바일 경험.",
+                                    "features":  [
+                                                     "React Native",
+                                                     "Flutter",
+                                                     "Swift",
+                                                     "Kotlin"
+                                                 ]
+                                }
+                 }
 }
