@@ -136,7 +136,7 @@ export default function Home() {
 
       setProducts(validProducts);
       setCategories(
-        Array.isArray(data.categories) ? data.categories : []
+        Array.isArray(data.categories) ?data.categories : []
       );
 
       if (validProducts.length !== data.products.length) {
@@ -145,7 +145,7 @@ export default function Home() {
     } catch (err) {
       setError(
         err instanceof Error
-          ? err.message
+          ?err.message
           : 'Beklenmeyen bir hata oluştu.'
       );
       setProducts([]);
@@ -162,7 +162,7 @@ export default function Home() {
   const categoryNames = useMemo(
     () =>
       categories.length > 0
-        ? ['Tümü', ...categories.map((c) => c.name)]
+        ?['Tümü', ...categories.map((c) => c.name)]
         : categoryFallback,
     [categories]
   );
@@ -229,7 +229,7 @@ export default function Home() {
       <section className="hero shell">
         <div className="hero-copy">
           <div className="eyebrow">
-            <Sparkles size={14} /> DÄ°JÄ°TAL ÃœRÃœN MAÄAZASI
+            <Sparkles size={14} /> DİJİTAL ÜRÜN MAĞAZASI
           </div>
 
           <h1>
@@ -333,7 +333,7 @@ export default function Home() {
             <button
               key={category}
               className={
-                selected === category ? 'filter active' : 'filter'
+                selected === category ?'filter active' : 'filter'
               }
               onClick={() => setSelected(category)}
             >
@@ -364,11 +364,11 @@ export default function Home() {
           </div>
         )}
 
-        {busy ? (
+        {busy ?(
           <div className="loading" role="status">
             Katalog hazırlanıyor…
           </div>
-        ) : error ? (
+        ) : error ?(
           <div className="empty">
             Ürünleri şu anda görüntüleyemiyoruz.
           </div>
@@ -405,7 +405,7 @@ export default function Home() {
                     <div className="product-meta">
                       <span>{p.category || 'NEASX Store'}</span>
 
-                      {stocked ? (
+                      {stocked ?(
                         <span className="stock yes">Stokta</span>
                       ) : (
                         <span className="stock">Stokta yok</span>
@@ -434,7 +434,7 @@ export default function Home() {
 
 
                       >
-                        {stocked ? 'Detayları gör' : 'Stokta yok'}
+                        {stocked ?'Detayları gör' : 'Stokta yok'}
                         <ArrowUpRight size={15} />
                       </button>
                     </div>
