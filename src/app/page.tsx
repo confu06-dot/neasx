@@ -250,7 +250,7 @@ export default function Home() {
 
             <span className="hero-note">
               <ShieldCheck size={15} />
-              Åeffaf Ã¼rÃ¼n ve teslimat bilgileri
+              Ürün ve teslimat bilgileri
             </span>
           </div>
         </div>
