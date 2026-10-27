@@ -1,4 +1,4 @@
-﻿
+
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
@@ -37,44 +37,44 @@ type CatalogResponse = {
 };
 
 const categoryFallback = [
-  'TÃ¼mÃ¼',
+  'Tümü',
   'Yapay Zeka',
-  'SEO AraÃ§larÄ±',
-  'GÃ¶rsel ÃœrÃ¼nler',
+  'SEO Araçları',
+  'Görsel Ürünler',
   'Windows',
   'Office',
-  'WordPress Eklentileri & TemalarÄ±',
-  'VPN & AntivirÃ¼s',
-  'GeliÅŸtirici AraÃ§larÄ±',
-  'DiÄŸer ÃœrÃ¼nler',
+  'WordPress Eklentileri & Temaları',
+  'VPN & Antivirüs',
+  'Geliştirici Araçları',
+  'Diğer Ürünler',
 ];
 
 const featured: Product[] = [
   {
     id: -1,
-    name: 'ChatGPT Plus KiÅŸisel Hesap Â· 1 AylÄ±k',
-    description: 'Ã–rnek Ã¼rÃ¼n',
+    name: 'ChatGPT Plus Kişisel Hesap · 1 Aylık',
+    description: 'Örnek ürün',
     amount: 250,
     is_stock: false,
   },
   {
     id: -2,
-    name: 'Envato Â· 1 AylÄ±k',
-    description: 'Ã–rnek Ã¼rÃ¼n',
+    name: 'Envato · 1 Aylık',
+    description: 'Örnek ürün',
     amount: 35,
     is_stock: false,
   },
   {
     id: -3,
     name: 'Windows 10/11 Pro Retail',
-    description: 'Ã–rnek Ã¼rÃ¼n',
+    description: 'Örnek ürün',
     amount: 20,
     is_stock: false,
   },
   {
     id: -4,
-    name: 'Elementor Pro Â· 1 YÄ±llÄ±k',
-    description: 'Ã–rnek Ã¼rÃ¼n',
+    name: 'Elementor Pro · 1 Yıllık',
+    description: 'Örnek ürün',
     amount: 140,
     is_stock: false,
   },
@@ -99,7 +99,7 @@ function formatPrice(amount: number) {
 export default function Home() {
   const [products, setProducts] = useState<Product[]>(featured);
   const [categories, setCategories] = useState<Category[]>([]);
-  const [selected, setSelected] = useState('TÃ¼mÃ¼');
+  const [selected, setSelected] = useState('Tümü');
   const [search, setSearch] = useState('');
   const [busy, setBusy] = useState(true);
   const [error, setError] = useState('');
@@ -116,13 +116,13 @@ export default function Home() {
       });
 
       if (!response.ok) {
-        throw new Error(`Katalog alÄ±namadÄ± (${response.status})`);
+        throw new Error(`Katalog alınamadı (${response.status})`);
       }
 
       const data: CatalogResponse = await response.json();
 
       if (!Array.isArray(data.products)) {
-        throw new Error('API Ã¼rÃ¼n listesi beklenen formatta deÄŸil.');
+        throw new Error('API ürün listesi beklenen formatta değil.');
       }
 
       const validProducts = data.products.filter(
@@ -140,13 +140,13 @@ export default function Home() {
       );
 
       if (validProducts.length !== data.products.length) {
-        setNotice('BazÄ± Ã¼rÃ¼nler geÃ§ersiz veri nedeniyle gÃ¶sterilmedi.');
+        setNotice('Bazı ürünler geçersiz veri nedeniyle gösterilmedi.');
       }
     } catch (err) {
       setError(
         err instanceof Error
           ? err.message
-          : 'Beklenmeyen bir hata oluÅŸtu.'
+          : 'Beklenmeyen bir hata oluştu.'
       );
       setProducts([]);
       setCategories([]);
@@ -162,7 +162,7 @@ export default function Home() {
   const categoryNames = useMemo(
     () =>
       categories.length > 0
-        ? ['TÃ¼mÃ¼', ...categories.map((c) => c.name)]
+        ? ['Tümü', ...categories.map((c) => c.name)]
         : categoryFallback,
     [categories]
   );
@@ -172,7 +172,7 @@ export default function Home() {
 
     return products.filter((p) => {
       const matchesCategory =
-        selected === 'TÃ¼mÃ¼' || p.category === selected;
+        selected === 'Tümü' || p.category === selected;
 
       const searchableText = [
         p.name,
@@ -204,18 +204,18 @@ export default function Home() {
         </a>
 
         <nav>
-          <a href="#catalog">MaÄŸaza</a>
+          <a href="#catalog">Mağaza</a>
           <a href="#why">Neden NEASX?</a>
           <a href="#footer">Destek</a>
         </nav>
 
         <a className="nav-action" href="#catalog">
-          ÃœrÃ¼nleri keÅŸfet <ArrowUpRight size={15} />
+          Ürünleri keşfet <ArrowUpRight size={15} />
         </a>
 
         <button
           className="mobile-menu"
-          aria-label="MaÄŸazaya git"
+          aria-label="Mağazaya git"
           onClick={() =>
             document.getElementById('catalog')?.scrollIntoView({
               behavior: 'smooth',
@@ -233,19 +233,19 @@ export default function Home() {
           </div>
 
           <h1>
-            Dijital dÃ¼nyanda
+            Dijital dünyanda
             <br />
-            <span>bir adÄ±m Ã¶nde.</span>
+            <span>bir adım önde.</span>
           </h1>
 
           <p>
-            Ãœretkenlik, tasarÄ±m ve yazÄ±lÄ±m araÃ§larÄ±nÄ± tek yerde keÅŸfet.
-            Ä°htiyacÄ±na uygun dijital Ã¼rÃ¼nÃ¼ kolayca bul.
+            Üretkenlik, tasarım ve yazılım araçlarını tek yerde keşfet.
+            İhtiyacına uygun dijital ürünü kolayca bul.
           </p>
 
           <div className="hero-buttons">
             <a className="primary" href="#catalog">
-              MaÄŸazayÄ± keÅŸfet <ArrowUpRight size={16} />
+              Mağazayı keşfet <ArrowUpRight size={16} />
             </a>
 
             <span className="hero-note">
@@ -276,7 +276,7 @@ export default function Home() {
           </div>
 
           <div className="float-chip">
-            DIGITAL GOODS <span>âœ³</span>
+            DIGITAL GOODS <span>✳</span>
           </div>
         </div>
       </section>
@@ -285,23 +285,23 @@ export default function Home() {
         <div>
           <PackageCheck />
           <span>
-            <b>Dijital Ã¼rÃ¼n kataloÄŸu</b>
-            <small>ÃœrÃ¼nlerini tek yerde keÅŸfet</small>
+            <b>Dijital ürün kataloğu</b>
+            <small>Ürünlerini tek yerde keşfet</small>
           </span>
         </div>
 
         <div>
           <ShieldCheck />
           <span>
-            <b>Net Ã¼rÃ¼n bilgisi</b>
-            <small>KoÅŸullarÄ± satÄ±n almadan gÃ¶r</small>
+            <b>Net ürün bilgisi</b>
+            <small>Koşulları satın almadan gör</small>
           </span>
         </div>
 
         <div>
           <Sparkles />
           <span>
-            <b>Kolay keÅŸif</b>
+            <b>Kolay keşif</b>
             <small>Kategori ve aramayla bul</small>
           </span>
         </div>
@@ -312,9 +312,9 @@ export default function Home() {
           <div>
             <div className="eyebrow">NEASX MARKETPLACE</div>
             <h2>
-              ÃœrÃ¼nleri keÅŸfet<span>.</span>
+              Ürünleri keşfet<span>.</span>
             </h2>
-            <p>AradÄ±ÄŸÄ±n dijital aracÄ± kolayca bul.</p>
+            <p>Aradığın dijital aracı kolayca bul.</p>
           </div>
 
           <div className="search">
@@ -322,8 +322,8 @@ export default function Home() {
             <input
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              placeholder="ÃœrÃ¼n ara..."
-              aria-label="ÃœrÃ¼n ara"
+              placeholder="Ürün ara..."
+              aria-label="Ürün ara"
             />
           </div>
         </div>
@@ -346,7 +346,7 @@ export default function Home() {
 
         {error && (
           <div className="notice" role="alert">
-            <p>Katalog yÃ¼klenemedi: {error}</p>
+            <p>Katalog yüklenemedi: {error}</p>
             <button
               className="detail-btn"
               onClick={() => void loadCatalog()}
@@ -360,17 +360,17 @@ export default function Home() {
 
         {!busy && !error && (
           <div className="catalog-foot">
-            {visible.length} Ã¼rÃ¼n bulundu Â· {availableCount} Ã¼rÃ¼n stokta
+            {visible.length} ürün bulundu · {availableCount} ürün stokta
           </div>
         )}
 
         {busy ? (
           <div className="loading" role="status">
-            Katalog hazÄ±rlanÄ±yorâ€¦
+            Katalog hazırlanıyor…
           </div>
         ) : error ? (
           <div className="empty">
-            ÃœrÃ¼nleri ÅŸu anda gÃ¶rÃ¼ntÃ¼leyemiyoruz.
+            Ürünleri şu anda görüntüleyemiyoruz.
           </div>
         ) : (
           <div className="product-grid">
@@ -384,15 +384,15 @@ export default function Home() {
                       <PackageCheck size={27} />
                     </div>
 
-                    <span className="product-type">DÄ°JÄ°TAL ÃœRÃœN</span>
+                    <span className="product-type">DİJİTAL ÜRÜN</span>
 
                     <button
                       className="round-arrow"
-                      aria-label={`${p.name} Ã¼rÃ¼n bilgisi`}
+                      aria-label={`${p.name} ürün bilgisi`}
                       onClick={() =>
                         setNotice(
                           `${p.name}: ${
-                            p.description || 'ÃœrÃ¼n aÃ§Ä±klamasÄ± bulunmuyor.'
+                            p.description || 'Ürün açıklaması bulunmuyor.'
                           }`
                         )
                       }
@@ -416,12 +416,12 @@ export default function Home() {
 
                     <p>
                       {p.description ||
-                        'Dijital Ã¼rÃ¼n. SatÄ±n almadan Ã¶nce Ã¼rÃ¼n koÅŸullarÄ±nÄ± inceleyin.'}
+                        'Dijital ürün. Satın almadan önce ürün koşullarını inceleyin.'}
                     </p>
 
                     <div className="product-bottom">
                       <div>
-                        <small>GÃ¶sterilen fiyat</small>
+                        <small>Gösterilen fiyat</small>
                         <strong>{formatPrice(p.amount)}</strong>
                       </div>
 
@@ -434,7 +434,7 @@ export default function Home() {
 
 
                       >
-                        {stocked ? 'DetaylarÄ± gÃ¶r' : 'Stokta yok'}
+                        {stocked ? 'Detayları gör' : 'Stokta yok'}
                         <ArrowUpRight size={15} />
                       </button>
                     </div>
@@ -447,14 +447,14 @@ export default function Home() {
 
         {!busy && !error && visible.length === 0 && (
           <div className="empty">
-            Bu aramayla eÅŸleÅŸen Ã¼rÃ¼n bulunamadÄ±.
+            Bu aramayla eşleşen ürün bulunamadı.
           </div>
         )}
 
         <div className="catalog-foot">
-          ÃœrÃ¼n fiyatlarÄ±, lisans koÅŸullarÄ± ve stok bilgileri satÄ±n alma
-          Ã¶ncesinde doÄŸrulanmalÄ±dÄ±r. GÃ¶sterilen fiyatlarÄ±n satÄ±ÅŸ fiyatÄ±
-          olduÄŸu henÃ¼z teyit edilmemiÅŸtir.
+          Ürün fiyatları, lisans koşulları ve stok bilgileri satın alma
+          öncesinde doğrulanmalıdır. Gösterilen fiyatların satış fiyatı
+          olduğu henüz teyit edilmemiştir.
         </div>
       </section>
 
@@ -462,24 +462,24 @@ export default function Home() {
         <div>
           <div className="eyebrow">NEASX STORE</div>
           <h2>
-            Ä°htiyacÄ±n olan dijital
+            İhtiyacın olan dijital
             <br />
-            araÃ§lar, <span>tek noktada.</span>
+            araçlar, <span>tek noktada.</span>
           </h2>
         </div>
 
         <div className="why-copy">
           <p>
-            ÃœrÃ¼n detaylarÄ±nÄ±, kullanÄ±m sÃ¼resini, lisans tÃ¼rÃ¼nÃ¼ ve teslimat
-            biÃ§imini aÃ§Ä±kÃ§a inceleyebileceÄŸin bir maÄŸaza deneyimi.
+            Ürün detaylarını, kullanım süresini, lisans türünü ve teslimat
+            biçimini açıkça inceleyebileceğin bir mağaza deneyimi.
           </p>
 
           <div className="why-points">
             <span>
-              <ShieldCheck /> AÃ§Ä±k Ã¼rÃ¼n koÅŸullarÄ±
+              <ShieldCheck /> Açık ürün koşulları
             </span>
             <span>
-              <PackageCheck /> SipariÅŸ takibi hedefi
+              <PackageCheck /> Sipariş takibi hedefi
             </span>
           </div>
         </div>
@@ -494,10 +494,10 @@ export default function Home() {
         </a>
 
         <span>
-          Â© {new Date().getFullYear()} NEASX. TÃ¼m haklarÄ± saklÄ±dÄ±r.
+          © {new Date().getFullYear()} NEASX. Tüm hakları saklıdır.
         </span>
 
-        <span>Dijital Ã¼rÃ¼nler â€¢ Destek</span>
+        <span>Dijital ürünler • Destek</span>
       </footer>
     </main>
   );
