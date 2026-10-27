@@ -1,0 +1,1364 @@
+﻿{
+    "categories":  [
+                       {
+                           "id":  1,
+                           "name":  "Seo AraÃ§larÄ±",
+                           "subcategories":  [
+
+                                             ]
+                       },
+                       {
+                           "id":  4,
+                           "name":  "GÃ¶rsel ÃrÃ¼nler",
+                           "subcategories":  [
+                                                 {
+                                                     "id":  15,
+                                                     "category_id":  4,
+                                                     "name":  "Envato"
+                                                 },
+                                                 {
+                                                     "id":  16,
+                                                     "category_id":  4,
+                                                     "name":  "Freepik"
+                                                 },
+                                                 {
+                                                     "id":  17,
+                                                     "category_id":  4,
+                                                     "name":  "Motion Array"
+                                                 },
+                                                 {
+                                                     "id":  18,
+                                                     "category_id":  4,
+                                                     "name":  "Flaticon"
+                                                 },
+                                                 {
+                                                     "id":  25,
+                                                     "category_id":  4,
+                                                     "name":  "Canva"
+                                                 },
+                                                 {
+                                                     "id":  33,
+                                                     "category_id":  4,
+                                                     "name":  "Adobe"
+                                                 },
+                                                 {
+                                                     "id":  34,
+                                                     "category_id":  4,
+                                                     "name":  "DiÄer ÃrÃ¼nler"
+                                                 },
+                                                 {
+                                                     "id":  45,
+                                                     "category_id":  4,
+                                                     "name":  "Capcut"
+                                                 }
+                                             ]
+                       },
+                       {
+                           "id":  5,
+                           "name":  "Windows",
+                           "subcategories":  [
+                                                 {
+                                                     "id":  20,
+                                                     "category_id":  5,
+                                                     "name":  "Retail"
+                                                 },
+                                                 {
+                                                     "id":  21,
+                                                     "category_id":  5,
+                                                     "name":  "Oem"
+                                                 },
+                                                 {
+                                                     "id":  41,
+                                                     "category_id":  5,
+                                                     "name":  "DiÄer Windows ÃrÃ¼nleri"
+                                                 },
+                                                 {
+                                                     "id":  42,
+                                                     "category_id":  5,
+                                                     "name":  "Server LisanslarÄ±"
+                                                 }
+                                             ]
+                       },
+                       {
+                           "id":  6,
+                           "name":  "Office",
+                           "subcategories":  [
+                                                 {
+                                                     "id":  31,
+                                                     "category_id":  6,
+                                                     "name":  "Office"
+                                                 },
+                                                 {
+                                                     "id":  35,
+                                                     "category_id":  6,
+                                                     "name":  "Visio"
+                                                 }
+                                             ]
+                       },
+                       {
+                           "id":  7,
+                           "name":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                           "subcategories":  [
+                                                 {
+                                                     "id":  22,
+                                                     "category_id":  7,
+                                                     "name":  "Eklentiler"
+                                                 },
+                                                 {
+                                                     "id":  23,
+                                                     "category_id":  7,
+                                                     "name":  "Temalar"
+                                                 }
+                                             ]
+                       },
+                       {
+                           "id":  8,
+                           "name":  "Vpn \u0026 AntivirÃ¼s",
+                           "subcategories":  [
+                                                 {
+                                                     "id":  26,
+                                                     "category_id":  8,
+                                                     "name":  "Vpn"
+                                                 },
+                                                 {
+                                                     "id":  27,
+                                                     "category_id":  8,
+                                                     "name":  "AntivirÃ¼s"
+                                                 }
+                                             ]
+                       },
+                       {
+                           "id":  9,
+                           "name":  "DiÄer ÃrÃ¼nler",
+                           "subcategories":  [
+                                                 {
+                                                     "id":  28,
+                                                     "category_id":  9,
+                                                     "name":  "DiÄer ÃrÃ¼nler"
+                                                 }
+                                             ]
+                       },
+                       {
+                           "id":  10,
+                           "name":  "Yapay Zeka",
+                           "subcategories":  [
+                                                 {
+                                                     "id":  32,
+                                                     "category_id":  10,
+                                                     "name":  "Chatgpt"
+                                                 },
+                                                 {
+                                                     "id":  43,
+                                                     "category_id":  10,
+                                                     "name":  "Gemini"
+                                                 },
+                                                 {
+                                                     "id":  46,
+                                                     "category_id":  10,
+                                                     "name":  "DiÄer ÃrÃ¼nler"
+                                                 }
+                                             ]
+                       },
+                       {
+                           "id":  11,
+                           "name":  "GeliÅtirici AraÃ§larÄ±",
+                           "subcategories":  [
+                                                 {
+                                                     "id":  37,
+                                                     "category_id":  11,
+                                                     "name":  "DiÄer ÃrÃ¼nler"
+                                                 }
+                                             ]
+                       }
+                   ],
+    "products":  [
+                     {
+                         "id":  184,
+                         "name":  "Envato - 1 AylÄ±k (GÃ¼nlÃ¼k 50 Ä°ndirme)",
+                         "description":  "stokdepo.comâa kaydolup anahtar kullan kÄ±smÄ±ndan bu kod ile hizmetinizi etkinleÅtirebilirsiniz. Ä°ndirmek istediÄiniz Ã¼rÃ¼nÃ¼n linkini kopyalayÄ±p stokdepo.com\u0027da ilgili yere yapÄ±ÅtÄ±rÄ±p indiriniz.",
+                         "amount":  35,
+                         "is_stock":  true,
+                         "stock_count":  71,
+                         "is_automatic_delivery":  true,
+                         "category":  "GÃ¶rsel ÃrÃ¼nler",
+                         "subcategory":  "Envato"
+                     },
+                     {
+                         "id":  252,
+                         "name":  "Envato - 3 AylÄ±k (GÃ¼nlÃ¼k 100 Ä°ndirme)",
+                         "description":  "filecip.comâa kaydolup anahtar kullan kÄ±smÄ±ndan bu kod ile hizmetinizi etkinleÅtirebilirsiniz. Ä°ndirmek istediÄiniz Ã¼rÃ¼nÃ¼n linkini kopyalayÄ±p filecip.com\u0027da ilgili yere yapÄ±ÅtÄ±rÄ±p indiriniz.",
+                         "amount":  90,
+                         "is_stock":  true,
+                         "stock_count":  1,
+                         "is_automatic_delivery":  true,
+                         "category":  "GÃ¶rsel ÃrÃ¼nler",
+                         "subcategory":  "Envato"
+                     },
+                     {
+                         "id":  253,
+                         "name":  "Envato - 6 AylÄ±k (GÃ¼nlÃ¼k 50 Ä°ndirme)",
+                         "description":  "stokdepo.comâa kaydolup anahtar kullan kÄ±smÄ±ndan bu kod ile hizmetinizi etkinleÅtirebilirsiniz. Ä°ndirmek istediÄiniz Ã¼rÃ¼nÃ¼n linkini kopyalayÄ±p stokdepo.com\u0027da ilgili yere yapÄ±ÅtÄ±rÄ±p indiriniz.",
+                         "amount":  140,
+                         "is_stock":  true,
+                         "stock_count":  100,
+                         "is_automatic_delivery":  true,
+                         "category":  "GÃ¶rsel ÃrÃ¼nler",
+                         "subcategory":  "Envato"
+                     },
+                     {
+                         "id":  254,
+                         "name":  "Envato - 1 YÄ±llÄ±k (GÃ¼nlÃ¼k 100 Ä°ndirme)",
+                         "description":  "filecip.comâa kaydolup anahtar kullan kÄ±smÄ±ndan bu kod ile hizmetinizi etkinleÅtirebilirsiniz. Ä°ndirmek istediÄiniz Ã¼rÃ¼nÃ¼n linkini kopyalayÄ±p filecip.com\u0027da ilgili yere yapÄ±ÅtÄ±rÄ±p indiriniz.",
+                         "amount":  220,
+                         "is_stock":  true,
+                         "stock_count":  1,
+                         "is_automatic_delivery":  true,
+                         "category":  "GÃ¶rsel ÃrÃ¼nler",
+                         "subcategory":  "Envato"
+                     },
+                     {
+                         "id":  180,
+                         "name":  "Freepik - 1 AylÄ±k (GÃ¼nlÃ¼k 20 Ä°ndirme)",
+                         "description":  "stokdepo.comâa kaydolup anahtar kullan kÄ±smÄ±ndan bu kod ile hizmetinizi etkinleÅtirebilirsiniz. Ä°ndirmek istediÄiniz Ã¼rÃ¼nÃ¼n linkini kopyalayÄ±p stokdepo.comâda ilgili yere yapÄ±ÅtÄ±rÄ±p indiriniz.",
+                         "amount":  35,
+                         "is_stock":  true,
+                         "stock_count":  88,
+                         "is_automatic_delivery":  true,
+                         "category":  "GÃ¶rsel ÃrÃ¼nler",
+                         "subcategory":  "Freepik"
+                     },
+                     {
+                         "id":  249,
+                         "name":  "Freepik -  3 AylÄ±k (GÃ¼nlÃ¼k 30 Ä°ndirme)",
+                         "description":  "filecip.comâa kaydolup anahtar kullan kÄ±smÄ±ndan bu kod ile hizmetinizi etkinleÅtirebilirsiniz. Ä°ndirmek istediÄiniz Ã¼rÃ¼nÃ¼n linkini kopyalayÄ±p filecip.comâda ilgili yere yapÄ±ÅtÄ±rÄ±p indiriniz.",
+                         "amount":  90,
+                         "is_stock":  true,
+                         "stock_count":  2,
+                         "is_automatic_delivery":  true,
+                         "category":  "GÃ¶rsel ÃrÃ¼nler",
+                         "subcategory":  "Freepik"
+                     },
+                     {
+                         "id":  250,
+                         "name":  "Freepik -  6 AylÄ±k (GÃ¼nlÃ¼k 30 Ä°ndirme)",
+                         "description":  "filecip.comâa kaydolup anahtar kullan kÄ±smÄ±ndan bu kod ile hizmetinizi etkinleÅtirebilirsiniz. Ä°ndirmek istediÄiniz Ã¼rÃ¼nÃ¼n linkini kopyalayÄ±p filecip.comâda ilgili yere yapÄ±ÅtÄ±rÄ±p indiriniz.",
+                         "amount":  140,
+                         "is_stock":  true,
+                         "stock_count":  1,
+                         "is_automatic_delivery":  true,
+                         "category":  "GÃ¶rsel ÃrÃ¼nler",
+                         "subcategory":  "Freepik"
+                     },
+                     {
+                         "id":  251,
+                         "name":  "Freepik - 1 YÄ±llÄ±k (GÃ¼nlÃ¼k 20 Ä°ndirme)",
+                         "description":  "stokdepo.comâa kaydolup anahtar kullan kÄ±smÄ±ndan bu kod ile hizmetinizi etkinleÅtirebilirsiniz. Ä°ndirmek istediÄiniz Ã¼rÃ¼nÃ¼n linkini kopyalayÄ±p stokdepo.comâda ilgili yere yapÄ±ÅtÄ±rÄ±p indiriniz.",
+                         "amount":  220,
+                         "is_stock":  true,
+                         "stock_count":  50,
+                         "is_automatic_delivery":  true,
+                         "category":  "GÃ¶rsel ÃrÃ¼nler",
+                         "subcategory":  "Freepik"
+                     },
+                     {
+                         "id":  188,
+                         "name":  "Motion Array - 1 AylÄ±k (GÃ¼nlÃ¼k 50 Ä°ndirme)",
+                         "description":  "stokofisi.comâa kayÄ±t olduktan sonra sol menÃ¼deki key kullan kÄ±smÄ±ndan anahtarÄ± etkinleÅtirip kullanmaya baÅlayabilirsiniz.",
+                         "amount":  35,
+                         "is_stock":  true,
+                         "stock_count":  1,
+                         "is_automatic_delivery":  true,
+                         "category":  "GÃ¶rsel ÃrÃ¼nler",
+                         "subcategory":  "Motion Array"
+                     },
+                     {
+                         "id":  255,
+                         "name":  "Motion Array - 3 AylÄ±k (GÃ¼nlÃ¼k 50 Ä°ndirme)",
+                         "description":  "stokdepo.comâa kayÄ±t olduktan sonra sol menÃ¼deki key kullan kÄ±smÄ±ndan anahtarÄ± etkinleÅtirip kullanmaya baÅlayabilirsiniz.",
+                         "amount":  90,
+                         "is_stock":  true,
+                         "stock_count":  50,
+                         "is_automatic_delivery":  true,
+                         "category":  "GÃ¶rsel ÃrÃ¼nler",
+                         "subcategory":  "Motion Array"
+                     },
+                     {
+                         "id":  256,
+                         "name":  "Motion Array - 6 AylÄ±k (GÃ¼nlÃ¼k 50 Ä°ndirme)",
+                         "description":  "stokofisi.comâa kayÄ±t olduktan sonra sol menÃ¼deki key kullan kÄ±smÄ±ndan anahtarÄ± etkinleÅtirip kullanmaya baÅlayabilirsiniz.",
+                         "amount":  140,
+                         "is_stock":  true,
+                         "stock_count":  1,
+                         "is_automatic_delivery":  true,
+                         "category":  "GÃ¶rsel ÃrÃ¼nler",
+                         "subcategory":  "Motion Array"
+                     },
+                     {
+                         "id":  257,
+                         "name":  "Motion Array - 1 YÄ±llÄ±k (GÃ¼nlÃ¼k 50 Ä°ndirme)",
+                         "description":  "stokofisi.comâa kayÄ±t olduktan sonra sol menÃ¼deki key kullan kÄ±smÄ±ndan anahtarÄ± etkinleÅtirip kullanmaya baÅlayabilirsiniz.",
+                         "amount":  220,
+                         "is_stock":  true,
+                         "stock_count":  1,
+                         "is_automatic_delivery":  true,
+                         "category":  "GÃ¶rsel ÃrÃ¼nler",
+                         "subcategory":  "Motion Array"
+                     },
+                     {
+                         "id":  192,
+                         "name":  "Flaticon - 1 AylÄ±k (GÃ¼nlÃ¼k 100 Ä°ndirme)",
+                         "description":  "Stokbayim.comâa kayÄ±t olduktan sonra sitenin saÄ Ã¼st kÄ±smÄ±nda bulunan key ikonuna tÄ±klayarak satÄ±n aldÄ±ÄÄ±nÄ±z keyi girebilir ve Ã¼yeliÄinizi aktif edebilirsiniz.",
+                         "amount":  35,
+                         "is_stock":  true,
+                         "stock_count":  1,
+                         "is_automatic_delivery":  true,
+                         "category":  "GÃ¶rsel ÃrÃ¼nler",
+                         "subcategory":  "Flaticon"
+                     },
+                     {
+                         "id":  258,
+                         "name":  "Flaticon - 3 AylÄ±k (GÃ¼nlÃ¼k 100 Ä°ndirme)",
+                         "description":  "Stokbayim.comâa kayÄ±t olduktan sonra sitenin saÄ Ã¼st kÄ±smÄ±nda bulunan key ikonuna tÄ±klayarak satÄ±n aldÄ±ÄÄ±nÄ±z keyi girebilir ve Ã¼yeliÄinizi aktif edebilirsiniz.",
+                         "amount":  90,
+                         "is_stock":  true,
+                         "stock_count":  2,
+                         "is_automatic_delivery":  true,
+                         "category":  "GÃ¶rsel ÃrÃ¼nler",
+                         "subcategory":  "Flaticon"
+                     },
+                     {
+                         "id":  259,
+                         "name":  "Flaticon - 6 AylÄ±k (GÃ¼nlÃ¼k 100 Ä°ndirme)",
+                         "description":  "Stokbayim.comâa kayÄ±t olduktan sonra sitenin saÄ Ã¼st kÄ±smÄ±nda bulunan key ikonuna tÄ±klayarak satÄ±n aldÄ±ÄÄ±nÄ±z keyi girebilir ve Ã¼yeliÄinizi aktif edebilirsiniz.",
+                         "amount":  140,
+                         "is_stock":  true,
+                         "stock_count":  1,
+                         "is_automatic_delivery":  true,
+                         "category":  "GÃ¶rsel ÃrÃ¼nler",
+                         "subcategory":  "Flaticon"
+                     },
+                     {
+                         "id":  260,
+                         "name":  "Flaticon - 1 YÄ±llÄ±k (GÃ¼nlÃ¼k 100 Ä°ndirme)",
+                         "description":  "Stokbayim.comâa kayÄ±t olduktan sonra sitenin saÄ Ã¼st kÄ±smÄ±nda bulunan key ikonuna tÄ±klayarak satÄ±n aldÄ±ÄÄ±nÄ±z keyi girebilir ve Ã¼yeliÄinizi aktif edebilirsiniz.",
+                         "amount":  220,
+                         "is_stock":  true,
+                         "stock_count":  1,
+                         "is_automatic_delivery":  true,
+                         "category":  "GÃ¶rsel ÃrÃ¼nler",
+                         "subcategory":  "Flaticon"
+                     },
+                     {
+                         "id":  168,
+                         "name":  "Canva ÃÄrenci",
+                         "description":  "â\u0085 SÃ¼re sÄ±nÄ±rÄ± yoktur, 6 ay garantilidir.\r\nâ\u0085 Canvaya kayÄ±tlÄ± maili e-mail kÄ±smÄ±na girmeniz yeterlidir.",
+                         "amount":  20,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "GÃ¶rsel ÃrÃ¼nler",
+                         "subcategory":  "Canva"
+                     },
+                     {
+                         "id":  169,
+                         "name":  "Canva ÃÄretmen",
+                         "description":  "â\u0085 SÃ¼re sÄ±nÄ±rÄ± yoktur, 6 ay garantilidir.\r\nâ\u0085 Canvaya kayÄ±tlÄ± maili e-mail kÄ±smÄ±na girmeniz yeterlidir.",
+                         "amount":  50,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "GÃ¶rsel ÃrÃ¼nler",
+                         "subcategory":  "Canva"
+                     },
+                     {
+                         "id":  243,
+                         "name":  "Canva KiÅisel SÄ±nÄ±f",
+                         "description":  "â\u0085 Tamamen kiÅiye Ã¶zel, tÃ¼m yÃ¶netim sizdedir.\r\nâ\u0085 Mail Åifre Åeklinde teslim edilir.\r\nâ\u0085 Maile kod giderse aynÄ± bilgilerle maile girip kodu alabilirsiniz.\r\nâ\u0085 1 Ay Garantilidir.",
+                         "amount":  180,
+                         "is_stock":  true,
+                         "stock_count":  3,
+                         "is_automatic_delivery":  true,
+                         "category":  "GÃ¶rsel ÃrÃ¼nler",
+                         "subcategory":  "Canva"
+                     },
+                     {
+                         "id":  368,
+                         "name":  "Adobe Express - 1 YÄ±llÄ±k",
+                         "description":  "âï¸ Bir kullanma baÄlantÄ±sÄ± alacaksÄ±nÄ±z; bu baÄlantÄ±yÄ± aÃ§Ä±n ve e-posta adresinizle oturum aÃ§Ä±n; bÃ¶ylece 12 ay boyunca Adobe Expressâin Premium Ã¼yesi olarak anÄ±nda yÃ¼kseltileceksiniz.\r\nâ ï¸ BÃ¶lge kÄ±sÄ±tlamasÄ± veya bÃ¶lge uyuÅmazlÄ±ÄÄ± hatasÄ±yla karÅÄ±laÅÄ±rsanÄ±z, Hindistan merkezli bir VPN\u0027e baÄlanÄ±n ve tekrar deneyin.\r\nâ ï¸ Aktivasyon iÃ§in 48 saatlik garanti\r\nâ ï¸ EtkinleÅtirildikten sonra garanti verilmez.",
+                         "amount":  50,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "GÃ¶rsel ÃrÃ¼nler",
+                         "subcategory":  "Adobe"
+                     },
+                     {
+                         "id":  248,
+                         "name":  "Adobe Stock 25 GÃ¶rsel Veya 3 Video - 1 AylÄ±k",
+                         "description":  "â\u0085 KiÅisel hesaptÄ±r.\r\nâ\u0085 Hesapta 25 kredi mevcut, her gÃ¶rsel 1 kredi her video 8 kredi harcar.\r\nâ\u0085 Maile giden kodu almak iÃ§in outlook Ã¼zerinden aynÄ± bilgiler ile girebilirsiniz.",
+                         "amount":  70,
+                         "is_stock":  true,
+                         "stock_count":  2,
+                         "is_automatic_delivery":  true,
+                         "category":  "GÃ¶rsel ÃrÃ¼nler",
+                         "subcategory":  "Adobe"
+                     },
+                     {
+                         "id":  293,
+                         "name":  "Creative Fabrica 10 GÃ¶rsel - 1 AylÄ±k",
+                         "description":  "â\u0085 KiÅiye Ã¶zel hesap iletilir.\r\nâ\u0085 Mail Åifre Åeklinde teslim edilir.\r\nâ\u0085 Ä°lk giriÅ garantilidir.",
+                         "amount":  40,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "GÃ¶rsel ÃrÃ¼nler",
+                         "subcategory":  "DiÄer ÃrÃ¼nler"
+                     },
+                     {
+                         "id":  294,
+                         "name":  "PhotoRoom Pro - 7 GÃ¼nlÃ¼k",
+                         "description":  "â\u0085 KiÅiye Ã¶zel hesap iletilir.\r\nâ\u0085 Mail Åifre Åeklinde teslim edilir.\r\nâ\u0085 Ä°lk giriÅ garantilidir.",
+                         "amount":  40,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "GÃ¶rsel ÃrÃ¼nler",
+                         "subcategory":  "DiÄer ÃrÃ¼nler"
+                     },
+                     {
+                         "id":  307,
+                         "name":  "UI8 - 1 GÃ¶rsel",
+                         "description":  "â\u0085 Link kÄ±smÄ±na indirilmesini istediÄiniz linki girmeniz yeterlidir. \r\nâ\u0085 Dosya indirme linki olarak iletilecektir.",
+                         "amount":  30,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "GÃ¶rsel ÃrÃ¼nler",
+                         "subcategory":  "DiÄer ÃrÃ¼nler"
+                     },
+                     {
+                         "id":  358,
+                         "name":  "Capcut Pro - 1 AylÄ±k",
+                         "description":  "CapCut Pro Bilgilendirme\r\n\r\n- HesabÄ± tek cihazdan ve tek kiÅi kullanmanÄ±z gerekiyor yoksa hesap banlanÄ±r ve telafi verilmez.\r\n\r\n- Hesap ilk giriÅ garantilidir, sadece ilk giriÅte sorun olmasÄ± durumunda telafi verilmektedir.\r\n\r\nMobilden giriÅ:\r\nE-posta Åifre seÃ§eneÄi ile kolayca giriÅ yapabilirsiniz. \r\n\r\nBilgisayardan giriÅ:\r\nQr kod ile giriÅ seÃ§eneÄini seÃ§ip mobilde aÃ§mÄ±Å olduÄunuz hesaptan qr kodunu taratarak giriÅ yapabilirsiniz.",
+                         "amount":  100,
+                         "is_stock":  true,
+                         "stock_count":  0,
+                         "is_automatic_delivery":  false,
+                         "category":  "GÃ¶rsel ÃrÃ¼nler",
+                         "subcategory":  "Capcut"
+                     },
+                     {
+                         "id":  261,
+                         "name":  "Windows 10/11 Pro Retail",
+                         "description":  "SÃ¼re sÄ±nÄ±rÄ± yoktur, 6 ay garantilidir.\r\nFormat sonrasÄ±nda kullanÄ±lamaz.\r\n\r\nTalimatlar;\r\n\r\nLisans anahtarÄ±nÄ± 12 saat iÃ§erisinde kullanmalÄ±sÄ±nÄ±z.\r\n\r\nEtkinleÅtirme sayfasÄ±nda âÃrÃ¼n anahtarÄ±nÄ± deÄiÅtirâ veya âLisans anahtarÄ± girâ seÃ§eneÄini bulun ve tÄ±klayÄ±n.\r\nElinizdeki lisans anahtarÄ±nÄ± kutuya yazÄ±n.\r\nBu aÅamada 0xc004c008 hata kodunu almanÄ±z gerekmekte.\r\nHata ekranÄ±nÄ± kapatÄ±n ve BaÅlat menÃ¼sÃ¼nde âÃalÄ±ÅtÄ±râ yazÄ±p Ã§alÄ±ÅtÄ±rÄ± aÃ§Ä±n.\r\nÃalÄ±ÅtÄ±r penceresine SLUI 4 yazÄ±n ve Enterâa basÄ±n.\r\nDaha sonra telefonla etkinleÅtir diyin.\r\nAÃ§Ä±lan pencerede rastgele bir bÃ¶lgeyi seÃ§in ve ileri deyin.\r\nKarÅÄ±nÄ±za uzun bir kurulum kimliÄi Ã§Ä±kacak.\r\nTarayÄ±cÄ±nÄ±zdan aka.ms/aoh adresine gidin, hesabÄ±nÄ±zla giriÅ yapÄ±n ve Windows aktivasyon seÃ§eneÄini aÃ§Ä±n.\r\nSitedeki boÅluklara bilgisayarÄ±nÄ±zda gÃ¶rÃ¼nen uzun sayÄ±larÄ± (kurulum kimliÄi) yazÄ±n ve talimatlarÄ± takip edin.\r\nSistem size bir onay kodu verecek. Bu kodu bilgisayarÄ±nÄ±zdaki kutucuklara sÄ±rayla girin.\r\nKodlarÄ± girdikten sonra aktivasyonu tamamlayabilirsiniz. EÄer telefonla etkinleÅtirilemiyor derse cihazÄ± yeniden baÅlatÄ±rsanÄ±z aktif olacaktÄ±r.",
+                         "amount":  20,
+                         "is_stock":  true,
+                         "stock_count":  1,
+                         "is_automatic_delivery":  true,
+                         "category":  "Windows",
+                         "subcategory":  "Retail"
+                     },
+                     {
+                         "id":  262,
+                         "name":  "Windows 10/11 Home Retail",
+                         "description":  "SÃ¼re sÄ±nÄ±rÄ± yoktur, 6 ay garantilidir.\r\nFormat sonrasÄ±nda kullanÄ±lamaz.\r\n\r\nTalimatlar;\r\n\r\nLisans anahtarÄ±nÄ± 12 saat iÃ§erisinde kullanmalÄ±sÄ±nÄ±z.\r\nBilgisayarÄ±nÄ±zÄ±n internete baÄlÄ± olduÄundan ve gÃ¼ncel olduÄundan emin olun.\r\nMasaÃ¼stÃ¼nde âBu Bilgisayarâ simgesine saÄ tÄ±klayÄ±n â âÃzelliklerâe girin.\r\nAÃ§Ä±lan ekranda âÃrÃ¼n anahtarÄ±nÄ± deÄiÅtirâ veya âLisans anahtarÄ± girâ seÃ§eneÄini bulun ve tÄ±klayÄ±n.\r\nElinizdeki lisans anahtarÄ±nÄ± kutuya yazÄ±n.\r\nBu aÅamada 0xc004c008 hata kodunu almanÄ±z normaldir.\r\nHata ekranÄ±nÄ± kapatÄ±n ve BaÅlat menÃ¼sÃ¼nde âÃalÄ±ÅtÄ±râ yazÄ±p Ã§alÄ±ÅtÄ±rÄ± aÃ§Ä±n.\r\nÃalÄ±ÅtÄ±r penceresine SLUI 4 yazÄ±n ve Enterâa basÄ±n.\r\nAÃ§Ä±lan pencerede bulunduÄunuz bÃ¶lgeyi seÃ§in ve ileri deyin.\r\nKarÅÄ±nÄ±za uzun bir kurulum kimliÄi (ID numarasÄ±) Ã§Ä±kacak.\r\nTarayÄ±cÄ±nÄ±zdan aka.ms/aoh adresine gidin, hesabÄ±nÄ±zla giriÅ yapÄ±n ve Windows aktivasyon seÃ§eneÄini aÃ§Ä±n.\r\nSitedeki boÅluklara bilgisayarÄ±nÄ±zda gÃ¶rÃ¼nen uzun sayÄ±larÄ± (kurulum kimliÄi) yazÄ±n ve talimatlarÄ± takip edin.\r\nSistem size bir onay kodu verecek. Bu kodu bilgisayarÄ±nÄ±zdaki kutucuklara sÄ±rayla girin.\r\nKodlarÄ± girdikten sonra aktivasyonu tamamlayÄ±n.",
+                         "amount":  20,
+                         "is_stock":  true,
+                         "stock_count":  5,
+                         "is_automatic_delivery":  true,
+                         "category":  "Windows",
+                         "subcategory":  "Retail"
+                     },
+                     {
+                         "id":  198,
+                         "name":  "Windows 10-11 Pro Oem",
+                         "description":  "SÃ¼re sÄ±nÄ±rÄ± yoktur, 6 ay garantilidir.\r\n12 saat iÃ§inde kullanÄ±lmasÄ± gerekiyor.\r\nAyarlara girip etkinleÅtirme kÄ±smÄ±ndan keyi girmeniz yeterlidir, direkt aktif olur.",
+                         "amount":  90,
+                         "is_stock":  true,
+                         "stock_count":  2,
+                         "is_automatic_delivery":  true,
+                         "category":  "Windows",
+                         "subcategory":  "Oem"
+                     },
+                     {
+                         "id":  199,
+                         "name":  "Windows 10/11 Home Oem",
+                         "description":  "SÃ¼re sÄ±nÄ±rÄ± yoktur, 6 ay garantilidir.\r\n12 saat iÃ§inde kullanÄ±lmasÄ± gerekiyor.\r\nAyarlara girip etkinleÅtirme kÄ±smÄ±ndan keyi girmeniz yeterlidir, direkt aktif olur.",
+                         "amount":  90,
+                         "is_stock":  true,
+                         "stock_count":  0,
+                         "is_automatic_delivery":  false,
+                         "category":  "Windows",
+                         "subcategory":  "Oem"
+                     },
+                     {
+                         "id":  302,
+                         "name":  "Windows 10-11 Home to Pro",
+                         "description":  "Key olarak teslim edilir.\r\nSadece yÃ¼kseltme yapar, lisanslama yapmaz.\r\n12 saat iÃ§inde kullanÄ±lmasÄ± gerekiyor.",
+                         "amount":  50,
+                         "is_stock":  true,
+                         "stock_count":  2,
+                         "is_automatic_delivery":  true,
+                         "category":  "Windows",
+                         "subcategory":  "DiÄer Windows ÃrÃ¼nleri"
+                     },
+                     {
+                         "id":  303,
+                         "name":  "Windows 10/11 Enterprise",
+                         "description":  "SÃ¼re sÄ±nÄ±rÄ± yoktur, 6 ay garantilidir.\r\nFormat sonrasÄ±nda kullanÄ±lamaz.\r\n\r\nTalimatlar;\r\n\r\nLisans anahtarÄ±nÄ± 12 saat iÃ§erisinde kullanmalÄ±sÄ±nÄ±z.\r\n\r\nEtkinleÅtirme sayfasÄ±nda âÃrÃ¼n anahtarÄ±nÄ± deÄiÅtirâ veya âLisans anahtarÄ± girâ seÃ§eneÄini bulun ve tÄ±klayÄ±n.\r\nElinizdeki lisans anahtarÄ±nÄ± kutuya yazÄ±n.\r\nBu aÅamada 0xc004c008 hata kodunu almanÄ±z gerekmekte.\r\nHata ekranÄ±nÄ± kapatÄ±n ve BaÅlat menÃ¼sÃ¼nde âÃalÄ±ÅtÄ±râ yazÄ±p Ã§alÄ±ÅtÄ±rÄ± aÃ§Ä±n.\r\nÃalÄ±ÅtÄ±r penceresine SLUI 4 yazÄ±n ve Enterâa basÄ±n.\r\nDaha sonra telefonla etkinleÅtir diyin.\r\nAÃ§Ä±lan pencerede rastgele bir bÃ¶lgeyi seÃ§in ve ileri deyin.\r\nKarÅÄ±nÄ±za uzun bir kurulum kimliÄi Ã§Ä±kacak.\r\nTarayÄ±cÄ±nÄ±zdan aka.ms/aoh adresine gidin, hesabÄ±nÄ±zla giriÅ yapÄ±n ve Windows aktivasyon seÃ§eneÄini aÃ§Ä±n.\r\nSitedeki boÅluklara bilgisayarÄ±nÄ±zda gÃ¶rÃ¼nen uzun sayÄ±larÄ± (kurulum kimliÄi) yazÄ±n ve talimatlarÄ± takip edin.\r\nSistem size bir onay kodu verecek. Bu kodu bilgisayarÄ±nÄ±zdaki kutucuklara sÄ±rayla girin.\r\nKodlarÄ± girdikten sonra aktivasyonu tamamlayabilirsiniz. EÄer telefonla etkinleÅtirilemiyor derse cihazÄ± yeniden baÅlatÄ±rsanÄ±z aktif olacaktÄ±r.",
+                         "amount":  70,
+                         "is_stock":  true,
+                         "stock_count":  1,
+                         "is_automatic_delivery":  true,
+                         "category":  "Windows",
+                         "subcategory":  "DiÄer Windows ÃrÃ¼nleri"
+                     },
+                     {
+                         "id":  305,
+                         "name":  "Windows 7 Pro",
+                         "description":  "Key olarak teslim edilir.\r\n1 gÃ¼n iÃ§erisinde kullanÄ±lmalÄ±dÄ±r.",
+                         "amount":  190,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Windows",
+                         "subcategory":  "DiÄer Windows ÃrÃ¼nleri"
+                     },
+                     {
+                         "id":  320,
+                         "name":  "Windows Server 2012 R2 Standart - Retail",
+                         "description":  "Fiyat DeÄiÅikliÄi olabiliyor Ã¼rÃ¼nde, satÄ±n almadan Ã¶nce sormanÄ±z gerekmektedir.\r\nKey olarak teslim edilir. \r\nSÄ±nÄ±rsÄ±zdÄ±r. \r\n1 gÃ¼n iÃ§erisinde kullanÄ±lmalÄ±dÄ±r. \r\nFormat sonrasÄ± kullanÄ±lmaz. \r\n1 key 1 kez kullanÄ±labilir.",
+                         "amount":  260,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Windows",
+                         "subcategory":  "Server LisanslarÄ±"
+                     },
+                     {
+                         "id":  321,
+                         "name":  "Windows Server 2012 R2 Datacenter - Retail",
+                         "description":  "Fiyat DeÄiÅikliÄi olabiliyor Ã¼rÃ¼nde, satÄ±n almadan Ã¶nce sormanÄ±z gerekmektedir.\r\nKey olarak teslim edilir. \r\nSÄ±nÄ±rsÄ±zdÄ±r. \r\n1 gÃ¼n iÃ§erisinde kullanÄ±lmalÄ±dÄ±r. \r\nFormat sonrasÄ± kullanÄ±lmaz. \r\n1 key 1 kez kullanÄ±labilir.",
+                         "amount":  260,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Windows",
+                         "subcategory":  "Server LisanslarÄ±"
+                     },
+                     {
+                         "id":  322,
+                         "name":  "Windows Server 2016 Standart - Retail",
+                         "description":  "Fiyat DeÄiÅikliÄi olabiliyor Ã¼rÃ¼nde, satÄ±n almadan Ã¶nce sormanÄ±z gerekmektedir.\r\nKey olarak teslim edilir. \r\nSÄ±nÄ±rsÄ±zdÄ±r. \r\n1 gÃ¼n iÃ§erisinde kullanÄ±lmalÄ±dÄ±r. \r\nFormat sonrasÄ± kullanÄ±lmaz. \r\n1 key 1 kez kullanÄ±labilir.",
+                         "amount":  260,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Windows",
+                         "subcategory":  "Server LisanslarÄ±"
+                     },
+                     {
+                         "id":  323,
+                         "name":  "Windows Server 2016 Datacenter - Retail",
+                         "description":  "Key olarak teslim edilir. \r\nSÄ±nÄ±rsÄ±zdÄ±r. \r\n1 gÃ¼n iÃ§erisinde kullanÄ±lmalÄ±dÄ±r. \r\nFormat sonrasÄ± kullanÄ±lmaz. \r\n1 key 1 kez kullanÄ±labilir.",
+                         "amount":  260,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Windows",
+                         "subcategory":  "Server LisanslarÄ±"
+                     },
+                     {
+                         "id":  324,
+                         "name":  "Windows Server 2019 Standart - Retail",
+                         "description":  "Fiyat DeÄiÅikliÄi olabiliyor Ã¼rÃ¼nde, satÄ±n almadan Ã¶nce sormanÄ±z gerekmektedir.\r\nKey olarak teslim edilir. \r\nSÄ±nÄ±rsÄ±zdÄ±r. \r\n1 gÃ¼n iÃ§erisinde kullanÄ±lmalÄ±dÄ±r. \r\nFormat sonrasÄ± kullanÄ±lmaz. \r\n1 key 1 kez kullanÄ±labilir.",
+                         "amount":  280,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Windows",
+                         "subcategory":  "Server LisanslarÄ±"
+                     },
+                     {
+                         "id":  325,
+                         "name":  "Windows Server 2019 Datacenter - Retail",
+                         "description":  "Key olarak teslim edilir. \r\nSÄ±nÄ±rsÄ±zdÄ±r. \r\n1 gÃ¼n iÃ§erisinde kullanÄ±lmalÄ±dÄ±r. \r\nFormat sonrasÄ± kullanÄ±lmaz. \r\n1 key 1 kez kullanÄ±labilir.",
+                         "amount":  280,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Windows",
+                         "subcategory":  "Server LisanslarÄ±"
+                     },
+                     {
+                         "id":  326,
+                         "name":  "Windows Server 2022 Standart - Retail",
+                         "description":  "Fiyat DeÄiÅikliÄi olabiliyor Ã¼rÃ¼nde, satÄ±n almadan Ã¶nce sormanÄ±z gerekmektedir.\r\nKey olarak teslim edilir. \r\nSÄ±nÄ±rsÄ±zdÄ±r. \r\n1 gÃ¼n iÃ§erisinde kullanÄ±lmalÄ±dÄ±r. \r\nFormat sonrasÄ± kullanÄ±lmaz. \r\n1 key 1 kez kullanÄ±labilir.",
+                         "amount":  300,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Windows",
+                         "subcategory":  "Server LisanslarÄ±"
+                     },
+                     {
+                         "id":  327,
+                         "name":  "Windows Server 2022 Datacenter - Retail",
+                         "description":  "Fiyat DeÄiÅikliÄi olabiliyor Ã¼rÃ¼nde, satÄ±n almadan Ã¶nce sormanÄ±z gerekmektedir.\r\nKey olarak teslim edilir. \r\nSÄ±nÄ±rsÄ±zdÄ±r. \r\n1 gÃ¼n iÃ§erisinde kullanÄ±lmalÄ±dÄ±r. \r\nFormat sonrasÄ± kullanÄ±lmaz. \r\n1 key 1 kez kullanÄ±labilir.",
+                         "amount":  300,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Windows",
+                         "subcategory":  "Server LisanslarÄ±"
+                     },
+                     {
+                         "id":  328,
+                         "name":  "Windows Server 2025 Standart - Retail",
+                         "description":  "Fiyat DeÄiÅikliÄi olabiliyor Ã¼rÃ¼nde, satÄ±n almadan Ã¶nce sormanÄ±z gerekmektedir.\r\nKey olarak teslim edilir. \r\nSÄ±nÄ±rsÄ±zdÄ±r. \r\n1 gÃ¼n iÃ§erisinde kullanÄ±lmalÄ±dÄ±r. \r\nFormat sonrasÄ± kullanÄ±lmaz. \r\n1 key 1 kez kullanÄ±labilir.",
+                         "amount":  390,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Windows",
+                         "subcategory":  "Server LisanslarÄ±"
+                     },
+                     {
+                         "id":  329,
+                         "name":  "Windows Server 2025 Datacenter - Retail",
+                         "description":  "Fiyat DeÄiÅikliÄi olabiliyor Ã¼rÃ¼nde, satÄ±n almadan Ã¶nce sormanÄ±z gerekmektedir.\r\nKey olarak teslim edilir. \r\nSÄ±nÄ±rsÄ±zdÄ±r. \r\n1 gÃ¼n iÃ§erisinde kullanÄ±lmalÄ±dÄ±r. \r\nFormat sonrasÄ± kullanÄ±lmaz. \r\n1 key 1 kez kullanÄ±labilir.",
+                         "amount":  390,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Windows",
+                         "subcategory":  "Server LisanslarÄ±"
+                     },
+                     {
+                         "id":  200,
+                         "name":  "Office 365 - 1 YÄ±llÄ±k",
+                         "description":  "Office 365 Kurulum DÃ¶kÃ¼mantasyonu\r\nOffice 365 Pro Plus kurulumu iÃ§in www.office.com adresinden size verilen mail adresi ve Åifre ile giriÅ yapÄ±n, ilk giriÅte Åifre deÄiÅtirmenizi isteyecektir. GiriÅ yaptÄ±ktan sonra saÄ Ã¼st kÃ¶Åede Office UygulamasÄ±nÄ± YÃ¼kleyin butonunu gÃ¶receksiniz. Butona tÄ±kladÄ±ktan sonra Office 365 UygulamalarÄ± yazan yere tÄ±klayarak indirme iÅlemini baÅlatÄ±n. Kurulum iÅlemi bittikten sonra yÃ¼klenen uygulamadan size verilen mail adresi ve deÄiÅtirdiÄiniz Åifre ile giriÅ yaparak tÃ¼m ofis uygulamalarÄ±nÄ± kullanmaya baÅlayabilirsiniz.\r\n\r\nHesap ilk giriÅ garantilidir, ilk giriÅte yaÅanan problemler de Ã¼cretsiz telafi edilir. Ondan sonraki durumlar iÃ§in telafi verilememektedir.",
+                         "amount":  15,
+                         "is_stock":  true,
+                         "stock_count":  2,
+                         "is_automatic_delivery":  true,
+                         "category":  "Office",
+                         "subcategory":  "Office"
+                     },
+                     {
+                         "id":  341,
+                         "name":  "Office 365 Ä°sme Ãzel - 1 YÄ±llÄ±k",
+                         "description":  "E3 plandÄ±r. 6 ay garantilidir. 1 TB Onedrive dahil ve isme Ã¶zeldir. Oto teslim kendiniz hesabÄ± aÃ§abileceksiniz. SatÄ±n aldÄ±ÄÄ±nÄ±z key ile  https://office365.lol sitesine gidin ve isim soyisim yazarak hesabÄ± oluÅturun.",
+                         "amount":  30,
+                         "is_stock":  true,
+                         "stock_count":  3,
+                         "is_automatic_delivery":  true,
+                         "category":  "Office",
+                         "subcategory":  "Office"
+                     },
+                     {
+                         "id":  202,
+                         "name":  "Office 2016 - SÄ±nÄ±rsÄ±z",
+                         "description":  "SÃ¼re sÄ±nÄ±rÄ± yoktur, 6 ay garantilidir.\r\nFormat sonrasÄ±nda kullanÄ±lamaz.\r\n\r\nTalimatlar;\r\n\r\nOffice 2016 Lisans AnahtarÄ±\r\n\r\nÄ°ndirme Linki ; https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/tr-TR/ProPlusRetail.img\r\n\r\n\r\nLisans anahtarÄ±nÄ± 12 saat iÃ§erisinde kullanmalÄ±sÄ±nÄ±z\r\n\r\nNOT: Kurulum yapmadan Ã¶nce bilgisayarÄ±nÄ±zda bulunan diÄer office sÃ¼rÃ¼mlerini kaldÄ±rÄ±n ardÄ±ndan indirdiÄiniz office sÃ¼rÃ¼mÃ¼nÃ¼ yÃ¼kleyin. YÃ¼kleme tamamlandÄ±ktan sonra boÅ bir word dosyasÄ± aÃ§Ä±n karÅÄ±nÄ±za Ã§Ä±kan bÃ¶lÃ¼mden telefon ile etkinleÅtiri seÃ§in.\r\nElinizdeki lisans anahtarÄ±nÄ± kutuya yazÄ±n.\r\nKarÅÄ±nÄ±za uzun bir kurulum kimliÄi (ID numarasÄ±) Ã§Ä±kacak.\r\nTarayÄ±cÄ±nÄ±zdan aka.ms/aoh adresine gidin, hesabÄ±nÄ±zla giriÅ yapÄ±n ve Office aktivasyon seÃ§eneÄini aÃ§Ä±n.\r\nSitedeki boÅluklara bilgisayarÄ±nÄ±zda gÃ¶rÃ¼nen uzun sayÄ±larÄ± (kurulum kimliÄi) yazÄ±n ve talimatlarÄ± takip edin.\r\nSistem size bir onay kodu verecek. Bu kodu bilgisayarÄ±nÄ±zdaki kutucuklara sÄ±rayla girin.\r\nKodlarÄ± girdikten sonra aktivasyonu tamamlayÄ±n.",
+                         "amount":  25,
+                         "is_stock":  true,
+                         "stock_count":  3,
+                         "is_automatic_delivery":  true,
+                         "category":  "Office",
+                         "subcategory":  "Office"
+                     },
+                     {
+                         "id":  203,
+                         "name":  "Office 2019 - SÄ±nÄ±rsÄ±z",
+                         "description":  "SÃ¼re sÄ±nÄ±rÄ± yoktur, 6 ay garantilidir.\r\nFormat sonrasÄ±nda kullanÄ±lamaz.\r\n\r\nTalimatlar;\r\n\r\nOffice 2019 Lisans AnahtarÄ±\r\n\r\nÄ°ndirme Linki ; https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/tr-TR/ProPlus2019Retail.img\r\n\r\nLisans anahtarÄ±nÄ± 12 saat iÃ§erisinde kullanmalÄ±sÄ±nÄ±z.\r\n\r\n\r\nLisans anahtarÄ±nÄ± 12 saat iÃ§erisinde kullanmalÄ±sÄ±nÄ±z\r\n\r\nNOT: Kurulum yapmadan Ã¶nce bilgisayarÄ±nÄ±zda bulunan diÄer office sÃ¼rÃ¼mlerini kaldÄ±rÄ±n ardÄ±ndan indirdiÄiniz office sÃ¼rÃ¼mÃ¼nÃ¼ yÃ¼kleyin. YÃ¼kleme tamamlandÄ±ktan sonra boÅ bir word dosyasÄ± aÃ§Ä±n karÅÄ±nÄ±za Ã§Ä±kan bÃ¶lÃ¼mden telefon ile etkinleÅtiri seÃ§in.\r\nElinizdeki lisans anahtarÄ±nÄ± kutuya yazÄ±n.\r\nKarÅÄ±nÄ±za uzun bir kurulum kimliÄi (ID numarasÄ±) Ã§Ä±kacak.\r\nTarayÄ±cÄ±nÄ±zdan aka.ms/aoh adresine gidin, hesabÄ±nÄ±zla giriÅ yapÄ±n ve Office aktivasyon seÃ§eneÄini aÃ§Ä±n.\r\nSitedeki boÅluklara bilgisayarÄ±nÄ±zda gÃ¶rÃ¼nen uzun sayÄ±larÄ± (kurulum kimliÄi) yazÄ±n ve talimatlarÄ± takip edin.\r\nSistem size bir onay kodu verecek. Bu kodu bilgisayarÄ±nÄ±zdaki kutucuklara sÄ±rayla girin.\r\nKodlarÄ± girdikten sonra aktivasyonu tamamlayÄ±n.",
+                         "amount":  30,
+                         "is_stock":  true,
+                         "stock_count":  1,
+                         "is_automatic_delivery":  true,
+                         "category":  "Office",
+                         "subcategory":  "Office"
+                     },
+                     {
+                         "id":  204,
+                         "name":  "Office 2021 - SÄ±nÄ±rsÄ±z",
+                         "description":  "SÃ¼re sÄ±nÄ±rÄ± yoktur, 6 ay garantilidir.\r\nFormat sonrasÄ±nda kullanÄ±lamaz.\r\n\r\nTalimatlar;\r\n\r\nOffice 2021 Pro Plus Lisans AnahtarÄ±\r\n\r\nÄ°ndirme Linki ; https://officecdn.microsoft.com/db/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/tr-tr/ProPlus2021Retail.img\r\n\r\n\r\nLisans anahtarÄ±nÄ± 12 saat iÃ§erisinde kullanmalÄ±sÄ±nÄ±z\r\n\r\nNOT: Kurulum yapmadan Ã¶nce bilgisayarÄ±nÄ±zda bulunan diÄer office sÃ¼rÃ¼mlerini kaldÄ±rÄ±n ardÄ±ndan indirdiÄiniz office sÃ¼rÃ¼mÃ¼nÃ¼ yÃ¼kleyin. YÃ¼kleme tamamlandÄ±ktan sonra boÅ bir word dosyasÄ± aÃ§Ä±n karÅÄ±nÄ±za Ã§Ä±kan bÃ¶lÃ¼mden telefon ile etkinleÅtiri seÃ§in.\r\nElinizdeki lisans anahtarÄ±nÄ± kutuya yazÄ±n.\r\nKarÅÄ±nÄ±za uzun bir kurulum kimliÄi (ID numarasÄ±) Ã§Ä±kacak.\r\nTarayÄ±cÄ±nÄ±zdan aka.ms/aoh adresine gidin, hesabÄ±nÄ±zla giriÅ yapÄ±n ve Office aktivasyon seÃ§eneÄini aÃ§Ä±n.\r\nSitedeki boÅluklara bilgisayarÄ±nÄ±zda gÃ¶rÃ¼nen uzun sayÄ±larÄ± (kurulum kimliÄi) yazÄ±n ve talimatlarÄ± takip edin.\r\nSistem size bir onay kodu verecek. Bu kodu bilgisayarÄ±nÄ±zdaki kutucuklara sÄ±rayla girin.\r\nKodlarÄ± girdikten sonra aktivasyonu tamamlayÄ±n.",
+                         "amount":  35,
+                         "is_stock":  true,
+                         "stock_count":  3,
+                         "is_automatic_delivery":  true,
+                         "category":  "Office",
+                         "subcategory":  "Office"
+                     },
+                     {
+                         "id":  205,
+                         "name":  "Office 2024 - SÄ±nÄ±rsÄ±z",
+                         "description":  "SÃ¼re sÄ±nÄ±rÄ± yoktur, 6 ay garantilidir.\r\nFormat sonrasÄ±nda kullanÄ±lamaz.\r\nSadece windows iÃ§in geÃ§erlidir.\r\n\r\nTalimatlar;\r\n\r\nOffice 2024 Lisans AnahtarÄ±\r\n\r\nÄ°ndirme Linki ; https://drive.usercontent.google.com/download?id=1tj7Q7-QWvJnN-Ml5A9wvyXMKfKrMcP7c\u0026export=download\r\n\r\nLisans anahtarÄ±nÄ± 12 saat iÃ§erisinde kullanmalÄ±sÄ±nÄ±z\r\n\r\nNOT: Kurulum yapmadan Ã¶nce bilgisayarÄ±nÄ±zda bulunan diÄer office sÃ¼rÃ¼mlerini kaldÄ±rÄ±n ardÄ±ndan indirdiÄiniz office sÃ¼rÃ¼mÃ¼nÃ¼ yÃ¼kleyin. YÃ¼kleme tamamlandÄ±ktan sonra boÅ bir word dosyasÄ± aÃ§Ä±n karÅÄ±nÄ±za Ã§Ä±kan bÃ¶lÃ¼mden telefon ile etkinleÅtiri seÃ§in.\r\nElinizdeki lisans anahtarÄ±nÄ± kutuya yazÄ±n.\r\nKarÅÄ±nÄ±za uzun bir kurulum kimliÄi (ID numarasÄ±) Ã§Ä±kacak.\r\nTarayÄ±cÄ±nÄ±zdan aka.ms/aoh adresine gidin, hesabÄ±nÄ±zla giriÅ yapÄ±n ve Office aktivasyon seÃ§eneÄini aÃ§Ä±n.\r\nSitedeki boÅluklara bilgisayarÄ±nÄ±zda gÃ¶rÃ¼nen uzun sayÄ±larÄ± (kurulum kimliÄi) yazÄ±n ve talimatlarÄ± takip edin.\r\nSistem size bir onay kodu verecek. Bu kodu bilgisayarÄ±nÄ±zdaki kutucuklara sÄ±rayla girin.\r\nKodlarÄ± girdikten sonra aktivasyonu tamamlayÄ±n.",
+                         "amount":  40,
+                         "is_stock":  true,
+                         "stock_count":  8,
+                         "is_automatic_delivery":  true,
+                         "category":  "Office",
+                         "subcategory":  "Office"
+                     },
+                     {
+                         "id":  269,
+                         "name":  "Visio 2016 - SÄ±nÄ±rsÄ±z",
+                         "description":  "â\u0085 Key olarak teslim edilir. \r\nâ\u0085 SÄ±nÄ±rsÄ±zdÄ±r. \r\nâ\u0085 1 gÃ¼n iÃ§erisinde kullanÄ±lmalÄ±dÄ±r.",
+                         "amount":  140,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Office",
+                         "subcategory":  "Visio"
+                     },
+                     {
+                         "id":  270,
+                         "name":  "Visio 2019 - SÄ±nÄ±rsÄ±z",
+                         "description":  "â\u0085 Key olarak teslim edilir. \r\nâ\u0085 SÄ±nÄ±rsÄ±zdÄ±r. \r\nâ\u0085 1 gÃ¼n iÃ§erisinde kullanÄ±lmalÄ±dÄ±r.",
+                         "amount":  145,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Office",
+                         "subcategory":  "Visio"
+                     },
+                     {
+                         "id":  271,
+                         "name":  "Visio 2021 - SÄ±nÄ±rsÄ±z",
+                         "description":  "â\u0085 Key olarak teslim edilir. \r\nâ\u0085 SÄ±nÄ±rsÄ±zdÄ±r. \r\nâ\u0085 1 gÃ¼n iÃ§erisinde kullanÄ±lmalÄ±dÄ±r.",
+                         "amount":  155,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Office",
+                         "subcategory":  "Visio"
+                     },
+                     {
+                         "id":  206,
+                         "name":  "Wp Rocket - 1 YÄ±llÄ±k",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  150,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Eklentiler"
+                     },
+                     {
+                         "id":  208,
+                         "name":  "Elementor Pro - 1 YÄ±llÄ±k",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  140,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Eklentiler"
+                     },
+                     {
+                         "id":  209,
+                         "name":  "Perfmatters - 1 YÄ±llÄ±k",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  150,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Eklentiler"
+                     },
+                     {
+                         "id":  210,
+                         "name":  "Schema Pro - SÄ±nÄ±rsÄ±z",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  150,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Eklentiler"
+                     },
+                     {
+                         "id":  211,
+                         "name":  "Wp Automatic Pro - SÄ±nÄ±rsÄ±z",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  250,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Eklentiler"
+                     },
+                     {
+                         "id":  212,
+                         "name":  "Ä°magify Pro - 1 YÄ±llÄ±k",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  150,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Eklentiler"
+                     },
+                     {
+                         "id":  213,
+                         "name":  "WPML - 1 YÄ±llÄ±k",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  150,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Eklentiler"
+                     },
+                     {
+                         "id":  214,
+                         "name":  "WP Portfolio - 1 YÄ±llÄ±k",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  150,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Eklentiler"
+                     },
+                     {
+                         "id":  216,
+                         "name":  "Convert Pro - SÄ±nÄ±rsÄ±z",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  250,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Eklentiler"
+                     },
+                     {
+                         "id":  217,
+                         "name":  "PostX - SÄ±nÄ±rsÄ±z",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  250,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Eklentiler"
+                     },
+                     {
+                         "id":  218,
+                         "name":  "WholoSaleX - SÄ±nÄ±rsÄ±z",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  250,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Eklentiler"
+                     },
+                     {
+                         "id":  219,
+                         "name":  "Wpvivid Pro - SÄ±nÄ±rsÄ±z",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  250,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Eklentiler"
+                     },
+                     {
+                         "id":  220,
+                         "name":  "Rankmath Pro - 1 YÄ±llÄ±k",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  150,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Eklentiler"
+                     },
+                     {
+                         "id":  229,
+                         "name":  "Oxygen Pro  - SÄ±nÄ±rsÄ±z",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  290,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Eklentiler"
+                     },
+                     {
+                         "id":  240,
+                         "name":  "Crocoblock Pro - SÄ±nÄ±rsÄ±z",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  190,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Eklentiler"
+                     },
+                     {
+                         "id":  309,
+                         "name":  "Ultimate Addons for Beaver Builder - 1 YÄ±llÄ±k",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  150,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Eklentiler"
+                     },
+                     {
+                         "id":  310,
+                         "name":  "JetFormBuilder Pro - SÄ±nÄ±rsÄ±z",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  250,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Eklentiler"
+                     },
+                     {
+                         "id":  311,
+                         "name":  "NotificationX Pro - SÄ±nÄ±rsÄ±z",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  150,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Eklentiler"
+                     },
+                     {
+                         "id":  312,
+                         "name":  "Schedulepress Pro - SÄ±nÄ±rsÄ±z",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  150,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Eklentiler"
+                     },
+                     {
+                         "id":  313,
+                         "name":  "Essential Addons for Elementor - SÄ±nÄ±rsÄ±z",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  150,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Eklentiler"
+                     },
+                     {
+                         "id":  314,
+                         "name":  "BetterDocs Pro - SÄ±nÄ±rsÄ±z",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  150,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Eklentiler"
+                     },
+                     {
+                         "id":  315,
+                         "name":  "EmbedPress Pro - SÄ±nÄ±rsÄ±z",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  150,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Eklentiler"
+                     },
+                     {
+                         "id":  316,
+                         "name":  "Essential Blocks Pro - SÄ±nÄ±rsÄ±z",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  120,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Eklentiler"
+                     },
+                     {
+                         "id":  317,
+                         "name":  "Better Payment Pro - SÄ±nÄ±rsÄ±z",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  150,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Eklentiler"
+                     },
+                     {
+                         "id":  318,
+                         "name":  "Templately Pro - SÄ±nÄ±rsÄ±z",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  290,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Eklentiler"
+                     },
+                     {
+                         "id":  221,
+                         "name":  "Kadence - SÄ±nÄ±rsÄ±z",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  290,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Temalar"
+                     },
+                     {
+                         "id":  222,
+                         "name":  "Generatepress  - SÄ±nÄ±rsÄ±z",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  300,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Temalar"
+                     },
+                     {
+                         "id":  223,
+                         "name":  "Astra - 1 YÄ±llÄ±k",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  300,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Temalar"
+                     },
+                     {
+                         "id":  224,
+                         "name":  "Blocksky - SÄ±nÄ±rsÄ±z",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  400,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Temalar"
+                     },
+                     {
+                         "id":  226,
+                         "name":  "Ascend Pro  - SÄ±nÄ±rsÄ±z",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  290,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Temalar"
+                     },
+                     {
+                         "id":  227,
+                         "name":  "Pinnacle Pro  - SÄ±nÄ±rsÄ±z",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  290,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Temalar"
+                     },
+                     {
+                         "id":  228,
+                         "name":  "Virtue Pro  - SÄ±nÄ±rsÄ±z",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  290,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Temalar"
+                     },
+                     {
+                         "id":  230,
+                         "name":  "SmartMag Pro  - SÄ±nÄ±rsÄ±z",
+                         "description":  "â\u0085 Kurulum iÃ§in wordpress admin bilgilerini girmeniz gerekmektedir.\r\nâ\u0085 SipariÅ geÃ§meden Ã¶nce wordpress admin giriÅ bilgilerini kontrol edip bilgileri Ã¶yle girin lÃ¼tfen.\r\nâ\u0085 6 ay garantilidir.",
+                         "amount":  360,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Wordpress Eklentileri \u0026 TemalarÄ±",
+                         "subcategory":  "Temalar"
+                     },
+                     {
+                         "id":  361,
+                         "name":  "Kaspersky Premium Vpn - 1 YÄ±llÄ±k",
+                         "description":  "â\u0085 1 YÄ±llÄ±k Premium VPN.\r\nâ\u0085 6 ay Garantili\r\nâ\u0085 Maile Davet\r\nâ\u0085 Sadece tÃ¼rkiyede Ã§alÄ±ÅÄ±r.\r\n\r\nKaspersky VPN TalimatlarÄ±:\r\nâMailinize gelen baÄlantÄ±yÄ± kullanarak VPN uygulamasÄ±nÄ± indirin.\r\nâAynÄ± mail ile kaspersky VPN uygulamasÄ±nda oturumunuzu aÃ§Ä±n.\r\nâProgram direkt lisanslÄ± baÅlayacaktÄ±r.\r\nâDÄ°KKAT:\r\nâAynÄ± maille baÅka bir cihazda oturum aÃ§mayÄ±n.\r\nâAÃ§manÄ±z durumunda lisans kÃ¶tÃ¼ye kullanÄ±m olarak algÄ±lanÄ±r.\r\nâSistemde aynÄ± maille birden fazla oturum aÃ§Ä±ldÄ±ÄÄ± gÃ¶rÃ¼lÃ¼rse lisans banlanÄ±r.\r\nâBayiye Notlar:\r\nâÄ°kinci cihazdan login olmak lisansÄ±n engellenmesine yol aÃ§ar.\r\nâSadece VPN iÃ§in kullanÄ±lmalÄ±dÄ±r!\r\nâAntivirÃ¼s yÃ¼klenen ve kullanÄ±lan oturumlar ikinci cihaz sayÄ±lÄ±r.\r\nâ3 gÃ¼n iÃ§inde indirme ve kurulum yapÄ±lmazsa lisans deaktif olur. Telafi yapÄ±lmaz.\r\nâÃrÃ¼n sadece TÃ¼rkiyede geÃ§erlidir. FarklÄ± Ã¼lkeden aktif etmek isteyenler VPN\u0027den TR lokasyon ile yapabilir. Bu konuda vpn desteÄi saÄlanmamaktadÄ±r.",
+                         "amount":  160,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Vpn \u0026 AntivirÃ¼s",
+                         "subcategory":  "Vpn"
+                     },
+                     {
+                         "id":  365,
+                         "name":  "NordVPN Basic - 3 AylÄ±k",
+                         "description":  "â­ Kod teslim edilir.\r\nâ­ 10 cihaza kadar kullanÄ±labilir.\r\nâ­ EtkinleÅtirme iÃ§in Ã¶deme yÃ¶ntemi gerekmez.\r\nâ­ EtkinleÅtirmeden sonra 1 ay boyunca garantilidir.\r\nâ­ Kod kullanma sayfasÄ±: https://my.nordaccount.com/activate\r\nð« SatÄ±n alma iÅleminden sonra 24 saat iÃ§inde kullanÄ±lmalÄ±dÄ±r",
+                         "amount":  250,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Vpn \u0026 AntivirÃ¼s",
+                         "subcategory":  "Vpn"
+                     },
+                     {
+                         "id":  233,
+                         "name":  "Kaspersky Premium Total Security - 1 YÄ±llÄ±k",
+                         "description":  "â\u0085 Tek cihaz iÃ§in geÃ§erlidir sadece, birden fazla cihazda kullanÄ±mda ban yer lisans.\r\nâ\u0085 Sadece antivirÃ¼s mevcut, vpn dahil deÄil.\r\nâ\u0085 E-mail kÄ±smÄ±na mailinizi girmeniz yeterlidir.\r\nâ\u0085 LisansÄ± 24 saat iÃ§inde aktif etmeniz gerekmektedir.\r\nâ\u0085 6 ay garantilidir.\r\nâ\u0085 Sadece tÃ¼rkiyede kullanÄ±labilir.",
+                         "amount":  100,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Vpn \u0026 AntivirÃ¼s",
+                         "subcategory":  "AntivirÃ¼s"
+                     },
+                     {
+                         "id":  355,
+                         "name":  "Spotify Premium - 4 AylÄ±k Kod",
+                         "description":  "â\u0085 SatÄ±n aldÄ±ktan sonra https://www.spotify.com/tr-tr/ppt/trendyol-plus adresine gidip kullanabilirsiniz.\r\nâ\u0085 4 aylÄ±k Spotify Premium kodu teslim edilmektedir.\r\nâ\u0085 Kod, daha Ã¶nce Premium kullanÄ±lmamÄ±Å TÃ¼rkiye hesaplarÄ±nda kullanÄ±labilmektedir.\r\nâ\u0085 Aktivasyon iÃ§in daha Ã¶nce kullanÄ±lmamÄ±Å bir banka kartÄ± veya sanal kart gerekmektedir.\r\nâ\u0085 Aktivasyon sÄ±rasÄ±nda Spotify tarafÄ±ndan Ã¶deme yÃ¶ntemi doÄrulamasÄ± yapÄ±lÄ±r ve kartÄ±nÄ±zdan 1 TL Ã§ekilip iade edilir.\r\nâ\u0085 Ä°lk giriÅ garantilidir.",
+                         "amount":  30,
+                         "is_stock":  true,
+                         "stock_count":  2,
+                         "is_automatic_delivery":  true,
+                         "category":  "DiÄer ÃrÃ¼nler",
+                         "subcategory":  "DiÄer ÃrÃ¼nler"
+                     },
+                     {
+                         "id":  356,
+                         "name":  "Youtube Premium - 3 AylÄ±k",
+                         "description":  "â\u0085 3 aylÄ±k Youtube Premium kodu teslim edilmektedir.\r\nâ\u0085 Kod, daha Ã¶nce Premium kullanÄ±lmamÄ±Å TÃ¼rkiye hesaplarÄ±nda kullanÄ±labilmektedir.\r\nâ\u0085 Aktivasyon iÃ§in bir bank kartÄ± veya sanal kart gerekmektedir.\r\nâ\u0085 Aktivasyon sÄ±rasÄ±nda Youtube tarafÄ±ndan Ã¶deme yÃ¶ntemi doÄrulamasÄ± yapÄ±lÄ±r ve kartÄ±nÄ±zdan 15 TL Ã§ekilip iade edilir.",
+                         "amount":  60,
+                         "is_stock":  true,
+                         "stock_count":  1,
+                         "is_automatic_delivery":  true,
+                         "category":  "DiÄer ÃrÃ¼nler",
+                         "subcategory":  "DiÄer ÃrÃ¼nler"
+                     },
+                     {
+                         "id":  357,
+                         "name":  "Amazon Prime - 1 AylÄ±k Hesap",
+                         "description":  "â\u0085 Mail Åifre Åeklinde teslim edilir.\r\nâ\u0085 1 AylÄ±ktÄ±r.\r\nâ\u0085 Ä°lk giriÅ garantilidir.\r\n\r\nÃzellikler:\r\n\r\n- ð¬ Prime Video\u0027nun geniÅ kÃ¼tÃ¼phanesine sÄ±nÄ±rsÄ±z eriÅim\r\n- â­ï¸ Ãzel Amazon Original dizileri ve filmleri\r\n- ð¥ 6 Profil â 6 adede kadar bireysel profil oluÅturun ve yÃ¶netin\r\n- ð Profil adlarÄ±nÄ± deÄiÅtirin ve her profil iÃ§in PIN korumasÄ± ayarlayÄ±n\r\n- ð± Desteklenen birden fazla cihazda izleyin\r\n- â¬ï¸ ÃevrimdÄ±ÅÄ± izlemek iÃ§in iÃ§erik indirin\r\n- ð¥ HD ve 4K Ultra HD kalitesinde yayÄ±nlayÄ±n (uygun olan yerlerde)\r\n- ð Amazon hesabÄ±nÄ±zla istediÄiniz zaman, istediÄiniz yerde izleyin",
+                         "amount":  60,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "DiÄer ÃrÃ¼nler",
+                         "subcategory":  "DiÄer ÃrÃ¼nler"
+                     },
+                     {
+                         "id":  360,
+                         "name":  "Netflix 4K Ultra HD Hesap - 1 AylÄ±k",
+                         "description":  "â\u0085 GiriÅte maile kod giderse yardÄ±m al butonuna basÄ±p Åifreyi girerek oturum aÃ§abilirsiniz.\r\nâ\u0085 Profil kilitlemek yasaktÄ±r, aÃ§Ä±k profilleri kullanabilirsiniz.\r\nâ\u0085 Mail Åifre Åeklinde teslim edilir.\r\nâ\u0085 14 gÃ¼n garantilidir.\r\nâ\u0085 Ortak hesaptÄ±r.\r\n\r\nÃzellikler;\r\n\r\nð® 4K Ultra HD Ã§Ã¶zÃ¼nÃ¼rlÃ¼kle filmleri ve dizileri sinema kalitesinde izleme imkÃ¢nÄ±\r\nð¹ï¸ YÃ¼ksek dinamik aralÄ±k (HDR) desteÄiyle daha parlak ve gerÃ§ekÃ§i renkler\r\nð¯ 4K HDR destekli iÃ§erikler iÃ§in daha yÃ¼ksek bitrate ile net ve akÄ±cÄ± yayÄ±n\r\nð§  Her izleyici iÃ§in kiÅiselleÅtirilmiÅ Ã¶neriler ve izleme geÃ§miÅine gÃ¶re Ã¶neri listeleri\r\nð¥ Mobil, tablet, bilgisayar veya TVâde 4K iÃ§erikleri destekleyen her cihazda izleme esnekliÄi\r\nð¾ SevdiÄin 4K iÃ§erikleri cihazÄ±na indirerek internet olmadan izleme seÃ§eneÄi\r\nð Cihazlar arasÄ±nda kaldÄ±ÄÄ±n yerden devam etme ve senkronize oynatma desteÄi\r\nð GeliÅmiÅ izleme istatistikleri ve favori listeleriyle kiÅisel arÅiv oluÅturma",
+                         "amount":  100,
+                         "is_stock":  true,
+                         "stock_count":  3,
+                         "is_automatic_delivery":  true,
+                         "category":  "DiÄer ÃrÃ¼nler",
+                         "subcategory":  "DiÄer ÃrÃ¼nler"
+                     },
+                     {
+                         "id":  351,
+                         "name":  "Duolingo Super - 12 AylÄ±k",
+                         "description":  "â¡ï¸Plan: Super\r\nâ¡ï¸SÃ¼re: 12 Ay\r\nâ¡ï¸Kendi HesabÄ±nÄ±zda aktif olur\r\nâ¡ï¸Official Kupon Kodu\r\nâ¡ï¸Aktivasyon sonrasÄ± iÃ§in garanti yok\r\nâ¡ï¸Link 24 saat iÃ§erisinde kullanÄ±lmalÄ±dÄ±r.\r\nâ¡ï¸Kart bilgisi Ä°stemez\r\n\r\nð¡ HÄ±zlÄ± KÄ±lavuz\r\n\r\nð¢ TarayÄ±cÄ±nÄ±zda hesabÄ±nÄ±zda oturumunuzu aÃ§Ä±k tutun. BaÄlantÄ±yÄ± yeni bir sekmede aÃ§Ä±n ve âTeklifi Alâ seÃ§eneÄine tÄ±klayÄ±n; teklif otomatik olarak etkinleÅtirilecektir.\r\n\r\nâ ï¸ Bir hata ile karÅÄ±laÅÄ±rsanÄ±z, yalnÄ±zca etkinleÅtirme iÅlemi iÃ§in Hindistan VPNâine baÄlanmanÄ±z gerekebilir. (EtkinleÅtirme iÅleminden sonra VPNâi kullanmanÄ±za gerek yoktur.)",
+                         "amount":  50,
+                         "is_stock":  true,
+                         "stock_count":  19,
+                         "is_automatic_delivery":  true,
+                         "category":  "DiÄer ÃrÃ¼nler",
+                         "subcategory":  "DiÄer ÃrÃ¼nler"
+                     },
+                     {
+                         "id":  234,
+                         "name":  "Duolingo ÃÄrenci Plus - SÄ±nÄ±rsÄ±z",
+                         "description":  "â\u0085 SipariÅ verdikten sonra iletilen linkten katÄ±larak hesabÄ± aktif edebilirsiniz.\r\nâ\u0085 SÄ±nÄ±rsÄ±z kullanÄ±m saÄlar.\r\nâ\u0085 1 ay garantilidir.\r\nâ\u0085 Plus AboneliÄidir.",
+                         "amount":  30,
+                         "is_stock":  true,
+                         "stock_count":  2,
+                         "is_automatic_delivery":  true,
+                         "category":  "DiÄer ÃrÃ¼nler",
+                         "subcategory":  "DiÄer ÃrÃ¼nler"
+                     },
+                     {
+                         "id":  350,
+                         "name":  "Edu Mail",
+                         "description":  "â\u0085 Key olarak iletilir.\r\nâ\u0085 Teslim aldÄ±ÄÄ±nÄ±z key ile create.boo.edu.pl adresine giderek istediÄiniz isimde maili anÄ±nda ve otomatik olarak Ã¼retebilirsiniz.\r\nâ\u0085OluÅturduÄunuz bilgilerle lisans.top Ã¼zerinden giriÅ yapabilirsiniz.\r\nâ\u0085 ÃrÃ¼n 10.04.2027 tarihine kadar garantilidir.\r\nâ\u0085 Mailler herhangi bir Ã¼niversiteye ait deÄildir.",
+                         "amount":  60,
+                         "is_stock":  true,
+                         "stock_count":  2,
+                         "is_automatic_delivery":  true,
+                         "category":  "DiÄer ÃrÃ¼nler",
+                         "subcategory":  "DiÄer ÃrÃ¼nler"
+                     },
+                     {
+                         "id":  171,
+                         "name":  "Chatgpt Plus KiÅisel Hesap - 1 AylÄ±k",
+                         "description":  "â\u0085 Plus aboneliÄidir.\r\nâ\u0085 1 AylÄ±ktÄ±r.\r\nâ\u0085 Mail Åifre Åeklinde teslim edilmektedir.\r\nâ\u0085 KiÅisel hesaptÄ±r.\r\nâ\u0085 Ä°lk giriÅ garantilidir, aynÄ± gÃ¼n girmeniz gerekiyor.\r\n\r\nâ¨ NasÄ±l giriÅ yapÄ±lacaÄÄ±na dair video; https://2fa.tgdatahub.site/gpt-login-change-2fa",
+                         "amount":  250,
+                         "is_stock":  true,
+                         "stock_count":  14,
+                         "is_automatic_delivery":  true,
+                         "category":  "Yapay Zeka",
+                         "subcategory":  "Chatgpt"
+                     },
+                     {
+                         "id":  370,
+                         "name":  "Chatgpt Go KiÅisel Hesap - 1 AylÄ±k",
+                         "description":  "â\u0085 Go aboneliÄidir.\r\nâ\u0085 1 AylÄ±ktÄ±r.\r\nâ\u0085 Mail Åifre Åeklinde teslim edilmektedir.\r\nâ\u0085 KiÅisel hesaptÄ±r.\r\nâ\u0085 3 gÃ¼n garantilidir.\r\n\r\nKULLANIM TALÄ°MATI;\r\n\r\n\r\n1. Chatgptye aÃ§Ä±n ve size iletilen bilgilerle giriÅ yapÄ±n.\r\n    \r\n2. DoÄrulama EkranÄ±nda Bekleyin GiriÅ iÅleminin ardÄ±ndan sistem sizden 2 adÄ±mlÄ± doÄrulama (2FA) kodu isteyecektir.\r\n    \r\n3. Kod Ãretim SayfasÄ±nÄ± AÃ§Ä±n TarayÄ±cÄ±nÄ±zdan 2fa.place sitesine gidin.\r\n    \r\n4. DoÄrulama Kodunu OluÅturun Size verdiÄimiz bilgide, Åifreden sonra yer alan uzun ve karmaÅÄ±k karakter dizisini kopyalayÄ±n. Bu kodu 2fa.place Ã¼zerindeki ilgili alana yapÄ±ÅtÄ±rÄ±n. Sistem tarafÄ±ndan oluÅturulan 6 haneli doÄrulama kodunu kopyalayarak giriÅ ekranÄ±ndaki alana girin.",
+                         "amount":  160,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Yapay Zeka",
+                         "subcategory":  "Chatgpt"
+                     },
+                     {
+                         "id":  170,
+                         "name":  "Chatgpt Plus Ortak Hesap - 1 AylÄ±k",
+                         "description":  "â\u0085 Ortak kullanÄ±m hesabÄ±dÄ±r.\r\nâ\u0085 Plus planÄ±dÄ±r.\r\nâ\u0085 Tek cihazdan kullanabilirsiniz.\r\nâ\u0085 ÅÃ¼pheli etkinlik uyarÄ±sÄ± verebilir.\r\nâ\u0085 Dosya yÃ¼kleme Ã¶zellikleri kÄ±sÄ±tlÄ± olabilir.\r\nâ\u0085 Hesaba girerken tek seferlik kod isteyecektir, kodu whatsapp Ã¼zerinden bize yazarak alabilirsiniz.\r\nâ\u0085 3 hafta garantilidir.",
+                         "amount":  40,
+                         "is_stock":  true,
+                         "stock_count":  1,
+                         "is_automatic_delivery":  true,
+                         "category":  "Yapay Zeka",
+                         "subcategory":  "Chatgpt"
+                     },
+                     {
+                         "id":  338,
+                         "name":  "Gemini Pro KiÅisel Hesap - 1 YÄ±llÄ±k",
+                         "description":  "â ï¸ Ä°lettiÄiniz mailin youtube vb. google platformlarÄ±nda aile Ã¼yeliÄi olmamasÄ± gerekmektedir.\r\nâ\u0085 Maile tanÄ±mlanÄ±r.\r\nâ\u0085 Ai pro paketidir.\r\nâ\u0085 Ä°lk giriÅ garantilidir.",
+                         "amount":  50,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Yapay Zeka",
+                         "subcategory":  "Gemini"
+                     },
+                     {
+                         "id":  345,
+                         "name":  "Gemini Pro KiÅisel Hesap - 1 AylÄ±k",
+                         "description":  "â ï¸ Ä°lettiÄiniz mailin youtube vb. google platformlarÄ±nda aile Ã¼yeliÄi olmamasÄ± gerekmektedir.\r\nâ\u0085 Maile tanÄ±mlanÄ±r.\r\nâ\u0085 Ai pro paketidir.\r\nâ\u0085 Ä°lk giriÅ garantilidir.",
+                         "amount":  40,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Yapay Zeka",
+                         "subcategory":  "Gemini"
+                     },
+                     {
+                         "id":  348,
+                         "name":  "Gemini Pro Link - 18 AylÄ±k",
+                         "description":  "â\u0085 Aile daveti deÄildir.\r\nâ\u0085 Link iletilir, direkt linkten katÄ±lÄ±nca hesabÄ± aktif eder.\r\nâ\u0085 Ai pro paketidir.\r\nâ\u0085 Ä°lk giriÅ garantilidir.",
+                         "amount":  100,
+                         "is_stock":  true,
+                         "stock_count":  51,
+                         "is_automatic_delivery":  true,
+                         "category":  "Yapay Zeka",
+                         "subcategory":  "Gemini"
+                     },
+                     {
+                         "id":  367,
+                         "name":  "Muse Ai - 1 AylÄ±k",
+                         "description":  "â\u0085 https://muse.ai web sitesinde aldÄ±ÄÄ±nÄ±z e-posta adresini girin.\r\nâ\u0085 Size gÃ¶nderilen e-postadan kodu alÄ±n ve muse.ai web sitesine girin.\r\nâ\u0085Ayarlar bÃ¶lÃ¼mÃ¼nde hesabÄ±nÄ±zda 1 milyar token olduÄunu gÃ¶rebilirsiniz.",
+                         "amount":  40,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Yapay Zeka",
+                         "subcategory":  "DiÄer ÃrÃ¼nler"
+                     },
+                     {
+                         "id":  369,
+                         "name":  "SuperGrok -  10 GÃ¼nlÃ¼k",
+                         "description":  "â\u0085 KiÅisel HesaptÄ±r.\r\nâï¸ HiÃ§bir bilgiyi deÄiÅtirmeyin.\r\nâï¸ X ile baÄlanmayÄ±n.\r\nâ\u0085ï¸ E posta ile giriÅ yap seÃ§eneÄi ile hesaba giriÅ yapÄ±n\r\nâ\u0085ï¸ Sorunsuz Åekilde kiÅisel kullanÄ±m yapabilirsiniz.\r\nâ\u0085ï¸ Ä°lk giriÅ garantilidir.",
+                         "amount":  195,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Yapay Zeka",
+                         "subcategory":  "DiÄer ÃrÃ¼nler"
+                     },
+                     {
+                         "id":  364,
+                         "name":  "Quillbot - 1 AylÄ±k",
+                         "description":  "ð¤ Kupon kodu iletilir. MÃ¼Återinin kendi hesabÄ±nda aktif olur.\r\nâ³ 24 saat iÃ§inde kullanÄ±lmasÄ± gerekmektedir.\r\nð Kodu burdan aktif edebilirsiniz: https://quillbot.com/settings?menu=plan\r\nâ\u0085 20 gÃ¼n garantilidir.",
+                         "amount":  200,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "Yapay Zeka",
+                         "subcategory":  "DiÄer ÃrÃ¼nler"
+                     },
+                     {
+                         "id":  179,
+                         "name":  "Figma Pro - 2 YÄ±llÄ±k",
+                         "description":  "â\u0085 KiÅiye Ã¶zel hesap verilir.\r\nâ\u0085 Mail Åifre Åeklinde iletilir.\r\nâ\u0085 Ä°lk giriÅ garantilidir.",
+                         "amount":  300,
+                         "is_stock":  true,
+                         "stock_count":  2,
+                         "is_automatic_delivery":  true,
+                         "category":  "GeliÅtirici AraÃ§larÄ±",
+                         "subcategory":  "DiÄer ÃrÃ¼nler"
+                     },
+                     {
+                         "id":  238,
+                         "name":  "Jetbrains - 1 YÄ±llÄ±k Ortak Hesap",
+                         "description":  "â\u0085 Ortak hesaptÄ±r.\r\nâ\u0085 Hesapta Åifre deÄiÅimi vb. hiÃ§ bir deÄiÅiklik yapÄ±lmasÄ± yasaktÄ±r.\r\nâ\u0085 6 Ay garantilidir.",
+                         "amount":  75,
+                         "is_stock":  true,
+                         "stock_count":  4,
+                         "is_automatic_delivery":  true,
+                         "category":  "GeliÅtirici AraÃ§larÄ±",
+                         "subcategory":  "DiÄer ÃrÃ¼nler"
+                     },
+                     {
+                         "id":  306,
+                         "name":  "Jetbrains - 1 YÄ±llÄ±k KiÅisel Hesap",
+                         "description":  "â\u0085 Mail Åifre olarak teslim edilir.\r\nâ\u0085 KiÅiye Ã¶zel hesap teslim edilir.\r\nâ\u0085 Ä°lk giriÅ garantilidir.",
+                         "amount":  250,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "GeliÅtirici AraÃ§larÄ±",
+                         "subcategory":  "DiÄer ÃrÃ¼nler"
+                     },
+                     {
+                         "id":  353,
+                         "name":  "Autodesk TÃ¼m Uygulamalar - 1 YÄ±llÄ±k",
+                         "description":  "â\u0085 TÃ¼m Autodesk uygulamalarÄ±nÄ± iÃ§ermektedir, Autocad\u0027de dahildir.\r\nâ\u0085 1 YÄ±llÄ±ktÄ±r.\r\nâ\u0085 MÃ¼Återinin mailine tanÄ±mlanÄ±r.\r\nâ\u0085 Ä°lk giriÅ garantilidir.",
+                         "amount":  100,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "GeliÅtirici AraÃ§larÄ±",
+                         "subcategory":  "DiÄer ÃrÃ¼nler"
+                     },
+                     {
+                         "id":  354,
+                         "name":  "Autodesk TÃ¼m Uygulamalar - 3 YÄ±llÄ±k",
+                         "description":  "â\u0085 TÃ¼m Autodesk uygulamalarÄ±nÄ± iÃ§ermektedir, Autocad\u0027de dahildir.\r\nâ\u0085 3 YÄ±llÄ±ktÄ±r.\r\nâ\u0085 MÃ¼Återinin mailine tanÄ±mlanÄ±r.\r\nâ\u0085 Ä°lk giriÅ garantilidir.",
+                         "amount":  250,
+                         "is_stock":  false,
+                         "stock_count":  null,
+                         "is_automatic_delivery":  false,
+                         "category":  "GeliÅtirici AraÃ§larÄ±",
+                         "subcategory":  "DiÄer ÃrÃ¼nler"
+                     }
+                 ]
+}
